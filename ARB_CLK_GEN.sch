@@ -1,0 +1,161 @@
+VERSION 6
+BEGIN SCHEMATIC
+    BEGIN ATTR DeviceFamilyName "spartan3a"
+        DELETE all:0
+        EDITNAME all:0
+        EDITTRAIT all:0
+    END ATTR
+    BEGIN NETLIST
+        SIGNAL AD9834_CLK
+        SIGNAL DCM_RESET
+        SIGNAL XLXN_11
+        SIGNAL XLXN_13
+        SIGNAL XLXN_15
+        SIGNAL ARB_CLK_OUT
+        SIGNAL S(1:0)
+        SIGNAL S(0)
+        SIGNAL S(1)
+        PORT Input AD9834_CLK
+        PORT Input DCM_RESET
+        PORT Output ARB_CLK_OUT
+        PORT Input S(1:0)
+        BEGIN BLOCKDEF muxcy
+            TIMESTAMP 2000 1 1 10 10 10
+            LINE N 192 0 192 -64 
+            LINE N 192 -224 192 -160 
+            LINE N 96 -160 32 -64 
+            LINE N 224 -160 96 -160 
+            LINE N 288 -64 224 -160 
+            LINE N 32 -64 288 -64 
+            LINE N 128 0 128 -64 
+            LINE N 0 -96 56 -96 
+        END BLOCKDEF
+        BEGIN BLOCKDEF DCM_MUL_16
+            TIMESTAMP 2009 12 2 5 59 7
+            RECTANGLE N 64 -192 320 0 
+            LINE N 64 -160 0 -160 
+            LINE N 64 -32 0 -32 
+            LINE N 320 -160 384 -160 
+            LINE N 320 -96 384 -96 
+            LINE N 320 -32 384 -32 
+        END BLOCKDEF
+        BEGIN BLOCKDEF DCM_MUL_4
+            TIMESTAMP 2009 12 2 5 59 11
+            LINE N 64 -224 0 -224 
+            LINE N 64 -32 0 -32 
+            LINE N 416 -224 480 -224 
+            LINE N 416 -96 480 -96 
+            RECTANGLE N 64 -256 416 32 
+            LINE N 416 -32 480 -32 
+        END BLOCKDEF
+        BEGIN BLOCK XLXI_179 muxcy
+            PIN CI XLXN_13
+            PIN DI XLXN_15
+            PIN S S(1)
+            PIN O XLXN_11
+        END BLOCK
+        BEGIN BLOCK XLXI_180 muxcy
+            PIN CI XLXN_11
+            PIN DI AD9834_CLK
+            PIN S S(0)
+            PIN O ARB_CLK_OUT
+        END BLOCK
+        BEGIN BLOCK XLXI_183 DCM_MUL_16
+            PIN CLKIN_IN AD9834_CLK
+            PIN RST_IN DCM_RESET
+            PIN CLKFX_OUT XLXN_13
+            PIN CLK0_OUT
+            PIN CLK_90
+        END BLOCK
+        BEGIN BLOCK XLXI_184 DCM_MUL_4
+            PIN CLKIN_IN AD9834_CLK
+            PIN RST_IN DCM_RESET
+            PIN CLKFX_OUT XLXN_15
+            PIN CLK0_OUT
+            PIN CLK_90
+        END BLOCK
+    END NETLIST
+    BEGIN SHEET 1 3520 2720
+        BEGIN BRANCH AD9834_CLK
+            WIRE 352 704 592 704
+            WIRE 592 704 592 944
+            WIRE 592 944 592 1376
+            WIRE 592 1376 752 1376
+            WIRE 592 944 736 944
+            WIRE 592 704 1744 704
+            WIRE 1744 704 1888 704
+        END BRANCH
+        BEGIN BRANCH DCM_RESET
+            WIRE 416 1200 656 1200
+            WIRE 656 1200 656 1504
+            WIRE 656 1504 752 1504
+            WIRE 656 1136 736 1136
+            WIRE 656 1136 656 1200
+        END BRANCH
+        INSTANCE XLXI_179 1584 944 R90
+        IOMARKER 352 704 AD9834_CLK R180 28
+        INSTANCE XLXI_180 1888 576 R90
+        BEGIN BRANCH XLXN_11
+            WIRE 1808 1136 1840 1136
+            WIRE 1840 768 1840 1136
+            WIRE 1840 768 1888 768
+        END BRANCH
+        IOMARKER 416 1200 DCM_RESET R180 28
+        BEGIN INSTANCE XLXI_183 752 1536 R0
+        END INSTANCE
+        BEGIN BRANCH XLXN_13
+            WIRE 1136 1376 1360 1376
+            WIRE 1360 1136 1360 1376
+            WIRE 1360 1136 1584 1136
+        END BRANCH
+        BEGIN INSTANCE XLXI_184 736 1168 R0
+        END INSTANCE
+        BEGIN BRANCH XLXN_15
+            WIRE 1216 944 1392 944
+            WIRE 1392 944 1392 1072
+            WIRE 1392 1072 1584 1072
+        END BRANCH
+        BEGIN BRANCH ARB_CLK_OUT
+            WIRE 2112 768 2128 768
+            WIRE 2128 768 2352 768
+        END BRANCH
+        BEGIN DISPLAY 2280 852 TEXT "S[1:0}=00  AD9747"
+            FONT 36 "Arial"
+        END DISPLAY
+        BEGIN DISPLAY 2280 900 TEXT "S[1:0}=01  AD9747*4"
+            FONT 36 "Arial"
+        END DISPLAY
+        BEGIN DISPLAY 2280 948 TEXT "S[1:0}=11  AD9747*16"
+            FONT 36 "Arial"
+        END DISPLAY
+        BEGIN BRANCH S(1:0)
+            WIRE 1360 416 1616 416
+            WIRE 1616 416 1728 416
+            WIRE 1728 416 1824 416
+        END BRANCH
+        BUSTAP 1728 416 1728 512
+        BUSTAP 1824 416 1824 512
+        IOMARKER 1360 416 S(1:0) R180 28
+        BEGIN BRANCH S(0)
+            WIRE 1824 512 1824 544
+            WIRE 1824 544 1888 544
+            WIRE 1888 544 1904 544
+            WIRE 1904 544 1936 544
+            WIRE 1936 544 1984 544
+            WIRE 1984 544 1984 576
+            BEGIN DISPLAY 1894 544 ATTR Name
+                ALIGNMENT SOFT-BCENTER
+            END DISPLAY
+        END BRANCH
+        BEGIN BRANCH S(1)
+            WIRE 1680 720 1728 720
+            WIRE 1680 720 1680 768
+            WIRE 1680 768 1680 944
+            WIRE 1728 512 1728 720
+            BEGIN DISPLAY 1680 765 ATTR Name
+                ALIGNMENT SOFT-TVCENTER
+            END DISPLAY
+        END BRANCH
+        IOMARKER 2352 768 ARB_CLK_OUT R0 28
+    END SHEET
+END SCHEMATIC

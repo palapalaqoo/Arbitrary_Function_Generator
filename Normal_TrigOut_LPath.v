@@ -1,0 +1,58 @@
+`timescale	1ns/1ps
+
+module	Normal_TrigOut_LPath(Dout, Din, Clock)	;
+
+output	Dout	;
+wire	Dout	;
+
+input	Din	;
+wire	Din	;
+
+input	Clock	;
+wire	Clock	;
+
+
+wire	NORLPWIRE00, NORLPWIRE01, NORLPWIRE02, NORLPWIRE03, NORLPWIRE04, NORLPWIRE05, NORLPWIRE06, NORLPWIRE07, NORLPWIRE08, NORLPWIRE09,
+		NORLPWIRE10, NORLPWIRE11, NORLPWIRE12, NORLPWIRE13, NORLPWIRE14, NORLPWIRE15, NORLPWIRE16, NORLPWIRE17, NORLPWIRE18, NORLPWIRE19,
+		NORLPWIRE20, NORLPWIRE21, NORLPWIRE22, NORLPWIRE23, NORLPWIRE24, NORLPWIRE25, NORLPWIRE26, NORLPWIRE27, NORLPWIRE28, NORLPWIRE29,
+		NORLPWIRE30	;
+
+
+Latency_Buf1B		NORLBR1B00(.Dout(NORLPWIRE00), .Din(Din), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B01(.Dout(NORLPWIRE01), .Din(NORLPWIRE00), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B02(.Dout(NORLPWIRE02), .Din(NORLPWIRE01), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B03(.Dout(NORLPWIRE03), .Din(NORLPWIRE02), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B04(.Dout(NORLPWIRE04), .Din(NORLPWIRE03), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B05(.Dout(NORLPWIRE05), .Din(NORLPWIRE04), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B06(.Dout(NORLPWIRE06), .Din(NORLPWIRE05), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B07(.Dout(NORLPWIRE07), .Din(NORLPWIRE06), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B08(.Dout(NORLPWIRE08), .Din(NORLPWIRE07), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B09(.Dout(NORLPWIRE09), .Din(NORLPWIRE08), .Clock(Clock))	;
+
+Latency_Buf1B		NORLBR1B10(.Dout(NORLPWIRE10), .Din(NORLPWIRE09), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B11(.Dout(NORLPWIRE11), .Din(NORLPWIRE10), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B12(.Dout(NORLPWIRE12), .Din(NORLPWIRE11), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B13(.Dout(NORLPWIRE13), .Din(NORLPWIRE12), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B14(.Dout(NORLPWIRE14), .Din(NORLPWIRE13), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B15(.Dout(NORLPWIRE15), .Din(NORLPWIRE14), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B16(.Dout(NORLPWIRE16), .Din(NORLPWIRE15), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B17(.Dout(NORLPWIRE17), .Din(NORLPWIRE16), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B18(.Dout(NORLPWIRE18), .Din(NORLPWIRE17), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B19(.Dout(NORLPWIRE19), .Din(NORLPWIRE18), .Clock(Clock))	;
+
+Latency_Buf1B		NORLBR1B20(.Dout(NORLPWIRE20), .Din(NORLPWIRE19), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B21(.Dout(NORLPWIRE21), .Din(NORLPWIRE20), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B22(.Dout(NORLPWIRE22), .Din(NORLPWIRE21), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B23(.Dout(NORLPWIRE23), .Din(NORLPWIRE22), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B24(.Dout(NORLPWIRE24), .Din(NORLPWIRE23), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B25(.Dout(NORLPWIRE25), .Din(NORLPWIRE24), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B26(.Dout(NORLPWIRE26), .Din(NORLPWIRE25), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B27(.Dout(NORLPWIRE27), .Din(NORLPWIRE26), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B28(.Dout(NORLPWIRE28), .Din(NORLPWIRE27), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B29(.Dout(NORLPWIRE29), .Din(NORLPWIRE28), .Clock(Clock))	;
+
+Latency_Buf1B		NORLBR1B30(.Dout(NORLPWIRE30), .Din(NORLPWIRE29), .Clock(Clock))	;
+Latency_Buf1B		NORLBR1B31(.Dout(Dout), .Din(NORLPWIRE30), .Clock(Clock))	;
+
+
+endmodule

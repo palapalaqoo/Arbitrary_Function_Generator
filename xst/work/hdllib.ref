@@ -1,0 +1,275 @@
+MO Burst_Period_Reg1B NULL Burst_Period_Reg1B.v vlg12/_burst___period___reg1_b.bin 1259758079
+MO Delay_Value_Path NULL Delay_Value_Path.v vlg1F/_delay___value___path.bin 1259758081
+MO FD48CLR NULL FD48CLR.v vlg2F/_f_d48_c_l_r.bin 1259758080
+AR mig20_s3_dqs_iob arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_s3_dqs_iob.vhd" sub00/vhpl04 1259758082
+MO BPMC_Ctrl NULL BPMC_Ctrl.v vlg46/_b_p_m_c___ctrl.bin 1259758079
+MO BPMC_Mux NULL BPMC_Mux.v vlg17/_b_p_m_c___mux.bin 1259758079
+MO Gated_Reg1bit NULL Gated_Reg1bit.v vlg3A/_gated___reg1bit.bin 1259758079
+MO REG_SQ_VL NULL REG_SQ_VL.v vlg4E/_r_e_g___s_q___v_l.bin 1259758080
+MO Reg_Buf1bits NULL Reg_Buf1bits.v vlg71/_reg___buf1bits.bin 1259758081
+MO Burst_INTP_Path NULL Burst_INTP_Path.v vlg5A/_burst___i_n_t_p___path.bin 1259758081
+MO Sweep_StartEnd_DiffV NULL Sweep_StartEnd_DiffV.v vlg4E/_sweep___start_end___diff_v.bin 1259758079
+MO GAINV_VPath NULL GAINV_VPath.v vlg6F/_g_a_i_n_v___v_path.bin 1259758081
+MO FSK_Ctrl_ROMTable NULL FSK_Ctrl_ROMTable.v vlg05/_f_s_k___ctrl___r_o_m_table.bin 1259758080
+EN mig20_dqs_delay NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_dqs_delay_0.vhd" sub00/vhpl07 1259758085
+MO REG_SQ_VT NULL REG_SQ_VT.v vlg56/_r_e_g___s_q___v_t.bin 1259758080
+MO Gated_SIG NULL Gated_SIG.v vlg47/_gated___s_i_g.bin 1259758079
+MO FSK_ACC42bits NULL FSK_ACC42bits.v vlg26/_f_s_k___a_c_c42bits.bin 1259758080
+PH mig20_parameters_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_parameters_0.vhd" sub00/vhpl00 1259758078
+MO Central_Freq_path NULL Central_Freq_path.v vlg62/_central___freq__path.bin 1259758081
+MO FD8CE_HXILINX_FD12 NULL FD12.v vlg39/_f_d8_c_e___h_x_i_l_i_n_x___f_d12.bin 1259758080
+MO Multiplier48Bits_V3 NULL ./Multiplier48Bits_V3.v vlg05/_multiplier48_bits___v3.bin 1259758080
+MO IFandML_MUX NULL IFandML_MUX.v vlg20/_i_fand_m_l___m_u_x.bin 1259758079
+MO Pulse_Trig NULL Pulse_Trig.v vlg5E/_pulse___trig.bin 1259758079
+MO FM NULL FM.v vlg2B/_f_m.bin 1259758081
+MO DUTYS_VPath NULL DUTYS_VPath.v vlg67/_d_u_t_y_s___v_path.bin 1259758081
+EN mig20_fifo_1_wr_en_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_fifo_1_wr_en_0.vhd" sub00/vhpl11 1259758089
+MO Manual_Trigger_Mode NULL Manual_Trigger_Mode.v vlg51/_manual___trigger___mode.bin 1259758079
+MO AM_MUXCY16B NULL AM_MUXCY16B.v vlg78/_a_m___m_u_x_c_y16_b.bin 1259758080
+MO CB4CE_HXILINX_DIV NULL DIV.v vlg26/_c_b4_c_e___h_x_i_l_i_n_x___d_i_v.bin 1259758080
+MO BufEReg14B NULL BufEReg14B.v vlg23/_buf_e_reg14_b.bin 1259758080
+MO Counter34B NULL Counter34B.v vlg71/_counter34_b.bin 1259758079
+MO REG_DUTY_S NULL REG_DUTY_S.v vlg4D/_r_e_g___d_u_t_y___s.bin 1259758080
+MO PSWR_Path NULL PSWR_Path.v vlg14/_p_s_w_r___path.bin 1259758079
+AR mig20_dqs_delay arc_dqs_delay "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_dqs_delay_0.vhd" sub00/vhpl08 1259758086
+AR mig20_data_write_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_data_write_0.vhd" sub00/vhpl34 1259758112
+AR mig20_s3_dm_iob_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_s3_dm_iob_0.vhd" sub00/vhpl02 1259758080
+MO Addition_2bits NULL Addition_2bits.v vlg6B/_addition__2bits.bin 1259758079
+MO Addition_14bits NULL Addition_14bits.v vlg0E/_addition__14bits.bin 1259758080
+MO GobalCLK NULL GobalCLK.v vlg0B/_gobal_c_l_k.bin 1259758079
+MO KeyData_LD16B NULL KeyData_LD16B.v vlg03/_key_data___l_d16_b.bin 1259758080
+MO TReg20Bits NULL TReg20Bits.v vlg52/_t_reg20_bits.bin 1259758079
+MO Sweep_StaEnd_Path NULL Sweep_StaEnd_Path.v vlg5E/_sweep___sta_end___path.bin 1259758081
+EN mig20_data_write_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_data_write_0.vhd" sub00/vhpl33 1259758111
+MO Amount_Reg20bits NULL Amount_Reg20bits.v vlg35/_amount___reg20bits.bin 1259758079
+MO Data_Reg20B NULL Data_Reg20B.v vlg2F/_data___reg20_b.bin 1259758080
+MO ARB_MODULE NULL ARB_MODULE.vf vlg3A/_a_r_b___m_o_d_u_l_e.bin 1259758081
+MO Sweep_Start_Path NULL Sweep_Start_Path.v vlg45/_sweep___start___path.bin 1259758081
+MO Reset_Mux NULL Reset_Mux.v vlg24/_reset___mux.bin 1259758081
+AR mig20_data_path_iobs_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_data_path_iobs_0.vhd" sub00/vhpl28 1259758106
+MO Triangle_RAM_DEC NULL Triangle_RAM_DEC.v vlg04/_triangle___r_a_m___d_e_c.bin 1259758079
+AR mig20 arc_mem_interface_top "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20.vhd" sub00/vhpl50 1259758128
+MO ADD16_HXILINX_ADD48 NULL ADD48.v vlg43/_a_d_d16___h_x_i_l_i_n_x___a_d_d48.bin 1259758080
+MO Reg2bits NULL Reg2bits.v vlg2E/_reg2bits.bin 1259758079
+MO Data_Reg16B NULL Data_Reg16B.v vlg34/_data___reg16_b.bin 1259758080
+EN mig20_wr_gray_cntr NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_wr_gray_cntr.vhd" sub00/vhpl13 1259758091
+MO Burst_IE_Sel NULL Burst_IE_Sel.v vlg04/_burst___i_e___sel.bin 1259758079
+MO Manual_Trigger_Single_Rear NULL Manual_Trigger_Single_Rear.v vlg3B/_manual___trigger___single___rear.bin 1259758079
+MO AD9224_DataPath NULL AD9224_DPath.v vlg7C/_a_d9224___data_path.bin 1259758081
+MO Burst_Count_LD20B NULL Burst_Count_LD20B.v vlg4F/_burst___count___l_d20_b.bin 1259758080
+MO mux32 NULL mux32.v vlg27/mux32.bin 1259758080
+EN mig20_infrastructure_top NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_infrastructure_top0_0.vhd" sub00/vhpl47 1259758125
+MO FSK_MUX_Sel NULL FSK_MUX_Sel.v vlg7C/_f_s_k___m_u_x___sel.bin 1259758080
+MO V1 NULL V1.v vlg5F/_v1.bin 1259758079
+MO BPMC_Pulse NULL BPMC_Pulse.v vlg0A/_b_p_m_c___pulse.bin 1259758079
+MO Reg_Buf3bits NULL Reg_Buf3bits.v vlg53/_reg___buf3bits.bin 1259758081
+MO FSK_acc_2bits NULL FSK_ACC_2bits.v vlg6D/_f_s_k__acc__2bits.bin 1259758079
+EN mig20_rd_gray_cntr NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_rd_gray_cntr.vhd" sub00/vhpl15 1259758093
+EN mig20 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20.vhd" sub00/vhpl49 1259758127
+MO DCOFFSET_VPath NULL DCOFFSET_VPath.v vlg0C/_d_c_o_f_f_s_e_t___v_path.bin 1259758081
+MO FM_Deviation_Value NULL FM_Deviation_Value.v vlg65/_f_m___deviation___value.bin 1259758080
+MO FDCE_latch_16bits NULL FDCE_latch_16bits.v vlg35/_f_d_c_e__latch__16bits.bin 1259758080
+MO Sweep_Start_Frequency NULL Sweep_Start_Frequency.v vlg6E/_sweep___start___frequency.bin 1259758079
+MO DCM0 NULL DCM0.vf vlg70/_d_c_m0.bin 1259758080
+MO FD16CE_HXILINX_FD48CLR NULL FD48CLR.v vlg52/_f_d16_c_e___h_x_i_l_i_n_x___f_d48_c_l_r.bin 1259758080
+MO Write_Controler NULL Controler.v vlg62/_write___controler.bin 1259758079
+MO BFS_Trigout_SEL NULL BFS_Trigout_SEL.v vlg1F/_b_f_s___trigout___s_e_l.bin 1259758081
+AR mig20_wr_gray_cntr arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_wr_gray_cntr.vhd" sub00/vhpl14 1259758092
+EN mig20_top_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_top_0.vhd" sub00/vhpl45 1259758123
+EN mig20_controller_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_controller_0.vhd" sub00/vhpl37 1259758115
+MO BPMC_Mux2to1 NULL BPMC_Mux2to1.v vlg41/_b_p_m_c___mux2to1.bin 1259758079
+MO Integrate_DDFS NULL Integrate_DDFS.v vlg03/_integrate___d_d_f_s.bin 1259758081
+MO Period_acc_2bits NULL Period_ACC_2bits.v vlg54/_period__acc__2bits.bin 1259758079
+MO Based_DDFS_LD48B_K1 NULL Based_DDFS_LD48B_K1.v vlg2B/_based___d_d_f_s___l_d48_b___k1.bin 1259758080
+MO Counter8Bits NULL Counter8Bits.v vlg1A/_counter8_bits.bin 1259758079
+MO LREG_D11B NULL LREG_D11B.v vlg79/_l_r_e_g___d11_b.bin 1259758080
+MO Based_DDFS_LD48B_K2 NULL Based_DDFS_LD48B_K2.v vlg2C/_based___d_d_f_s___l_d48_b___k2.bin 1259758080
+MO compare NULL compare.v vlg5B/compare.bin 1259758079
+MO Infinite_circuit NULL Infinite_circuit.v vlg0C/_infinite__circuit.bin 1259758079
+MO Data_Reg42B NULL Data_Reg42B.v vlg6B/_data___reg42_b.bin 1259758081
+MO AM_CONSTANT_LD16B NULL AM_CONSTANT_LD16B.v vlg63/_a_m___c_o_n_s_t_a_n_t___l_d16_b.bin 1259758080
+MO Latch_Data_Region NULL Latch_Data_Region.v vlg4C/_latch___data___region.bin 1259758081
+MO DCM_MUL_4 NULL DCM_MUL_4.v vlg64/_d_c_m___m_u_l__4.bin 1259758079
+MO Burst_INCRE_VPath NULL Burst_INCRE_VPath.v vlg72/_burst___i_n_c_r_e___v_path.bin 1259758081
+MO Burst_Gated_Sel NULL Burst_Gated_Sel.v vlg4B/_burst___gated___sel.bin 1259758079
+MO Sweep_Marker_ValueLD NULL Sweep_Marker_ValueLD.v vlg6D/_sweep___marker___value_l_d.bin 1259758079
+EN mig20_infrastructure_iobs_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_infrastructure_iobs_0.vhd" sub00/vhpl23 1259758101
+AR mig20_s3_dq_iob arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_s3_dq_iob.vhd" sub00/vhpl06 1259758084
+MO Gated_ENReg1bit NULL Gated_ENReg1bit.v vlg55/_gated___e_n_reg1bit.bin 1259758079
+MO BufReg14RB NULL BufReg14RB.v vlg6C/_buf_reg14_r_b.bin 1259758080
+MO REG_DC_OFFSET NULL REG_DC_OFFSET.v vlg26/_r_e_g___d_c___o_f_f_s_e_t.bin 1259758080
+MO Infinite_Mode_Mux NULL Infinite_Mode_Mux.v vlg13/_infinite___mode___mux.bin 1259758079
+MO INFMNL_TrigOut_LPath NULL INFMNL_TrigOut_LPath.v vlg1D/_i_n_f_m_n_l___trig_out___l_path.bin 1259758079
+MO Data_Reg48B NULL Data_Reg48B.v vlg09/_data___reg48_b.bin 1259758080
+MO Pulse_wave NULL Pulse_wave.v vlg0B/_pulse__wave.bin 1259758079
+MO AM_Constants_VPath NULL AM_Constants_VPath.v vlg1C/_a_m___constants___v_path.bin 1259758081
+MO FD4CE_HXILINX_FD12 NULL FD12.v vlg05/_f_d4_c_e___h_x_i_l_i_n_x___f_d12.bin 1259758080
+MO DECODE_DAC7821 NULL DECODE_DAC7821.v vlg2D/_d_e_c_o_d_e___d_a_c7821.bin 1259758080
+MO Gobal_DCM NULL Gobal_DCM.v vlg40/_gobal___d_c_m.bin 1259758079
+MO FM_NOT1B NULL FM_NOT1B.v vlg1A/_f_m___n_o_t1_b.bin 1259758080
+MO Burst_Amount_Path NULL Burst_Amount_Path.v vlg7B/_burst___amount___path.bin 1259758081
+MO OPCTRL_DPATH NULL OPCTRL_DPATH.v vlg60/_o_p_c_t_r_l___d_p_a_t_h.bin 1259758081
+MO FM_Sweep_Reg48B NULL FM_Sweep_Reg48B.v vlg69/_f_m___sweep___reg48_b.bin 1259758080
+AR mig20_top_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_top_0.vhd" sub00/vhpl46 1259758124
+MO ACC48bits NULL ACC48bits.v vlg11/_a_c_c48bits.bin 1259758079
+AR mig20_tap_dly arc_tap_dly "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_tap_dly.vhd" sub00/vhpl22 1259758100
+MO MUX12 NULL MUX12.v vlg3D/_m_u_x12.bin 1259758080
+MO DFF NULL DFF.v vlg48/_d_f_f.bin 1259758079
+MO SW_Marker_DPath NULL SW_Marker_DPath.v vlg3B/_s_w___marker___d_path.bin 1259758081
+MO ARB_CLK_GEN NULL ARB_CLK_GEN.vf vlg73/_a_r_b___c_l_k___g_e_n.bin 1259758079
+MO Period_Reg2bits NULL Period_Reg2bits.v vlg68/_period___reg2bits.bin 1259758079
+MO Phase_Shift NULL Phase_Shift.v vlg26/_phase___shift.bin 1259758080
+MO DDFS48bits NULL DDFS48bits.v vlg1F/_d_d_f_s48bits.bin 1259758080
+MO Pulse_Reg NULL Pulse_Reg.v vlg56/_pulse___reg.bin 1259758079
+MO ADD48 NULL ADD48.v vlg45/_a_d_d48.bin 1259758080
+MO Burst_Period NULL Burst_Period_48bits.v vlg2E/_burst___period.bin 1259758079
+AR mig20_rd_gray_cntr arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_rd_gray_cntr.vhd" sub00/vhpl16 1259758094
+MO Maunal_Trigger NULL Maunal_Trigger.v vlg11/_maunal___trigger.bin 1259758079
+MO DEC_DReg17B NULL DEC_DReg17B.v vlg4F/_d_e_c___d_reg17_b.bin 1259758080
+AR mig20_infrastructure_iobs_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_infrastructure_iobs_0.vhd" sub00/vhpl24 1259758102
+MO MUX16Bits NULL MUX16Bits.v vlg63/_m_u_x16_bits.bin 1259758080
+MO DEC_OP_CTRL2 NULL DEC_OP_CTRL2.v vlg64/_d_e_c___o_p___c_t_r_l2.bin 1259758080
+MO InitialDDR2 NULL InitialDDR2.v vlg2A/_initial_d_d_r2.bin 1259758080
+MO DIV NULL DIV.v vlg67/_d_i_v.bin 1259758080
+EN mig20_data_path_iobs_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_data_path_iobs_0.vhd" sub00/vhpl27 1259758105
+MO Pulse_Rear NULL Pulse_Rear.v vlg02/_pulse___rear.bin 1259758079
+MO DAC7821_SCANNER NULL DAC7821_SCANNER.v vlg37/_d_a_c7821___s_c_a_n_n_e_r.bin 1259758080
+MO Sweep_SweepTime_Path NULL Sweep_SweepTime_Path.v vlg6A/_sweep___sweep_time___path.bin 1259758081
+MO BufReg10B NULL BufReg10B.v vlg7E/_buf_reg10_b.bin 1259758080
+MO FSK_EXTSIG_Reg1B NULL FSK_EXTSIG_Reg1B.v vlg57/_f_s_k___e_x_t_s_i_g___reg1_b.bin 1259758080
+MO Maunal_Trigger_Rear NULL Maunal_Trigger_Rear.v vlg32/_maunal___trigger___rear.bin 1259758079
+MO Infinite_Trigout_Mux NULL Infinite_Trigout_Mux.v vlg7C/_infinite___trigout___mux.bin 1259758079
+MO CVG_DAC7821_CSbar_DPATH NULL CVG_DAC7821_CSbar_DPATH.v vlg4F/_c_v_g___d_a_c7821___c_sbar___d_p_a_t_h.bin 1259758080
+MO SYNC NULL SYNC.v vlg01/_s_y_n_c.bin 1259758079
+MO Reg_12bits NULL Reg_12bits.v vlg1A/_reg__12bits.bin 1259758079
+MO FTC_HXILINX_DIV NULL DIV.v vlg6E/_f_t_c___h_x_i_l_i_n_x___d_i_v.bin 1259758080
+MO Latency_Buf1B NULL Latency_Buf1B.v vlg67/_latency___buf1_b.bin 1259758079
+MO FDCE_latch_48bits NULL FDCE_latch_48bits.v vlg36/_f_d_c_e__latch__48bits.bin 1259758080
+MO BufReg12B NULL BufReg12B.v vlg08/_buf_reg12_b.bin 1259758080
+MO Triangle_RAM1K NULL Triangle_RAM1K.v vlg49/_triangle___r_a_m1_k.bin 1259758079
+AR mig20_data_read_controller_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_data_read_controller_0.vhd" sub00/vhpl32 1259758110
+MO SQVL_VPath NULL SQVL_VPath.v vlg10/_s_q_v_l___v_path.bin 1259758081
+MO ARB_DDS_OSEL NULL ARB_DDS_OSEL.v vlg31/_a_r_b___d_d_s___o_s_e_l.bin 1259758081
+MO BufReg14B NULL BufReg14B.v vlg12/_buf_reg14_b.bin 1259758079
+MO FM_SW_RAM_DEC NULL FM_SW_RAM_DEC.v vlg66/_f_m___s_w___r_a_m___d_e_c.bin 1259758080
+AR mig20_cal_top arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_cal_top.vhd" sub00/vhpl36 1259758114
+EN mig20_s3_dq_iob NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_s3_dq_iob.vhd" sub00/vhpl05 1259758083
+MO REG_VKEY NULL REG_VKEY.v vlg7C/_r_e_g___v_k_e_y.bin 1259758081
+MO FD12 NULL FD12.v vlg79/_f_d12.bin 1259758080
+MO CVG_DAC7821_RWbar_DPATH NULL CVG_DAC7821_RWbar_DPATH.v vlg7A/_c_v_g___d_a_c7821___r_wbar___d_p_a_t_h.bin 1259758080
+MO BufReg16B NULL BufReg16B.v vlg1C/_buf_reg16_b.bin 1259758080
+MO SPARE_VPath NULL SPARE_VPath.v vlg19/_s_p_a_r_e___v_path.bin 1259758081
+EN mig20_iobs_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_iobs_0.vhd" sub00/vhpl43 1259758121
+MO INC_Amount NULL INC_Amount.v vlg45/_i_n_c___amount.bin 1259758079
+MO OPN_Sel NULL OPN_Sel.v vlg28/_o_p_n___sel.bin 1259758079
+EN mig20_data_path_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_data_path_0.vhd" sub00/vhpl39 1259758117
+MO FSK_Reg2bits NULL FSK_Reg2bits.v vlg6D/_f_s_k___reg2bits.bin 1259758079
+MO Comparator NULL comparator.v vlg4C/_comparator.bin 1259758079
+MO Burst_Increment_LD16B NULL Burst_Increment_LD16B.v vlg10/_burst___increment___l_d16_b.bin 1259758080
+MO Sweep_FM_Mux48 NULL Sweep_FM_Mux48.v vlg53/_sweep___f_m___mux48.bin 1259758081
+EN mig20_cal_ctl NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_cal_ctl_0.vhd" sub00/vhpl19 1259758097
+MO Burst_Period_EXT NULL Burst_Period_EXT.v vlg7A/_burst___period___e_x_t.bin 1259758079
+MO ADDSUB48 NULL ADDSUB48.v vlg37/_a_d_d_s_u_b48.bin 1259758079
+MO ROM_Table NULL ROM_Table.v vlg59/_r_o_m___table.bin 1259758080
+MO Burst_Ctrl_Integrate NULL Burst_Ctrl_Integrate.v vlg12/_burst___ctrl___integrate.bin 1259758081
+MO AddrBufTempM NULL AddrBufTempM.v vlg63/_addr_buf_temp_m.bin 1259758080
+AR mig20_cal_ctl arc_cal_ctl "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_cal_ctl_0.vhd" sub00/vhpl20 1259758098
+AR mig20_infrastructure_top arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_infrastructure_top0_0.vhd" sub00/vhpl48 1259758126
+MO DEC_OP_CTRL NULL DEC_OP_CTRL.v vlg0A/_d_e_c___o_p___c_t_r_l.bin 1259758080
+MO Infinite_Integrate NULL Infinite_Integrate.v vlg34/_infinite___integrate.bin 1259758079
+AR mig20_ram8d_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_ram8d_0.vhd" sub00/vhpl18 1259758096
+AR mig20_controller_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_controller_0.vhd" sub00/vhpl38 1259758116
+MO Phase_Mux NULL Phase_Mux.v vlg0E/_phase___mux.bin 1259758080
+MO DCM_214MHz NULL DCM_220MHz.v vlg5D/_d_c_m__214_m_hz.bin 1259758080
+AR mig20_fifo_1_wr_en_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_fifo_1_wr_en_0.vhd" sub00/vhpl12 1259758090
+MO AFG3000_FPGA NULL AFG3000_FPGA.v vlg2A/_a_f_g3000___f_p_g_a.bin 1259758081
+EN mig20_cal_top NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_cal_top.vhd" sub00/vhpl35 1259758113
+MO FM_Frequency_Path NULL FM_Frequency_Path.v vlg00/_f_m___frequency___path.bin 1259758081
+MO REG_SPARE NULL REG_SPARE.v vlg48/_r_e_g___s_p_a_r_e.bin 1259758080
+MO REG_DAC7821_MODWAVE NULL REG_DAC7821_MODWAVE.v vlg2D/_r_e_g___d_a_c7821___m_o_d_w_a_v_e.bin 1259758080
+MO BufReg32B NULL BufReg32B.v vlg3A/_buf_reg32_b.bin 1259758080
+MO ARB_DDS_SNC_SEL NULL ARB_DDS_SNC_SEL.v vlg2D/_a_r_b___d_d_s___s_n_c___s_e_l.bin 1259758081
+MO Read_Controler NULL Read_Controler.v vlg6F/_read___controler.bin 1259758079
+MO Phase_Mux14B NULL Phase_Mux14B.v vlg65/_phase___mux14_b.bin 1259758080
+MO Infinite_Trigout NULL Infinite_Trigout.v vlg03/_infinite___trigout.bin 1259758079
+MO BufReg1B NULL BufReg1B.v vlg1E/_buf_reg1_b.bin 1259758079
+MO SUB48 NULL SUB48.v vlg52/_s_u_b48.bin 1259758080
+MO DDR2_16_TO_64_RW NULL DDR2_16_TO_64_RW.vf vlg05/_d_d_r2__16___t_o__64___r_w.bin 1259758080
+MO BufReg34B NULL BufReg34B.v vlg44/_buf_reg34_b.bin 1259758080
+MO FSWMRAM_DPTH NULL FSWMRAM_DPTH.v vlg2C/_f_s_w_m_r_a_m___d_p_t_h.bin 1259758081
+EN mig20_controller_iobs_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_controller_iobs_0.vhd" sub00/vhpl25 1259758103
+MO Decoder_Data NULL Decoder_Data.v vlg0B/_decoder___data.bin 1259758080
+MO BUFF NULL BUFF.v vlg2B/_b_u_f_f.bin 1259758079
+MO Pulse_Front NULL Pulse_Front.v vlg55/_pulse___front.bin 1259758079
+MO FSK_Rate_Sel NULL FSK_Rate_Sel.v vlg0E/_f_s_k___rate___sel.bin 1259758081
+MO Analog_Vol_Reg11B NULL Analog_Vol_Reg11B.v vlg57/_analog___vol___reg11_b.bin 1259758080
+AR mig20_infrastructure arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_infrastructure.vhd" sub00/vhpl42 1259758120
+MO Infinite_merge_Manual NULL Infinite_merge_Manual.v vlg46/_infinite__merge___manual.bin 1259758079
+MO FM_Deviation_Path NULL FM_Deviation_Path.v vlg2D/_f_m___deviation___path.bin 1259758081
+MO Normal_TrigOut_LPath NULL Normal_TrigOut_LPath.v vlg5A/_normal___trig_out___l_path.bin 1259758079
+MO FSK_Mux_Reg48B NULL FSK_Mux_Reg48B.v vlg14/_f_s_k___mux___reg48_b.bin 1259758080
+EN mig20_data_read_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_data_read_0.vhd" sub00/vhpl29 1259758107
+MO ADSU16_HXILINX_ADDSUB48 NULL ADDSUB48.v vlg11/_a_d_s_u16___h_x_i_l_i_n_x___a_d_d_s_u_b48.bin 1259758079
+MO Comp_Reg1bits NULL Comp_Reg1bits.v vlg77/_comp___reg1bits.bin 1259758079
+MO Period_ACC48bits NULL Peirod_ACC48bits.v vlg33/_period___a_c_c48bits.bin 1259758079
+EN mig20_s3_dm_iob_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_s3_dm_iob_0.vhd" sub00/vhpl01 1259758079
+MO BufReg42B NULL BufReg42B.v vlg53/_buf_reg42_b.bin 1259758080
+MO TReg16Bits NULL TReg16Bits.v vlg43/_t_reg16_bits.bin 1259758079
+MO EXT_Triger NULL EXT_Triger.v vlg21/_e_x_t___triger.bin 1259758080
+MO ADDR_Path NULL ADDR_Path.v vlg17/_a_d_d_r___path.bin 1259758080
+MO CPU_Data_Addr NULL CPU_Data_Addr.v vlg3B/_c_p_u___data___addr.bin 1259758080
+MO DEC_DAC7821_REG NULL DEC_DAC7821_REG.v vlg12/_d_e_c___d_a_c7821___r_e_g.bin 1259758080
+MO EXTSIN_REG1B NULL EXTSIN_REG1B.v vlg07/_e_x_t_s_i_n___r_e_g1_b.bin 1259758080
+MO BPMC_Reg1bits NULL BPMC_Reg1bits.v vlg02/_b_p_m_c___reg1bits.bin 1259758079
+MO Amount_Reg1B NULL Amount_Reg1B.v vlg20/_amount___reg1_b.bin 1259758079
+AR mig20_iobs_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_iobs_0.vhd" sub00/vhpl44 1259758122
+MO Burst_Ctrl_Rear1 NULL Burst_Ctrl_Rear1.v vlg6A/_burst___ctrl___rear1.bin 1259758080
+AR mig20_data_read_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_data_read_0.vhd" sub00/vhpl30 1259758108
+MO Burst_Ctrl_Rear2 NULL Burst_Ctrl_Rear2.v vlg6B/_burst___ctrl___rear2.bin 1259758080
+MO FM_CFrequency_Value NULL FM_CFrequency_Value.v vlg63/_f_m___c_frequency___value.bin 1259758080
+MO Decoder_DataCtrl NULL Decoder_DataCtrl.v vlg0C/_decoder___data_ctrl.bin 1259758081
+MO FSK_IPeriod_LD42B NULL FSK_IPeriod_LD42B.v vlg76/_f_s_k___i_period___l_d42_b.bin 1259758080
+MO Burst_Delay_VU NULL Burst_Delay_VU.v vlg04/_burst___delay___v_u.bin 1259758080
+EN mig20_data_read_controller_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_data_read_controller_0.vhd" sub00/vhpl31 1259758109
+AR mig20_fifo_0_wr_en_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_fifo_0_wr_en_0.vhd" sub00/vhpl10 1259758088
+MO DCM_MUL_16 NULL DCM_MUL_16.v vlg1B/_d_c_m___m_u_l__16.bin 1259758079
+MO Burst_IPeriod_LD48B NULL Burst_IPeriod_LD48B.v vlg2C/_burst___i_period___l_d48_b.bin 1259758080
+MO BufReg48B NULL BufReg48B.v vlg71/_buf_reg48_b.bin 1259758080
+MO Normal_Trigger NULL Normal_Trigger.v vlg04/_normal___trigger.bin 1259758079
+MO AddReg2bits NULL AddReg2bits.v vlg3F/_add_reg2bits.bin 1259758079
+MO Comp_Reg20bits NULL Comp_Reg20bits.v vlg70/_comp___reg20bits.bin 1259758079
+AR mig20_data_path_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_data_path_0.vhd" sub00/vhpl40 1259758118
+MO Infinite_Trigout_Single_Rear NULL Infinite_Trigout_Single_Rear.v vlg49/_infinite___trigout___single___rear.bin 1259758079
+MO REG_GAIN_V NULL REG_GAIN_V.v vlg29/_r_e_g___g_a_i_n___v.bin 1259758080
+MO BTrigout_Sel NULL BTrigout_Sel.v vlg43/_b_trigout___sel.bin 1259758079
+EN mig20_ram8d_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_ram8d_0.vhd" sub00/vhpl17 1259758095
+MO Data_Stack_48bits NULL Data_Stack_48bits.v vlg00/_data___stack__48bits.bin 1259758081
+MO Normal_Trigger_Rear NULL Normall_Trigger_Rear.v vlg01/_normal___trigger___rear.bin 1259758079
+MO DEC_FID16B NULL DEC_FID16B.v vlg1B/_d_e_c___f_i_d16_b.bin 1259758080
+MO EXTSIN_DPATH NULL EXTSIN_DPATH.v vlg57/_e_x_t_s_i_n___d_p_a_t_h.bin 1259758081
+AR mig20_controller_iobs_0 arc "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_controller_iobs_0.vhd" sub00/vhpl26 1259758104
+MO FM_Frequency_Value NULL FM_Frequency_Value.v vlg04/_f_m___frequency___value.bin 1259758080
+MO SQVT_VPath NULL SQVT_VPath.v vlg58/_s_q_v_t___v_path.bin 1259758081
+MO FSK_Mode NULL FSK_Mode.v vlg78/_f_s_k___mode.bin 1259758081
+MO Burst_Period_ROMTable NULL Burst_Period_ROM12bits.v vlg4B/_burst___period___r_o_m_table.bin 1259758079
+EN mig20_tap_dly NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_tap_dly.vhd" sub00/vhpl21 1259758099
+MO Burst_Amount_Count20Bits NULL Amount_Count20Bits.v vlg3F/_burst___amount___count20_bits.bin 1259758079
+MO Normal_Trigger_Mode NULL Normal_Trigger_Mode.v vlg0C/_normal___trigger___mode.bin 1259758079
+EN mig20_fifo_0_wr_en_0 NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_fifo_0_wr_en_0.vhd" sub00/vhpl09 1259758087
+MO RAM4K_V2 NULL RAM4K_V2.v vlg5E/_r_a_m4_k___v2.bin 1259758080
+MO RW_SELECTER NULL RW_SELECTER.v vlg5F/_r_w___s_e_l_e_c_t_e_r.bin 1259758079
+MO CVG_DAC7821_AllSignals NULL CVG_DAC7821_AllSignals.v vlg5A/_c_v_g___d_a_c7821___all_signals.bin 1259758081
+MO EGPN_Sel NULL EGPN_Sel.v vlg01/_e_g_p_n___sel.bin 1259758079
+MO TRIARAM_DPATH NULL TRIARAM_DPATH.v vlg3C/_t_r_i_a_r_a_m___d_p_a_t_h.bin 1259758080
+MO Phase_Reg48B NULL Phase_Reg48B.v vlg70/_phase___reg48_b.bin 1259758080
+EN mig20_infrastructure NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_infrastructure.vhd" sub00/vhpl41 1259758119
+MO GatedPN_Sel NULL GatedPN_Sel.v vlg6E/_gated_p_n___sel.bin 1259758079
+MO Sweep_Time_Value NULL Sweep_Time_Value.v vlg36/_sweep___time___value.bin 1259758079
+MO DCM_IRest NULL DCM_IRest.v vlg3E/_d_c_m___i_rest.bin 1259758081
+MO Amount_Reg20B NULL Amount_Reg20B.v vlg21/_amount___reg20_b.bin 1259758079
+MO CVG_DAC7821_Data_DPATH NULL CVG_DAC7821_Data_DPATH.v vlg56/_c_v_g___d_a_c7821___data___d_p_a_t_h.bin 1259758080
+MO triger NULL triger.v vlg15/triger.bin 1259758079
+MO Manual_Trigger_Single_Front NULL Manual_Trigger_Single_Front.v vlg72/_manual___trigger___single___front.bin 1259758079
+EN mig20_s3_dqs_iob NULL "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/mig20_s3_dqs_iob.vhd" sub00/vhpl03 1259758081
+MO acc_2bits NULL ACC_2bits.v vlg32/acc__2bits.bin 1259758079
+MO compmc12 NULL compmc12.v vlg5A/compmc12.bin 1259758079

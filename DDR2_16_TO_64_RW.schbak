@@ -1,0 +1,643 @@
+VERSION 6
+BEGIN SCHEMATIC
+    BEGIN ATTR DeviceFamilyName "spartan3a"
+        DELETE all:0
+        EDITNAME all:0
+        EDITTRAIT all:0
+    END ATTR
+    BEGIN NETLIST
+        SIGNAL XLXN_37
+        SIGNAL XLXN_44
+        SIGNAL CLK_IN
+        SIGNAL CLK_IN_90
+        SIGNAL INIT_DONE
+        SIGNAL CMD_ACK
+        SIGNAL DATA_VALID_IN
+        SIGNAL READED_DATA_IN(31:0)
+        SIGNAL READ_DATA_OUT(15:0)
+        SIGNAL TB_BUFF_DATA_OUT(63:0)
+        SIGNAL XLXN_33
+        SIGNAL XLXN_34(2:0)
+        SIGNAL XLXN_35(25:0)
+        SIGNAL XLXN_36(31:0)
+        SIGNAL XLXN_38(2:0)
+        SIGNAL XLXN_39(25:0)
+        SIGNAL TB_BUFF_WRIGHT_OUT
+        SIGNAL TB_BUFF_AOUT(25:0)
+        SIGNAL XLXN_47
+        SIGNAL ar_req
+        SIGNAL ar_done
+        SIGNAL XLXN_49(31:0)
+        SIGNAL SYNC_OUT
+        SIGNAL SYNC_CNT(19:0)
+        SIGNAL XLXN_66(31:0)
+        SIGNAL XLXN_67(31:0)
+        SIGNAL SYNC_VALID
+        SIGNAL CMD_OUT(2:0)
+        SIGNAL ADDR_OUT(25:0)
+        SIGNAL WRITE_DATA_OUT(31:0)
+        SIGNAL BURST_DONE_OUT
+        SIGNAL XLXN_42
+        SIGNAL WRITE_IN
+        SIGNAL WRITE_DATA_IN(15:0)
+        SIGNAL ADDR_IN(25:0)
+        SIGNAL DDS_IN
+        SIGNAL EXT_CLK
+        SIGNAL XLXN_203
+        SIGNAL XLXN_204
+        SIGNAL XLXN_205
+        SIGNAL ARB_SEL
+        SIGNAL XLXN_221
+        SIGNAL XLXN_222
+        SIGNAL XLXN_224
+        SIGNAL ARB_CLK
+        SIGNAL XLXN_225
+        SIGNAL XLXN_228
+        PORT Input CLK_IN
+        PORT Input CLK_IN_90
+        PORT Input INIT_DONE
+        PORT Input CMD_ACK
+        PORT Input DATA_VALID_IN
+        PORT Input READED_DATA_IN(31:0)
+        PORT Output READ_DATA_OUT(15:0)
+        PORT Input ar_req
+        PORT Input ar_done
+        PORT Output SYNC_OUT
+        PORT Output CMD_OUT(2:0)
+        PORT Output ADDR_OUT(25:0)
+        PORT Output WRITE_DATA_OUT(31:0)
+        PORT Output BURST_DONE_OUT
+        PORT Input WRITE_IN
+        PORT Input WRITE_DATA_IN(15:0)
+        PORT Input ADDR_IN(25:0)
+        PORT Input DDS_IN
+        PORT Input EXT_CLK
+        PORT Output ARB_SEL
+        PORT Output ARB_CLK
+        BEGIN BLOCKDEF BUFF
+            TIMESTAMP 2009 9 24 8 40 3
+            LINE N 400 784 464 784 
+            LINE N 400 688 464 688 
+            LINE N 400 496 464 496 
+            LINE N 400 592 464 592 
+            LINE N 400 64 464 64 
+            LINE N 64 -224 0 -224 
+            RECTANGLE N 0 -108 64 -84 
+            LINE N 64 -96 0 -96 
+            RECTANGLE N 0 -44 64 -20 
+            LINE N 64 -32 0 -32 
+            LINE N 400 -224 464 -224 
+            RECTANGLE N 400 -140 464 -116 
+            LINE N 400 -128 464 -128 
+            RECTANGLE N 400 -44 464 -20 
+            LINE N 400 -32 464 -32 
+            RECTANGLE N 400 212 464 236 
+            LINE N 400 224 464 224 
+            RECTANGLE N 400 308 464 332 
+            LINE N 400 320 464 320 
+            RECTANGLE N 400 116 464 140 
+            LINE N 400 128 464 128 
+            LINE N 64 400 0 400 
+            LINE N 400 400 464 400 
+            LINE N 64 -160 0 -160 
+            RECTANGLE N 64 -256 400 816 
+        END BLOCKDEF
+        BEGIN BLOCKDEF Write_Controler
+            TIMESTAMP 2009 5 14 2 23 25
+            LINE N 64 96 0 96 
+            LINE N 400 32 464 32 
+            LINE N 64 -416 0 -416 
+            LINE N 64 -352 0 -352 
+            LINE N 64 -288 0 -288 
+            LINE N 64 -224 0 -224 
+            LINE N 64 -160 0 -160 
+            RECTANGLE N 0 -108 64 -84 
+            LINE N 64 -96 0 -96 
+            RECTANGLE N 0 -44 64 -20 
+            LINE N 64 -32 0 -32 
+            LINE N 400 -416 464 -416 
+            RECTANGLE N 400 -332 464 -308 
+            LINE N 400 -320 464 -320 
+            RECTANGLE N 400 -252 464 -228 
+            LINE N 400 -240 464 -240 
+            RECTANGLE N 400 -172 464 -148 
+            LINE N 400 -160 464 -160 
+            LINE N 64 32 0 32 
+            RECTANGLE N 64 -448 400 192 
+        END BLOCKDEF
+        BEGIN BLOCKDEF Read_Controler
+            TIMESTAMP 2008 10 20 8 9 49
+            LINE N 64 480 0 480 
+            LINE N 64 352 0 352 
+            LINE N 64 224 0 224 
+            LINE N 64 96 0 96 
+            LINE N 416 32 480 32 
+            LINE N 64 -480 0 -480 
+            LINE N 64 -352 0 -352 
+            LINE N 64 -288 0 -288 
+            LINE N 64 -224 0 -224 
+            LINE N 64 -160 0 -160 
+            RECTANGLE N 0 -44 64 -20 
+            LINE N 64 -32 0 -32 
+            RECTANGLE N 416 -348 480 -324 
+            LINE N 416 -336 480 -336 
+            RECTANGLE N 416 -204 480 -180 
+            LINE N 416 -192 480 -192 
+            RECTANGLE N 416 -76 480 -52 
+            LINE N 416 -64 480 -64 
+            LINE N 416 -480 480 -480 
+            RECTANGLE N 0 564 64 588 
+            LINE N 64 576 0 576 
+            RECTANGLE N 416 116 480 140 
+            LINE N 416 128 480 128 
+            RECTANGLE N 64 -512 416 644 
+            LINE N 416 224 480 224 
+        END BLOCKDEF
+        BEGIN BLOCKDEF RW_SELECTER
+            TIMESTAMP 2008 6 11 2 49 40
+            LINE N 512 32 576 32 
+            LINE N 64 -480 0 -480 
+            LINE N 64 -416 0 -416 
+            RECTANGLE N 512 -492 576 -468 
+            LINE N 512 -480 576 -480 
+            RECTANGLE N 512 -268 576 -244 
+            LINE N 512 -256 576 -256 
+            RECTANGLE N 512 -44 576 -20 
+            LINE N 512 -32 576 -32 
+            RECTANGLE N 64 -512 512 128 
+            RECTANGLE N 0 -300 64 -276 
+            LINE N 64 -288 0 -288 
+            RECTANGLE N 0 -236 64 -212 
+            LINE N 64 -224 0 -224 
+            RECTANGLE N 0 -172 64 -148 
+            LINE N 64 -160 0 -160 
+            LINE N 64 -352 0 -352 
+            RECTANGLE N 0 -44 64 -20 
+            LINE N 64 -32 0 -32 
+            RECTANGLE N 0 20 64 44 
+            LINE N 64 32 0 32 
+            RECTANGLE N 0 84 64 108 
+            LINE N 64 96 0 96 
+            LINE N 64 -96 0 -96 
+        END BLOCKDEF
+        BEGIN BLOCKDEF SYNC
+            TIMESTAMP 2008 10 28 2 0 3
+            RECTANGLE N 0 20 64 44 
+            LINE N 64 32 0 32 
+            RECTANGLE N 0 84 64 108 
+            LINE N 64 96 0 96 
+            RECTANGLE N 0 -108 64 -84 
+            LINE N 64 -96 0 -96 
+            RECTANGLE N 0 -44 64 -20 
+            LINE N 64 -32 0 -32 
+            LINE N 448 -224 512 -224 
+            LINE N 64 -224 0 -224 
+            RECTANGLE N 64 -256 448 212 
+            LINE N 64 176 0 176 
+        END BLOCKDEF
+        BEGIN BLOCKDEF DCM_MUL_4
+            TIMESTAMP 2008 12 10 8 55 12
+            LINE N 64 -224 0 -224 
+            LINE N 64 -32 0 -32 
+            LINE N 416 -224 480 -224 
+            LINE N 416 -96 480 -96 
+            RECTANGLE N 64 -256 416 32 
+            LINE N 416 -32 480 -32 
+        END BLOCKDEF
+        BEGIN BLOCKDEF muxcy
+            TIMESTAMP 2000 1 1 10 10 10
+            LINE N 192 0 192 -64 
+            LINE N 192 -224 192 -160 
+            LINE N 96 -160 32 -64 
+            LINE N 224 -160 96 -160 
+            LINE N 288 -64 224 -160 
+            LINE N 32 -64 288 -64 
+            LINE N 128 0 128 -64 
+            LINE N 0 -96 56 -96 
+        END BLOCKDEF
+        BEGIN BLOCKDEF DIV4
+            TIMESTAMP 2009 9 24 10 38 22
+            RECTANGLE N 64 -320 384 0 
+            LINE N 64 -288 0 -288 
+            LINE N 64 -32 0 -32 
+            LINE N 384 -288 448 -288 
+            LINE N 384 -224 448 -224 
+            LINE N 384 -160 448 -160 
+            LINE N 384 -96 448 -96 
+            LINE N 384 -32 448 -32 
+        END BLOCKDEF
+        BEGIN BLOCK XLXI_2 Write_Controler
+            PIN ar_req ar_req
+            PIN Write_in TB_BUFF_WRIGHT_OUT
+            PIN CLK_in CLK_IN
+            PIN CLK_in_90 CLK_IN_90
+            PIN Init_done INIT_DONE
+            PIN CMD_ack CMD_ACK
+            PIN Addr_in(25:0) TB_BUFF_AOUT(25:0)
+            PIN Data_in(63:0) TB_BUFF_DATA_OUT(63:0)
+            PIN Burst_Done_out XLXN_33
+            PIN WRITE_OUT XLXN_44
+            PIN CMD_out(2:0) XLXN_34(2:0)
+            PIN Data_out(31:0) XLXN_36(31:0)
+            PIN Addr_out(25:0) XLXN_35(25:0)
+            PIN ar_done ar_done
+        END BLOCK
+        BEGIN BLOCK XLXI_5 SYNC
+            PIN CLK200 ARB_CLK
+            PIN ARB_SIZE_IN(31:0) XLXN_49(31:0)
+            PIN SYNC_CNT_IN(19:0) SYNC_CNT(19:0)
+            PIN START_IN(31:0) XLXN_66(31:0)
+            PIN END_IN(31:0) XLXN_67(31:0)
+            PIN SYNC_OUT SYNC_OUT
+            PIN SYNC_VALID SYNC_VALID
+        END BLOCK
+        BEGIN BLOCK XLXI_4 RW_SELECTER
+            PIN READ_IN XLXN_42
+            PIN WRITE_IN XLXN_44
+            PIN CMD_OUT(2:0) CMD_OUT(2:0)
+            PIN ADDR_OUT(25:0) ADDR_OUT(25:0)
+            PIN DATA_OUT(31:0) WRITE_DATA_OUT(31:0)
+            PIN BURST_DONE_OUT BURST_DONE_OUT
+            PIN CMD_IN_W(2:0) XLXN_34(2:0)
+            PIN ADDR_IN_W(25:0) XLXN_35(25:0)
+            PIN DATA_IN_W(31:0) XLXN_36(31:0)
+            PIN BURST_DONE_W XLXN_33
+            PIN CMD_IN_R(2:0) XLXN_38(2:0)
+            PIN ADDR_IN_R(25:0) XLXN_39(25:0)
+            PIN DATA_IN_R(31:0)
+            PIN BURST_DONE_R XLXN_37
+        END BLOCK
+        BEGIN BLOCK XLXI_3 Read_Controler
+            PIN Init_done INIT_DONE
+            PIN DCM_200M ARB_CLK
+            PIN DAC_ACT XLXN_47
+            PIN CLK_in CLK_IN
+            PIN CLK_in_90 CLK_IN_90
+            PIN CMD_ACK_in CMD_ACK
+            PIN ar_req ar_req
+            PIN ar_done ar_done
+            PIN Data_valid_in DATA_VALID_IN
+            PIN Readed_data_in(31:0) READED_DATA_IN(31:0)
+            PIN ARB_SIZE32_IN(31:0) XLXN_49(31:0)
+            PIN Burst_done_out XLXN_37
+            PIN READ_OUT XLXN_42
+            PIN CMD_out(2:0) XLXN_38(2:0)
+            PIN Addr_out(25:0) XLXN_39(25:0)
+            PIN Data_out(15:0) READ_DATA_OUT(15:0)
+            PIN SYNC_CNT_OUT(19:0) SYNC_CNT(19:0)
+            PIN SYNC_VAILD SYNC_VALID
+        END BLOCK
+        BEGIN BLOCK XLXI_128 DCM_MUL_4
+            PIN CLKIN_IN XLXN_221
+            PIN RST_IN XLXN_222
+            PIN CLKFX_OUT XLXN_205
+            PIN CLK0_OUT
+            PIN CLK_90
+        END BLOCK
+        BEGIN BLOCK XLXI_175 muxcy
+            PIN CI EXT_CLK
+            PIN DI DDS_IN
+            PIN S XLXN_203
+            PIN O XLXN_221
+        END BLOCK
+        BEGIN BLOCK XLXI_1 BUFF
+            PIN CLK_DDS_IN DDS_IN
+            PIN CLK133 CLK_IN
+            PIN Write_in WRITE_IN
+            PIN Addr_in(25:0) ADDR_IN(25:0)
+            PIN Data_in(15:0) WRITE_DATA_IN(15:0)
+            PIN Write_enable_out TB_BUFF_WRIGHT_OUT
+            PIN DAC0_ACT XLXN_47
+            PIN DCM_RESET XLXN_222
+            PIN USING_DCM XLXN_204
+            PIN USING_EXT_CLK XLXN_203
+            PIN ARB_SEL ARB_SEL
+            PIN Addr_out(25:0) TB_BUFF_AOUT(25:0)
+            PIN Data_out(63:0) TB_BUFF_DATA_OUT(63:0)
+            PIN ARB_SIZE_OUT(31:0) XLXN_49(31:0)
+            PIN SYNC_START(31:0) XLXN_66(31:0)
+            PIN SYNC_END(31:0) XLXN_67(31:0)
+            PIN USING_DEVIDER XLXN_225
+        END BLOCK
+        BEGIN BLOCK XLXI_177 muxcy
+            PIN CI XLXN_205
+            PIN DI XLXN_221
+            PIN S XLXN_204
+            PIN O XLXN_228
+        END BLOCK
+        BEGIN BLOCK XLXI_178 DIV4
+            PIN CLKIN_IN XLXN_221
+            PIN RST_IN XLXN_222
+            PIN LOCKED_OUT
+            PIN CLKDV_OUT
+            PIN CLKFX_OUT XLXN_224
+            PIN CLKFX180_OUT
+            PIN CLK0_OUT
+        END BLOCK
+        BEGIN BLOCK XLXI_179 muxcy
+            PIN CI XLXN_224
+            PIN DI XLXN_228
+            PIN S XLXN_225
+            PIN O ARB_CLK
+        END BLOCK
+    END NETLIST
+    BEGIN SHEET 1 3520 2720
+        BEGIN INSTANCE XLXI_2 1296 544 R0
+        END INSTANCE
+        BEGIN BRANCH CLK_IN
+            WIRE 368 1184 368 1344
+            WIRE 368 1344 400 1344
+            WIRE 368 1184 528 1184
+            WIRE 400 192 528 192
+            WIRE 528 192 1008 192
+            WIRE 1008 192 1296 192
+            WIRE 1008 192 1008 1008
+            WIRE 1008 1008 1680 1008
+            WIRE 528 192 528 1184
+        END BRANCH
+        BEGIN BRANCH CLK_IN_90
+            WIRE 448 256 1072 256
+            WIRE 1072 256 1296 256
+            WIRE 1072 256 1072 1072
+            WIRE 1072 1072 1680 1072
+        END BRANCH
+        BEGIN BRANCH INIT_DONE
+            WIRE 400 320 1104 320
+            WIRE 1104 320 1296 320
+            WIRE 1104 320 1104 880
+            WIRE 1104 880 1680 880
+        END BRANCH
+        BEGIN BRANCH CMD_ACK
+            WIRE 400 384 1136 384
+            WIRE 1136 384 1296 384
+            WIRE 1136 384 1136 1136
+            WIRE 1136 1136 1680 1136
+        END BRANCH
+        BEGIN BRANCH DATA_VALID_IN
+            WIRE 416 448 1024 448
+            WIRE 1024 448 1024 1200
+            WIRE 1024 1200 1680 1200
+        END BRANCH
+        BEGIN BRANCH READED_DATA_IN(31:0)
+            WIRE 432 576 1088 576
+            WIRE 1088 576 1088 1328
+            WIRE 1088 1328 1680 1328
+        END BRANCH
+        BEGIN BRANCH READ_DATA_OUT(15:0)
+            WIRE 432 640 512 640
+            WIRE 512 640 512 832
+            WIRE 512 832 2224 832
+            WIRE 2224 832 2224 1296
+            WIRE 2160 1296 2224 1296
+        END BRANCH
+        BEGIN BRANCH TB_BUFF_DATA_OUT(63:0)
+            WIRE 864 1472 1040 1472
+            WIRE 1040 512 1040 1472
+            WIRE 1040 512 1296 512
+        END BRANCH
+        BEGIN BRANCH XLXN_33
+            WIRE 1760 128 2192 128
+            WIRE 2192 128 2192 624
+            WIRE 2192 624 2608 624
+        END BRANCH
+        BEGIN BRANCH XLXN_34(2:0)
+            WIRE 1760 224 2176 224
+            WIRE 2176 224 2176 688
+            WIRE 2176 688 2608 688
+        END BRANCH
+        BEGIN BRANCH XLXN_35(25:0)
+            WIRE 1760 304 2160 304
+            WIRE 2160 304 2160 752
+            WIRE 2160 752 2608 752
+        END BRANCH
+        BEGIN BRANCH XLXN_36(31:0)
+            WIRE 1760 384 2144 384
+            WIRE 2144 384 2144 816
+            WIRE 2144 816 2608 816
+        END BRANCH
+        BEGIN BRANCH XLXN_38(2:0)
+            WIRE 2160 1024 2368 1024
+            WIRE 2368 944 2368 1024
+            WIRE 2368 944 2608 944
+        END BRANCH
+        BEGIN BRANCH XLXN_39(25:0)
+            WIRE 2160 1168 2592 1168
+            WIRE 2592 1008 2608 1008
+            WIRE 2592 1008 2592 1168
+        END BRANCH
+        BEGIN BRANCH TB_BUFF_WRIGHT_OUT
+            WIRE 864 1280 928 1280
+            WIRE 928 128 928 1280
+            WIRE 928 128 1296 128
+        END BRANCH
+        BEGIN BRANCH TB_BUFF_AOUT(25:0)
+            WIRE 864 1376 1056 1376
+            WIRE 1056 448 1056 1376
+            WIRE 1056 448 1296 448
+        END BRANCH
+        BEGIN BRANCH XLXN_47
+            WIRE 864 1568 1664 1568
+            WIRE 1664 1456 1680 1456
+            WIRE 1664 1456 1664 1568
+        END BRANCH
+        BEGIN BRANCH ar_req
+            WIRE 432 768 992 768
+            WIRE 992 768 1280 768
+            WIRE 992 768 992 1712
+            WIRE 992 1712 1680 1712
+            WIRE 1280 576 1280 768
+            WIRE 1280 576 1296 576
+        END BRANCH
+        BEGIN BRANCH ar_done
+            WIRE 448 816 1120 816
+            WIRE 1120 816 1120 1840
+            WIRE 1120 1840 1680 1840
+            WIRE 1120 640 1296 640
+            WIRE 1120 640 1120 816
+        END BRANCH
+        BEGIN BRANCH XLXN_49(31:0)
+            WIRE 864 1632 1072 1632
+            WIRE 1072 1632 1072 1936
+            WIRE 1072 1936 1072 2064
+            WIRE 1072 2064 1856 2064
+            WIRE 1072 1936 1680 1936
+            WIRE 1856 1920 1856 2064
+            WIRE 1856 1920 2512 1920
+        END BRANCH
+        BEGIN BRANCH SYNC_OUT
+            WIRE 3024 1792 3168 1792
+        END BRANCH
+        BEGIN BRANCH SYNC_CNT(19:0)
+            WIRE 2160 1488 2496 1488
+            WIRE 2496 1488 2496 1984
+            WIRE 2496 1984 2512 1984
+        END BRANCH
+        BEGIN BRANCH XLXN_66(31:0)
+            WIRE 864 1728 1664 1728
+            WIRE 1664 1728 1664 2048
+            WIRE 1664 2048 2512 2048
+        END BRANCH
+        BEGIN BRANCH XLXN_67(31:0)
+            WIRE 864 1824 1648 1824
+            WIRE 1648 1824 1648 2112
+            WIRE 1648 2112 2512 2112
+        END BRANCH
+        BEGIN BRANCH SYNC_VALID
+            WIRE 2160 1584 2320 1584
+            WIRE 2320 1584 2320 2192
+            WIRE 2320 2192 2512 2192
+        END BRANCH
+        BEGIN INSTANCE XLXI_5 2512 2016 R0
+        END INSTANCE
+        BEGIN BRANCH XLXN_37
+            WIRE 2160 880 2608 880
+        END BRANCH
+        BEGIN INSTANCE XLXI_4 2608 976 R0
+        END INSTANCE
+        BEGIN BRANCH CMD_OUT(2:0)
+            WIRE 3184 496 3216 496
+        END BRANCH
+        BEGIN BRANCH ADDR_OUT(25:0)
+            WIRE 3184 720 3216 720
+        END BRANCH
+        BEGIN BRANCH WRITE_DATA_OUT(31:0)
+            WIRE 3184 944 3216 944
+        END BRANCH
+        BEGIN BRANCH BURST_DONE_OUT
+            WIRE 3184 1008 3216 1008
+        END BRANCH
+        BEGIN BRANCH XLXN_44
+            WIRE 1760 576 1776 576
+            WIRE 1776 560 2608 560
+            WIRE 1776 560 1776 576
+        END BRANCH
+        BEGIN INSTANCE XLXI_3 1680 1360 R0
+        END INSTANCE
+        BEGIN BRANCH XLXN_42
+            WIRE 2160 1392 2208 1392
+            WIRE 2208 864 2208 1392
+            WIRE 2208 864 2592 864
+            WIRE 2592 496 2608 496
+            WIRE 2592 496 2592 864
+        END BRANCH
+        IOMARKER 400 192 CLK_IN R180 28
+        IOMARKER 448 256 CLK_IN_90 R180 28
+        IOMARKER 400 320 INIT_DONE R180 28
+        IOMARKER 400 384 CMD_ACK R180 28
+        IOMARKER 416 448 DATA_VALID_IN R180 28
+        IOMARKER 432 576 READED_DATA_IN(31:0) R180 28
+        IOMARKER 432 640 READ_DATA_OUT(15:0) R180 28
+        IOMARKER 432 768 ar_req R180 28
+        IOMARKER 448 816 ar_done R180 28
+        IOMARKER 3168 1792 SYNC_OUT R0 28
+        IOMARKER 3216 496 CMD_OUT(2:0) R0 28
+        IOMARKER 3216 720 ADDR_OUT(25:0) R0 28
+        IOMARKER 3216 944 WRITE_DATA_OUT(31:0) R0 28
+        IOMARKER 3216 1008 BURST_DONE_OUT R0 28
+        BEGIN BRANCH WRITE_IN
+            WIRE 336 1280 400 1280
+        END BRANCH
+        BEGIN BRANCH WRITE_DATA_IN(15:0)
+            WIRE 304 1472 400 1472
+        END BRANCH
+        BEGIN BRANCH ADDR_IN(25:0)
+            WIRE 304 1408 400 1408
+        END BRANCH
+        BEGIN INSTANCE XLXI_1 400 1504 R0
+        END INSTANCE
+        IOMARKER 336 1280 WRITE_IN R180 28
+        IOMARKER 304 1472 WRITE_DATA_IN(15:0) R180 28
+        IOMARKER 304 1408 ADDR_IN(25:0) R180 28
+        BEGIN BRANCH DDS_IN
+            WIRE 304 1904 352 1904
+            WIRE 352 1904 400 1904
+            WIRE 352 1904 352 2336
+            WIRE 352 2336 1040 2336
+        END BRANCH
+        BEGIN BRANCH EXT_CLK
+            WIRE 336 2400 1040 2400
+        END BRANCH
+        BEGIN BRANCH XLXN_203
+            WIRE 864 2096 1136 2096
+            WIRE 1136 2096 1136 2208
+        END BRANCH
+        BEGIN BRANCH XLXN_204
+            WIRE 864 2000 880 2000
+            WIRE 880 2000 880 2128
+            WIRE 880 2128 2096 2128
+            WIRE 2096 2128 2096 2256
+        END BRANCH
+        IOMARKER 336 2400 EXT_CLK R180 28
+        IOMARKER 304 1904 DDS_IN R180 28
+        INSTANCE XLXI_177 2000 2256 R90
+        BEGIN BRANCH XLXN_205
+            WIRE 1808 2448 2000 2448
+        END BRANCH
+        BEGIN INSTANCE XLXI_128 1328 2672 R0
+        END INSTANCE
+        INSTANCE XLXI_175 1040 2208 R90
+        BEGIN BRANCH ARB_SEL
+            WIRE 864 2192 880 2192
+            WIRE 880 2192 912 2192
+        END BRANCH
+        BEGIN BRANCH XLXN_221
+            WIRE 1264 2400 1296 2400
+            WIRE 1296 2400 1296 2448
+            WIRE 1296 2448 1328 2448
+            WIRE 1296 2400 1408 2400
+            WIRE 1296 2384 2000 2384
+            WIRE 1296 2384 1296 2400
+            WIRE 1408 2208 1408 2400
+            WIRE 1408 2208 2288 2208
+            WIRE 2288 2208 2288 2384
+            WIRE 2288 2384 2320 2384
+        END BRANCH
+        BEGIN BRANCH XLXN_222
+            WIRE 864 1904 1024 1904
+            WIRE 1024 1904 1024 2640
+            WIRE 1024 2640 1328 2640
+            WIRE 896 2144 896 2640
+            WIRE 896 2640 1024 2640
+            WIRE 896 2144 1872 2144
+            WIRE 1872 2144 1872 2640
+            WIRE 1872 2640 2320 2640
+        END BRANCH
+        IOMARKER 912 2192 ARB_SEL R0 28
+        BEGIN INSTANCE XLXI_178 2320 2672 R0
+        END INSTANCE
+        BEGIN BRANCH XLXN_224
+            WIRE 2768 2512 2880 2512
+        END BRANCH
+        INSTANCE XLXI_179 2880 2320 R90
+        BEGIN BRANCH ARB_CLK
+            WIRE 1584 800 1584 1584
+            WIRE 1584 1584 1680 1584
+            WIRE 1584 800 2432 800
+            WIRE 2432 800 2432 1792
+            WIRE 2432 1792 2512 1792
+            WIRE 2432 1792 2432 2304
+            WIRE 2432 2304 3168 2304
+            WIRE 3168 2304 3168 2512
+            WIRE 3168 2512 3280 2512
+            WIRE 3104 2512 3168 2512
+        END BRANCH
+        IOMARKER 3280 2512 ARB_CLK R0 28
+        BEGIN BRANCH XLXN_225
+            WIRE 384 1168 384 2384
+            WIRE 384 2384 928 2384
+            WIRE 384 1168 1328 1168
+            WIRE 1328 1168 1328 2240
+            WIRE 1328 2240 2976 2240
+            WIRE 2976 2240 2976 2320
+            WIRE 864 2288 928 2288
+            WIRE 928 2288 928 2384
+        END BRANCH
+        BEGIN BRANCH XLXN_228
+            WIRE 2224 2448 2304 2448
+            WIRE 2304 2272 2304 2448
+            WIRE 2304 2272 2832 2272
+            WIRE 2832 2272 2832 2448
+            WIRE 2832 2448 2880 2448
+        END BRANCH
+    END SHEET
+END SCHEMATIC

@@ -1,0 +1,78 @@
+Release 10.1.03 Map K.39 (nt)
+Xilinx Map Application Log File for Design 'AFG3000_FPGA'
+
+Design Information
+------------------
+Command Line   : map -ise "D:/AFG3000
+project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/
+AFG3000_FPGA_0504_BACKUP/AFG3000_FPGA_0504.ise" -intstyle ise -p
+xc3s1400a-fg484-4 -cm speed -pr off -k 4 -c 100 -o AFG3000_FPGA_map.ncd
+AFG3000_FPGA.ngd AFG3000_FPGA.pcf 
+Target Device  : xc3s1400a
+Target Package : fg484
+Target Speed   : -4
+Mapper Version : spartan3a -- $Revision: 1.46.12.2 $
+Mapped Date    : Wed Dec 02 20:50:54 2009
+
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   31
+Logic Utilization:
+  Number of Slice Flip Flops:         7,308 out of  22,528   32%
+  Number of 4 input LUTs:             2,025 out of  22,528    8%
+Logic Distribution:
+  Number of occupied Slices:          4,310 out of  11,264   38%
+    Number of Slices containing only related logic:   4,310 out of   4,310 100%
+    Number of Slices containing unrelated logic:          0 out of   4,310   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       2,334 out of  22,528   10%
+    Number used as logic:             1,961
+    Number used as a route-thru:        309
+    Number used for Dual Port RAMs:      64
+      (Two LUTs used per Dual Port RAM)
+  Number of bonded IOBs:                199 out of     375   53%
+    IOB Flip Flops:                      20
+    IOB Master Pads:                      4
+    IOB Slave Pads:                       4
+  Number of ODDR2s used:                 24
+    Number of DDR_ALIGNMENT = NONE       24
+    Number of DDR_ALIGNMENT = C0          0
+    Number of DDR_ALIGNMENT = C1          0
+  Number of BUFGMUXs:                    16 out of      24   66%
+  Number of DCMs:                         6 out of       8   75%
+  Number of MULT18X18SIOs:                3 out of      32    9%
+  Number of RAMB16BWEs:                  24 out of      32   75%
+
+  Number of RPM macros:            1
+Peak Memory Usage:  237 MB
+Total REAL time to MAP completion:  15 secs 
+Total CPU time to MAP completion:   14 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "AFG3000_FPGA_map.mrp" for details.

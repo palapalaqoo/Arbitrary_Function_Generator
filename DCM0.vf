@@ -1,0 +1,50 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 10.1.03
+//  \   \         Application : sch2verilog
+//  /   /         Filename : DCM0.vf
+// /___/   /\     Timestamp : 12/02/2009 17:28:38
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\Xilinx\10.1\ISE\bin\nt\unwrapped\sch2verilog.exe -intstyle ise -family spartan3a -w "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/DCM0.sch" DCM0.vf
+//Design Name: DCM0
+//Device: spartan3a
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module DCM0(CLK_IN, 
+            CLK0, 
+            CLK90, 
+            LOCK_OUT);
+
+    input CLK_IN;
+   output CLK0;
+   output CLK90;
+   output LOCK_OUT;
+   
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_6;
+   
+   Gobal_DCM XLXI_1 (.CLKIN_IN(CLK_IN), 
+                     .RST_IN(XLXN_5), 
+                     .CLKFX_OUT(XLXN_6), 
+                     .CLKIN_IBUFG_OUT(), 
+                     .CLK0_OUT(XLXN_3), 
+                     .LOCKED_OUT(XLXN_4));
+   GobalCLK XLXI_2 (.CLKIN_IN(XLXN_6), 
+                    .RST_IN(XLXN_5), 
+                    .CLK0_OUT(CLK0), 
+                    .CLK90_OUT(CLK90), 
+                    .LOCKED_OUT(LOCK_OUT));
+   GND XLXI_3 (.G(XLXN_5));
+endmodule

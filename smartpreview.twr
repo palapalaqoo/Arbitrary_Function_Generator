@@ -1,0 +1,344 @@
+Number of Timing Constraints that were not applied: 12
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+* TS_ARB_MODE_XLXN_339_1 = PERIOD TIMEGRP " | SETUP   |    -0.062ns|     7.654ns|       1|          62
+  ARB_MODE_XLXN_339_1"         TS_ARB_MODE_ | HOLD    |     0.734ns|            |       0|           0
+  DCM_133_XLXN_6_0 PHASE 1.852 ns HIGH 50%  |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_FM_Mode_XLXI_13_Q1 = PERIOD TIMEGRP "F | SETUP   |     0.009ns|    19.991ns|       0|           0
+  M_Mode/XLXI_13/Q1" 20 ns HIGH 50%         | HOLD    |     0.974ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.014ns|     0.186ns|       0|           0
+  path0/data_read_controller0/gen_delay[0]. |         |            |            |        |            
+  dqs_delay_col0/delay2"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.014ns|     0.186ns|       0|           0
+  path0/data_read_controller0/gen_delay[1]. |         |            |            |        |            
+  dqs_delay_col1/delay2"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.014ns|     0.186ns|       0|           0
+  path0/data_read_controller0/gen_delay[0]. |         |            |            |        |            
+  dqs_delay_col1/delay2"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.014ns|     0.186ns|       0|           0
+  path0/data_read_controller0/gen_delay[1]. |         |            |            |        |            
+  dqs_delay_col0/delay2"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_DCM_INTRST_DCM214MHz_CLKFX_BUF_0 = PER | SETUP   |     0.016ns|     4.613ns|       0|           0
+  IOD TIMEGRP         "DCM_INTRST_DCM214MHz | HOLD    |     0.584ns|            |       0|           0
+  _CLKFX_BUF_0" TS_Clock * 4 HIGH 50%       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.035ns|     0.165ns|       0|           0
+  path0/data_read_controller0/gen_delay[0]. |         |            |            |        |            
+  dqs_delay_col0/delay1"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.035ns|     0.165ns|       0|           0
+  path0/data_read_controller0/gen_delay[1]. |         |            |            |        |            
+  dqs_delay_col1/delay1"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.035ns|     0.165ns|       0|           0
+  path0/data_read_controller0/gen_delay[0]. |         |            |            |        |            
+  dqs_delay_col1/delay1"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.035ns|     0.165ns|       0|           0
+  path0/data_read_controller0/gen_delay[1]. |         |            |            |        |            
+  dqs_delay_col0/delay1"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ARB_MODE_DCM_133_XLXI_2_CLK0_BUF_1 = P | SETUP   |     0.040ns|     7.359ns|       0|           0
+  ERIOD TIMEGRP         "ARB_MODE_DCM_133_X | HOLD    |     0.729ns|            |       0|           0
+  LXI_2_CLK0_BUF_1" TS_ARB_MODE_DCM_133_XLX |         |            |            |        |            
+  N_6_0 HIGH         50%                    |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.045ns|     0.155ns|       0|           0
+  path0/data_read_controller0/gen_delay[1]. |         |            |            |        |            
+  dqs_delay_col1/delay5"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.045ns|     0.155ns|       0|           0
+  path0/data_read_controller0/gen_delay[1]. |         |            |            |        |            
+  dqs_delay_col0/delay5"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.045ns|     0.155ns|       0|           0
+  path0/data_read_controller0/gen_delay[0]. |         |            |            |        |            
+  dqs_delay_col1/delay5"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/dqs_int_delay | MAXDELAY|     0.045ns|     0.815ns|       0|           0
+  _in<0>" MAXDELAY = 0.86 ns                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.045ns|     0.155ns|       0|           0
+  path0/data_read_controller0/gen_delay[0]. |         |            |            |        |            
+  dqs_delay_col0/delay5"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.079ns|     0.121ns|       0|           0
+  path0/data_read_controller0/gen_delay[0]. |         |            |            |        |            
+  dqs_delay_col1/delay3"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.079ns|     0.121ns|       0|           0
+  path0/data_read_controller0/gen_delay[1]. |         |            |            |        |            
+  dqs_delay_col0/delay3"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.079ns|     0.121ns|       0|           0
+  path0/data_read_controller0/gen_delay[0]. |         |            |            |        |            
+  dqs_delay_col0/delay3"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.079ns|     0.121ns|       0|           0
+  path0/data_read_controller0/gen_delay[1]. |         |            |            |        |            
+  dqs_delay_col1/delay3"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/dqs_div_rst"  | MAXDELAY|     0.090ns|     0.770ns|       0|           0
+  MAXDELAY = 0.86 ns                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.095ns|     0.105ns|       0|           0
+  path0/data_read_controller0/gen_delay[1]. |         |            |            |        |            
+  dqs_delay_col0/delay4"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.095ns|     0.105ns|       0|           0
+  path0/data_read_controller0/gen_delay[0]. |         |            |            |        |            
+  dqs_delay_col1/delay4"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.095ns|     0.105ns|       0|           0
+  path0/data_read_controller0/gen_delay[1]. |         |            |            |        |            
+  dqs_delay_col1/delay4"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET         "ARB_MODE/MIG_20/top_00/data_ | MAXDELAY|     0.095ns|     0.105ns|       0|           0
+  path0/data_read_controller0/gen_delay[0]. |         |            |            |        |            
+  dqs_delay_col0/delay4"         MAXDELAY = |         |            |            |        |            
+   0.2 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/infrastructure_top0/ | MAXDELAY|     0.202ns|     0.398ns|       0|           0
+  cal_top0/tap_dly0/tap<7>" MAXDELAY =      |         |            |            |        |            
+      0.6 ns                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/infrastructure_top0/ | MAXDELAY|     0.202ns|     0.398ns|       0|           0
+  cal_top0/tap_dly0/tap<15>" MAXDELAY =     |         |            |            |        |            
+       0.6 ns                               |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/infrastructure_top0/ | MAXDELAY|     0.202ns|     0.398ns|       0|           0
+  cal_top0/tap_dly0/tap<23>" MAXDELAY =     |         |            |            |        |            
+       0.6 ns                               |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/dqs_int_delay | MAXDELAY|     0.216ns|     0.644ns|       0|           0
+  _in<1>" MAXDELAY = 0.86 ns                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_DCM_INTRST_DCM214MHz_CLK2X_BUF_0 = PER | SETUP   |     0.353ns|     8.906ns|       0|           0
+  IOD TIMEGRP         "DCM_INTRST_DCM214MHz | HOLD    |     0.659ns|            |       0|           0
+  _CLK2X_BUF_0" TS_Clock * 2 HIGH 50%       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/da | MAXDELAY|     0.979ns|     2.028ns|       0|           0
+  ta_read_controller0/rst_dqs_div"          |         |            |            |        |            
+  MAXDELAY = 3.007 ns                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_WADDR_CLK = MAXDELAY FROM TIMEGRP "dqs | SETUP   |     1.090ns|     3.910ns|       0|           0
+  _clk" TO TIMEGRP "fifo_waddr_clk" 5       | HOLD    |     0.868ns|            |       0|           0
+     ns DATAPATHONLY                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_WE_CLK = MAXDELAY FROM TIMEGRP "dqs_cl | SETUP   |     1.465ns|     3.535ns|       0|           0
+  k" TO TIMEGRP "fifo_we_clk" 5 ns          | HOLD    |     0.814ns|            |       0|           0
+  DATAPATHONLY                              |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     1.704ns|     1.303ns|       0|           0
+  fo_1_wr_en<0>" MAXDELAY = 3.007 ns        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     1.716ns|     1.291ns|       0|           0
+  fo_0_wr_en<0>" MAXDELAY = 3.007 ns        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     1.731ns|     1.276ns|       0|           0
+  fo_0_wr_en<1>" MAXDELAY = 3.007 ns        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.035ns|     0.972ns|       0|           0
+  fo_1_wr_en<1>" MAXDELAY = 3.007 ns        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.052ns|     2.459ns|       0|           0
+  fo_0_wr_addr<2>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.077ns|     2.434ns|       0|           0
+  fo_0_wr_addr<0>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ARB_MODE_DDR2_16_TO_64_XLXI_182_XLXI_1 | SETUP   |     2.185ns|    15.630ns|       0|           0
+  84_CLKFX_BUF = PERIOD TIMEGRP         "AR | HOLD    |     0.737ns|            |       0|           0
+  B_MODE_DDR2_16_TO_64_XLXI_182_XLXI_184_CL |         |            |            |        |            
+  KFX_BUF" TS_ARB_EDDS_SIN *         4 HIGH |         |            |            |        |            
+   50%                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.236ns|     2.275ns|       0|           0
+  fo_1_wr_addr<0>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.382ns|     2.129ns|       0|           0
+  fo_0_wr_addr<7>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.422ns|     2.089ns|       0|           0
+  fo_0_wr_addr<1>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.472ns|     2.039ns|       0|           0
+  fo_1_wr_addr<1>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.631ns|     1.880ns|       0|           0
+  fo_0_wr_addr<4>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.639ns|     1.872ns|       0|           0
+  fo_1_wr_addr<2>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.724ns|     1.787ns|       0|           0
+  fo_0_wr_addr<3>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.775ns|     1.736ns|       0|           0
+  fo_1_wr_addr<7>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.775ns|     1.736ns|       0|           0
+  fo_1_wr_addr<3>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.871ns|     1.640ns|       0|           0
+  fo_1_wr_addr<5>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     2.975ns|     1.536ns|       0|           0
+  fo_1_wr_addr<4>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     3.042ns|     1.469ns|       0|           0
+  fo_0_wr_addr<5>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     3.081ns|     1.430ns|       0|           0
+  fo_0_wr_addr<6>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "ARB_MODE/MIG_20/top_00/data_path0/fi | MAXDELAY|     3.143ns|     1.368ns|       0|           0
+  fo_1_wr_addr<6>" MAXDELAY = 4.511 ns      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_FM_Mode_XLXI_13_XLXN_6 = PERIOD TIMEGR | SETUP   |     3.268ns|     1.732ns|       0|           0
+  P "FM_Mode/XLXI_13/XLXN_6" 5 ns HIGH      | HOLD    |     1.250ns|            |       0|           0
+      50%                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_CLK = MAXDELAY FROM TIMEGRP "clk0" TO  | MAXDELAY|     5.750ns|    12.250ns|       0|           0
+  TIMEGRP "dqs_clk" 18 ns DATAPATHONLY      | HOLD    |     3.427ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TS_CLK90 = MAXDELAY FROM TIMEGRP "dqs_clk | SETUP   |    13.323ns|     4.677ns|       0|           0
+  " TO TIMEGRP "clk90" 18 ns         DATAPA | HOLD    |     1.684ns|            |       0|           0
+  THONLY                                    |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_Clock = PERIOD TIMEGRP "Clock" 54 MHz  | SETUP   |    14.168ns|     4.350ns|       0|           0
+  HIGH 50%                                  | HOLD    |     1.162ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TS_ARB_EDDS_SIN = PERIOD TIMEGRP "ARB_EDD | SETUP   |    76.801ns|     3.199ns|       0|           0
+  S_SIN" 12.5 MHz HIGH 50%                  | HOLD    |     0.913ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  TS_DCM_INTRST_DCM214MHz_CLK2X_BUF = PERIO | N/A     |         N/A|         N/A|     N/A|         N/A
+  D TIMEGRP         "DCM_INTRST_DCM214MHz_C |         |            |            |        |            
+  LK2X_BUF" TS_Clock * 2 HIGH 50%           |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_DCM_INTRST_DCM214MHz_CLKFX_BUF = PERIO | N/A     |         N/A|         N/A|     N/A|         N/A
+  D TIMEGRP         "DCM_INTRST_DCM214MHz_C |         |            |            |        |            
+  LKFX_BUF" TS_Clock * 4 HIGH 50%           |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ARB_MODE_DCM_133_XLXN_6 = PERIOD TIMEG | N/A     |         N/A|         N/A|     N/A|         N/A
+  RP "ARB_MODE_DCM_133_XLXN_6" TS_Clock     |         |            |            |        |            
+       * 2.5 HIGH 50%                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ARB_MODE_DCM_133_XLXI_2_CLK0_BUF = PER | N/A     |         N/A|         N/A|     N/A|         N/A
+  IOD TIMEGRP         "ARB_MODE_DCM_133_XLX |         |            |            |        |            
+  I_2_CLK0_BUF" TS_ARB_MODE_DCM_133_XLXN_6  |         |            |            |        |            
+  HIGH         50%                          |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ARB_MODE_XLXN_339 = PERIOD TIMEGRP "AR | N/A     |         N/A|         N/A|     N/A|         N/A
+  B_MODE_XLXN_339"         TS_ARB_MODE_DCM_ |         |            |            |        |            
+  133_XLXN_6 PHASE 1.852 ns HIGH 50%        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_SYS_clk90_int = PERIOD TIMEGRP "SYS_cl | N/A     |         N/A|         N/A|     N/A|         N/A
+  k90_int" 7.52 ns HIGH 50%                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ARB_MODE_DCM_133_XLXN_6_0 = PERIOD TIM | N/A     |         N/A|         N/A|     N/A|         N/A
+  EGRP "ARB_MODE_DCM_133_XLXN_6_0"          |         |            |            |        |            
+  TS_Clock * 2.5 HIGH 50%                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ARB_MODE_DCM_133_XLXI_2_CLK0_BUF_0 = P | N/A     |         N/A|         N/A|     N/A|         N/A
+  ERIOD TIMEGRP         "ARB_MODE_DCM_133_X |         |            |            |        |            
+  LXI_2_CLK0_BUF_0" TS_ARB_MODE_DCM_133_XLX |         |            |            |        |            
+  N_6 HIGH         50%                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ARB_MODE_XLXN_339_0 = PERIOD TIMEGRP " | N/A     |         N/A|         N/A|     N/A|         N/A
+  ARB_MODE_XLXN_339_0"         TS_ARB_MODE_ |         |            |            |        |            
+  DCM_133_XLXN_6 PHASE 1.852 ns HIGH 50%    |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_SYS_clk_int = PERIOD TIMEGRP "SYS_clk_ | N/A     |         N/A|         N/A|     N/A|         N/A
+  int" 7.52 ns HIGH 50%                     |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_DQS_CLK = MAXDELAY FROM TIMEGRP "dqs_c | N/A     |         N/A|         N/A|     N/A|         N/A
+  lk" TO TIMEGRP "fifo_clk" 5 ns         DA |         |            |            |        |            
+  TAPATHONLY                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_ARB_MODE_DDR2_16_TO_64_XLXI_182_XLXI_1 | N/A     |         N/A|         N/A|     N/A|         N/A
+  83_CLKFX_BUF = PERIOD TIMEGRP         "AR |         |            |            |        |            
+  B_MODE_DDR2_16_TO_64_XLXI_182_XLXI_183_CL |         |            |            |        |            
+  KFX_BUF" TS_ARB_EDDS_SIN *         16 HIG |         |            |            |        |            
+  H 50%                                     |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for TS_Clock
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_Clock                       |     18.519ns|      4.350ns|     19.135ns|            0|            1|          105|        20176|
+| TS_DCM_INTRST_DCM214MHz_CLK2X_|      9.259ns|          N/A|          N/A|            0|            0|            0|            0|
+| BUF                           |             |             |             |             |             |             |             |
+| TS_DCM_INTRST_DCM214MHz_CLKFX_|      4.630ns|          N/A|          N/A|            0|            0|            0|            0|
+| BUF                           |             |             |             |             |             |             |             |
+| TS_ARB_MODE_DCM_133_XLXN_6    |      7.407ns|          N/A|          N/A|            0|            0|            0|            0|
+|  TS_ARB_MODE_DCM_133_XLXI_2_CL|      7.407ns|          N/A|          N/A|            0|            0|            0|            0|
+|  K0_BUF                       |             |             |             |             |             |             |             |
+|  TS_ARB_MODE_XLXN_339         |      7.407ns|          N/A|          N/A|            0|            0|            0|            0|
+|  TS_ARB_MODE_DCM_133_XLXI_2_CL|      7.407ns|          N/A|          N/A|            0|            0|            0|            0|
+|  K0_BUF_0                     |             |             |             |             |             |             |             |
+|  TS_ARB_MODE_XLXN_339_0       |      7.407ns|          N/A|          N/A|            0|            0|            0|            0|
+| TS_DCM_INTRST_DCM214MHz_CLK2X_|      9.259ns|      8.906ns|          N/A|            0|            0|         9177|            0|
+| BUF_0                         |             |             |             |             |             |             |             |
+| TS_DCM_INTRST_DCM214MHz_CLKFX_|      4.630ns|      4.613ns|          N/A|            0|            0|         4234|            0|
+| BUF_0                         |             |             |             |             |             |             |             |
+| TS_ARB_MODE_DCM_133_XLXN_6_0  |      7.407ns|          N/A|      7.654ns|            0|            1|            0|         6765|
+|  TS_ARB_MODE_DCM_133_XLXI_2_CL|      7.407ns|      7.359ns|          N/A|            0|            0|         5666|            0|
+|  K0_BUF_1                     |             |             |             |             |             |             |             |
+|  TS_ARB_MODE_XLXN_339_1       |      7.407ns|      7.654ns|          N/A|            1|            0|         1099|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_ARB_EDDS_SIN
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_ARB_EDDS_SIN                |     80.000ns|      3.199ns|     62.520ns|            0|            0|            9|          914|
+| TS_ARB_MODE_DDR2_16_TO_64_XLXI|      5.000ns|          N/A|          N/A|            0|            0|            0|            0|
+| _182_XLXI_183_CLKFX_BUF       |             |             |             |             |             |             |             |
+| TS_ARB_MODE_DDR2_16_TO_64_XLXI|     20.000ns|     15.630ns|          N/A|            0|            0|          914|            0|
+| _182_XLXI_184_CLKFX_BUF       |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+1 constraint not met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+

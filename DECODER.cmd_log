@@ -1,0 +1,5 @@
+sch2verilog -intstyle ise -family spartan3a   -w "F:/FPGA/AFG3000_FPGA_0504/DECODER.sch" DECODER.vf
+sch2verilog -intstyle ise -family spartan3a   -w "F:/FPGA/AFG3000_FPGA_0504/DECODER.sch" DECODER.vf
+sch2verilog -intstyle ise -family spartan3a   -w "F:/FPGA/AFG3000_FPGA_0504/DECODER.sch" DECODER.vf
+sch2verilog -intstyle ise -family spartan3a   -w "F:/FPGA/AFG3000_FPGA_0504/DECODER.sch" DECODER.vf
+sch2verilog -intstyle ise -family spartan3a   -w "F:/FPGA/AFG3000_FPGA_0504/DECODER.sch" DECODER.vf

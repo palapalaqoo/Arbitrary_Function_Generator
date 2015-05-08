@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="LIT" num="243" delta="unknown" >Logical network <arg fmt="%s" index="1">Burst_INCRE_VU&lt;14&gt;</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="395" delta="unknown" >The above <arg fmt="%s" index="1">warning</arg> message <arg fmt="%s" index="2">base_net_load_rule</arg> is repeated <arg fmt="%d" index="3">190</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="4">Burst_INCRE_VU&lt;15&gt;,
+DEC_CTRL_BUS&lt;31&gt;,
+KeyPad_Values&lt;10&gt;,
+KeyPad_Values&lt;11&gt;,
+KeyPad_Values&lt;12&gt;</arg>
+To see the details of these <arg fmt="%s" index="5">warning</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="unknown" >No environment variables are currently set.
+</msg>
+
+<msg type="warning" file="LIT" num="176" delta="unknown" >Clock buffer is designated to drive clock loads. <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_ARB_MODE/CLK_TB/ARB_MODE/DCM_133/XLXI_2/CLK0_BUFG_INST&quot; (output signal=ARB_MODE/CLK_TB)</arg> has a mix of clock and non-clock loads. The non-clock loads are:
+<arg fmt="%s" index="2">Pin I0 of ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l0</arg>
+</msg>
+
+<msg type="warning" file="LIT" num="176" delta="unknown" >Clock buffer is designated to drive clock loads. <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_ARB_CLK_TB_OBUF/ARB_MODE/DDR2_16_TO_64/XLXI_130&quot; (output signal=ARB_CLK_TB_OBUF)</arg> has a mix of clock and non-clock loads. The non-clock loads are:
+<arg fmt="%s" index="2">Pin I0 of AD_Clock_SEL_not00001_INV_0</arg>
+</msg>
+
+<msg type="warning" file="LIT" num="178" delta="unknown" >Clock buffer <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXN_13/ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXI_183/CLKFX_BUFG_INST&quot; (output signal=ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXN_13)</arg> does not drive clock loads. Driving only non-clock loads with a clock buffer will cause ALL of the dedicated clock routing resources for this buffer to be wasted. The non-clock loads are:
+<arg fmt="%s" index="2">Pin CI of ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXI_179</arg>
+</msg>
+
+<msg type="warning" file="LIT" num="178" delta="unknown" >Clock buffer <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXN_15/ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXI_184/CLKFX_BUFG_INST&quot; (output signal=ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXN_15)</arg> does not drive clock loads. Driving only non-clock loads with a clock buffer will cause ALL of the dedicated clock routing resources for this buffer to be wasted. The non-clock loads are:
+<arg fmt="%s" index="2">Pin DI of ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXI_179</arg>
+</msg>
+
+<msg type="warning" file="LIT" num="176" delta="unknown" >Clock buffer is designated to drive clock loads. <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_CLK_6MHz/FM_Mode/XLXI_13/Q_BUFG&quot; (output signal=CLK_6MHz)</arg> has a mix of clock and non-clock loads. The non-clock loads are:
+<arg fmt="%s" index="2">Pin DI of FM_Mode/XLXI_30</arg>
+</msg>
+
+<msg type="info" file="LIT" num="66" delta="unknown" >BUFGMUX chain detected. Two or more BUFMGUXs are connected in series. Because non-standard routing resources must be used to connect the BUFGMUXs, this chain can result in: 1) skew between the clocks derived from outputs of different stages of this chain, and/or 2) skew between the resulting clock and clocks that use other BUFGMUX paths.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">ARB_MODE/MIG_20/top_00/data_path0/dqs_delayed_col1&lt;0&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">ARB_MODE/MIG_20/top_00/data_path0/dqs_delayed_col0&lt;0&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">ARB_MODE/MIG_20/top_00/data_path0/dqs_delayed_col1&lt;1&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">ARB_MODE/MIG_20/top_00/data_path0/dqs_delayed_col0&lt;1&gt;</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">ARB_MODE/DDR2_16_TO_64/XLXI_1/CLK_RESET</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="772" delta="unknown" >To achieve optimal frequency synthesis performance with the CLKFX and CLKFX180 outputs of the DCM comp <arg fmt="%s" index="1">ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXI_183/DCM_SP_INST</arg>, consult the device Interactive Data Sheet.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="772" delta="unknown" >To achieve optimal frequency synthesis performance with the CLKFX and CLKFX180 outputs of the DCM comp <arg fmt="%s" index="1">DCM_INTRST/DCM214MHz/DCM_SP_INST</arg>, consult the device Interactive Data Sheet.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="772" delta="unknown" >To achieve optimal frequency synthesis performance with the CLKFX and CLKFX180 outputs of the DCM comp <arg fmt="%s" index="1">ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXI_184/DCM_SP_INST</arg>, consult the device Interactive Data Sheet.
+</msg>
+
+<msg type="info" file="PhysDesignRules" num="772" delta="unknown" >To achieve optimal frequency synthesis performance with the CLKFX and CLKFX180 outputs of the DCM comp <arg fmt="%s" index="1">ARB_MODE/DCM_133/XLXI_1/DCM_SP_INST</arg>, consult the device Interactive Data Sheet.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1155" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">ARB_MODE/DDR2_16_TO_64/XLXI_3/Mram_MEMORY1</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16BWE_RAMB16BWE</arg>&gt;.  The block is configured to use input parity pin DIAP0. There is dangling output for parity pin DOPA0.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux000010</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux000011</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux000012</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux000013</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux000014</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux000015</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux000016</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">FSK_Rate_Mode/FSK_CRT/Mrom_Ctrl_Value_mux0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Burst_Ctrl_Mode/BC_Rear1/BP_INT/BPRT/Mrom_Ctrl_Value_mux0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux00001</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux00002</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux00003</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux00004</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux00005</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux00006</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux00007</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux00008</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="unknown" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">INTDDFS/DDFS_LUT/Mrom_Data_out_mux00009</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+</messages>
+

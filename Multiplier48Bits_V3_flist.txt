@@ -1,0 +1,12 @@
+# Output products list for <Multiplier48Bits_V3>
+Multiplier48Bits_V3.asy
+Multiplier48Bits_V3.ngc
+Multiplier48Bits_V3.sym
+Multiplier48Bits_V3.v
+Multiplier48Bits_V3.veo
+Multiplier48Bits_V3.vhd
+Multiplier48Bits_V3.vho
+Multiplier48Bits_V3.xco
+Multiplier48Bits_V3_flist.txt
+Multiplier48Bits_V3_mult_gen_v10_1_xst_1.ngc_xst.xrpt
+Multiplier48Bits_V3_xmdf.tcl

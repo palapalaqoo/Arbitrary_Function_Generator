@@ -1,0 +1,163 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 10.1.03
+//  \   \         Application : sch2verilog
+//  /   /         Filename : DDR2_16_TO_64_RW.vf
+// /___/   /\     Timestamp : 12/02/2009 17:28:37
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\Xilinx\10.1\ISE\bin\nt\unwrapped\sch2verilog.exe -intstyle ise -family spartan3a -w "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+//Design Name: DDR2_16_TO_64_RW
+//Device: spartan3a
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module DDR2_16_TO_64_RW(ADDR_IN, 
+                        ar_done, 
+                        ar_req, 
+                        CLK_IN, 
+                        CLK_IN_90, 
+                        CMD_ACK, 
+                        DATA_VALID_IN, 
+                        EXT_CLK, 
+                        INIT_DONE, 
+                        READED_DATA_IN, 
+                        WRITE_DATA_IN, 
+                        WRITE_IN, 
+                        ADDR_OUT, 
+                        ARB_CLK, 
+                        ARB_SEL, 
+                        BURST_DONE_OUT, 
+                        CMD_OUT, 
+                        READ_DATA_OUT, 
+                        SYNC_OUT, 
+                        WRITE_DATA_OUT);
+
+    input [25:0] ADDR_IN;
+    input ar_done;
+    input ar_req;
+    input CLK_IN;
+    input CLK_IN_90;
+    input CMD_ACK;
+    input DATA_VALID_IN;
+    input EXT_CLK;
+    input INIT_DONE;
+    input [31:0] READED_DATA_IN;
+    input [15:0] WRITE_DATA_IN;
+    input WRITE_IN;
+   output [25:0] ADDR_OUT;
+   output ARB_CLK;
+   output ARB_SEL;
+   output BURST_DONE_OUT;
+   output [2:0] CMD_OUT;
+   output [15:0] READ_DATA_OUT;
+   output SYNC_OUT;
+   output [31:0] WRITE_DATA_OUT;
+   
+   wire [19:0] SYNC_CNT;
+   wire SYNC_VALID;
+   wire [25:0] TB_BUFF_AOUT;
+   wire [63:0] TB_BUFF_DATA_OUT;
+   wire TB_BUFF_WRIGHT_OUT;
+   wire XLXN_33;
+   wire [2:0] XLXN_34;
+   wire [25:0] XLXN_35;
+   wire [31:0] XLXN_36;
+   wire XLXN_37;
+   wire [2:0] XLXN_38;
+   wire [25:0] XLXN_39;
+   wire XLXN_42;
+   wire XLXN_44;
+   wire XLXN_47;
+   wire [31:0] XLXN_49;
+   wire [31:0] XLXN_66;
+   wire [31:0] XLXN_67;
+   wire XLXN_249;
+   wire [1:0] XLXN_252;
+   wire XLXN_253;
+   wire ARB_CLK_DUMMY;
+   
+   assign ARB_CLK = ARB_CLK_DUMMY;
+   BUFF XLXI_1 (.Addr_in(ADDR_IN[25:0]), 
+                .CLK_DDS_IN(EXT_CLK), 
+                .CLK133(CLK_IN), 
+                .Data_in(WRITE_DATA_IN[15:0]), 
+                .Write_in(WRITE_IN), 
+                .Addr_out(TB_BUFF_AOUT[25:0]), 
+                .ARB_CLK_S(XLXN_252[1:0]), 
+                .ARB_SEL(ARB_SEL), 
+                .ARB_SIZE_OUT(XLXN_49[31:0]), 
+                .DAC0_ACT(XLXN_47), 
+                .Data_out(TB_BUFF_DATA_OUT[63:0]), 
+                .DCM_RESET(XLXN_249), 
+                .SYNC_END(XLXN_67[31:0]), 
+                .SYNC_START(XLXN_66[31:0]), 
+                .Write_enable_out(TB_BUFF_WRIGHT_OUT));
+   Write_Controler XLXI_2 (.Addr_in(TB_BUFF_AOUT[25:0]), 
+                           .ar_done(ar_done), 
+                           .ar_req(ar_req), 
+                           .CLK_in(CLK_IN), 
+                           .CLK_in_90(CLK_IN_90), 
+                           .CMD_ack(CMD_ACK), 
+                           .Data_in(TB_BUFF_DATA_OUT[63:0]), 
+                           .Init_done(INIT_DONE), 
+                           .Write_in(TB_BUFF_WRIGHT_OUT), 
+                           .Addr_out(XLXN_35[25:0]), 
+                           .Burst_Done_out(XLXN_33), 
+                           .CMD_out(XLXN_34[2:0]), 
+                           .Data_out(XLXN_36[31:0]), 
+                           .WRITE_OUT(XLXN_44));
+   Read_Controler XLXI_3 (.ARB_SIZE32_IN(XLXN_49[31:0]), 
+                          .ar_done(ar_done), 
+                          .ar_req(ar_req), 
+                          .CLK_in(CLK_IN), 
+                          .CLK_in_90(CLK_IN_90), 
+                          .CMD_ACK_in(CMD_ACK), 
+                          .DAC_ACT(XLXN_47), 
+                          .Data_valid_in(DATA_VALID_IN), 
+                          .DCM_200M(ARB_CLK_DUMMY), 
+                          .Init_done(INIT_DONE), 
+                          .Readed_data_in(READED_DATA_IN[31:0]), 
+                          .Addr_out(XLXN_39[25:0]), 
+                          .Burst_done_out(XLXN_37), 
+                          .CMD_out(XLXN_38[2:0]), 
+                          .Data_out(READ_DATA_OUT[15:0]), 
+                          .READ_OUT(XLXN_42), 
+                          .SYNC_CNT_OUT(SYNC_CNT[19:0]), 
+                          .SYNC_VAILD(SYNC_VALID));
+   RW_SELECTER XLXI_4 (.ADDR_IN_R(XLXN_39[25:0]), 
+                       .ADDR_IN_W(XLXN_35[25:0]), 
+                       .BURST_DONE_R(XLXN_37), 
+                       .BURST_DONE_W(XLXN_33), 
+                       .CMD_IN_R(XLXN_38[2:0]), 
+                       .CMD_IN_W(XLXN_34[2:0]), 
+                       .DATA_IN_R(), 
+                       .DATA_IN_W(XLXN_36[31:0]), 
+                       .READ_IN(XLXN_42), 
+                       .WRITE_IN(XLXN_44), 
+                       .ADDR_OUT(ADDR_OUT[25:0]), 
+                       .BURST_DONE_OUT(BURST_DONE_OUT), 
+                       .CMD_OUT(CMD_OUT[2:0]), 
+                       .DATA_OUT(WRITE_DATA_OUT[31:0]));
+   SYNC XLXI_5 (.ARB_SIZE_IN(XLXN_49[31:0]), 
+                .CLK200(ARB_CLK_DUMMY), 
+                .END_IN(XLXN_67[31:0]), 
+                .START_IN(XLXN_66[31:0]), 
+                .SYNC_CNT_IN(SYNC_CNT[19:0]), 
+                .SYNC_VALID(SYNC_VALID), 
+                .SYNC_OUT(SYNC_OUT));
+   BUFG XLXI_130 (.I(XLXN_253), 
+                  .O(ARB_CLK_DUMMY));
+   ARB_CLK_GEN XLXI_182 (.AD9834_CLK(EXT_CLK), 
+                         .DCM_RESET(XLXN_249), 
+                         .S(XLXN_252[1:0]), 
+                         .ARB_CLK_OUT(XLXN_253));
+endmodule

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RootFolder label="COREGEN" treetype="folder" language="COREGEN">
+	<Folder label="VERILOG Component Instantiation" treetype="folder">
+		<Template label="Multiplier48Bits_V3" treetype="template">
+ 
+ 
+// The following must be inserted into your Verilog file for this
+// core to be instantiated. Change the instance name and port connections
+// (in parentheses) to your own signal names.
+ 
+Multiplier48Bits_V3 YourInstanceName (
+    .clk(clk),
+    .a(a), // Bus [11 : 0] 
+    .b(b), // Bus [47 : 0] 
+    .ce(ce),
+    .p(p)); // Bus [47 : 0] 
+
+ 
+		</Template>
+	</Folder>
+	<Folder label="VHDL Component Instantiation" treetype="folder">
+		<Template label="Multiplier48Bits_V3" treetype="template">
+ 
+ 
+-- The following code must appear in the VHDL architecture header:
+ 
+component Multiplier48Bits_V3
+    port (
+    clk: IN std_logic;
+    a: IN std_logic_VECTOR(11 downto 0);
+    b: IN std_logic_VECTOR(47 downto 0);
+    ce: IN std_logic;
+    p: OUT std_logic_VECTOR(47 downto 0));
+end component;
+
+
+ 
+-------------------------------------------------------------
+ 
+-- The following code must appear in the VHDL architecture body.
+-- Substitute your own instance name and net names.
+ 
+your_instance_name : Multiplier48Bits_V3
+        port map (
+            clk =&gt; clk,
+            a =&gt; a,
+            b =&gt; b,
+            ce =&gt; ce,
+            p =&gt; p);
+ 
+		</Template>
+	</Folder>
+</RootFolder>

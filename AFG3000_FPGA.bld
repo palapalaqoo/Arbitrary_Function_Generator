@@ -1,0 +1,308 @@
+Release 10.1.03 ngdbuild K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+Command Line: D:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise D:/AFG3000
+project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/
+AFG3000_FPGA_0504_BACKUP/AFG3000_FPGA_0504.ise -intstyle ise -dd _ngo -nt
+timestamp -i -p xc3s1400a-fg484-4 AFG3000_FPGA.ngc AFG3000_FPGA.ngd
+
+Reading NGO file "D:/AFG3000
+project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/
+AFG3000_FPGA_0504_BACKUP/AFG3000_FPGA.ngc" ...
+Loading design module "D:\AFG3000
+project\FPGA\AFG3000_FPGA_20091031_BACKUP_CANBEUSE\AFG3000_FPGA_20091031_BACKUP\
+AFG3000_FPGA_0504_BACKUP/Triangle_RAM1K.ngc"...
+Loading design module "D:\AFG3000
+project\FPGA\AFG3000_FPGA_20091031_BACKUP_CANBEUSE\AFG3000_FPGA_20091031_BACKUP\
+AFG3000_FPGA_0504_BACKUP/RAM4K_V2.ngc"...
+Loading design module "D:\AFG3000
+project\FPGA\AFG3000_FPGA_20091031_BACKUP_CANBEUSE\AFG3000_FPGA_20091031_BACKUP\
+AFG3000_FPGA_0504_BACKUP/Multiplier48Bits_V3.ngc"...
+Reading in constraint information from 'AFG3000_FPGA.ucf'...
+Gathering constraint information from source properties...
+Done.
+
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'Clock', used in period specification
+   'TS_Clock', was traced into DCM_SP instance DCM_SP_INST. The following new
+   TNM groups and period specifications were generated at the DCM_SP output(s): 
+   CLK2X: <TIMESPEC TS_DCM_INTRST_DCM214MHz_CLK2X_BUF_0 = PERIOD
+   "DCM_INTRST_DCM214MHz_CLK2X_BUF_0" TS_Clock * 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'Clock', used in period specification
+   'TS_Clock', was traced into DCM_SP instance DCM_SP_INST. The following new
+   TNM groups and period specifications were generated at the DCM_SP output(s): 
+   CLKFX: <TIMESPEC TS_DCM_INTRST_DCM214MHz_CLKFX_BUF_0 = PERIOD
+   "DCM_INTRST_DCM214MHz_CLKFX_BUF_0" TS_Clock * 4 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'Clock', used in period specification
+   'TS_Clock', was traced into DCM_SP instance DCM_SP_INST. The following new
+   TNM groups and period specifications were generated at the DCM_SP output(s): 
+   CLKFX: <TIMESPEC TS_ARB_MODE_DCM_133_XLXN_6_0 = PERIOD
+   "ARB_MODE_DCM_133_XLXN_6_0" TS_Clock * 2.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'ARB_EDDS_SIN', used in period specification
+   'TS_ARB_EDDS_SIN', was traced into DCM_SP instance DCM_SP_INST. The following
+   new TNM groups and period specifications were generated at the DCM_SP
+   output(s): 
+   CLKFX: <TIMESPEC TS_ARB_MODE_DDR2_16_TO_64_XLXI_182_XLXI_183_CLKFX_BUF =
+   PERIOD "ARB_MODE_DDR2_16_TO_64_XLXI_182_XLXI_183_CLKFX_BUF" TS_ARB_EDDS_SIN *
+   16 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'ARB_EDDS_SIN', used in period specification
+   'TS_ARB_EDDS_SIN', was traced into DCM_SP instance DCM_SP_INST. The following
+   new TNM groups and period specifications were generated at the DCM_SP
+   output(s): 
+   CLKFX: <TIMESPEC TS_ARB_MODE_DDR2_16_TO_64_XLXI_182_XLXI_184_CLKFX_BUF =
+   PERIOD "ARB_MODE_DDR2_16_TO_64_XLXI_182_XLXI_184_CLKFX_BUF" TS_ARB_EDDS_SIN *
+   4 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'ARB_MODE_DCM_133_XLXN_6', used in period
+   specification 'TS_ARB_MODE_DCM_133_XLXN_6', was traced into DCM_SP instance
+   DCM_SP_INST. The following new TNM groups and period specifications were
+   generated at the DCM_SP output(s): 
+   CLK0: <TIMESPEC TS_ARB_MODE_DCM_133_XLXI_2_CLK0_BUF_0 = PERIOD
+   "ARB_MODE_DCM_133_XLXI_2_CLK0_BUF_0" TS_ARB_MODE_DCM_133_XLXN_6 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'ARB_MODE_DCM_133_XLXN_6', used in period
+   specification 'TS_ARB_MODE_DCM_133_XLXN_6', was traced into DCM_SP instance
+   DCM_SP_INST. The following new TNM groups and period specifications were
+   generated at the DCM_SP output(s): 
+   CLK90: <TIMESPEC TS_ARB_MODE_XLXN_339_0 = PERIOD "ARB_MODE_XLXN_339_0"
+   TS_ARB_MODE_DCM_133_XLXN_6 PHASE 1.852 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'ARB_MODE_DCM_133_XLXN_6_0', used in period
+   specification 'TS_ARB_MODE_DCM_133_XLXN_6_0', was traced into DCM_SP instance
+   DCM_SP_INST. The following new TNM groups and period specifications were
+   generated at the DCM_SP output(s): 
+   CLK0: <TIMESPEC TS_ARB_MODE_DCM_133_XLXI_2_CLK0_BUF_1 = PERIOD
+   "ARB_MODE_DCM_133_XLXI_2_CLK0_BUF_1" TS_ARB_MODE_DCM_133_XLXN_6_0 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'ARB_MODE_DCM_133_XLXN_6_0', used in period
+   specification 'TS_ARB_MODE_DCM_133_XLXN_6_0', was traced into DCM_SP instance
+   DCM_SP_INST. The following new TNM groups and period specifications were
+   generated at the DCM_SP output(s): 
+   CLK90: <TIMESPEC TS_ARB_MODE_XLXN_339_1 = PERIOD "ARB_MODE_XLXN_339_1"
+   TS_ARB_MODE_DCM_133_XLXN_6_0 PHASE 1.852 ns HIGH 50%>
+
+Done...
+Checking Partitions ...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'Burst_INCRE_VU<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'Burst_INCRE_VU<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_CTRL_BUS<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'KeyPad_Values<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'KeyPad_Values<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'KeyPad_Values<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'KeyPad_Values<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'KeyPad_Values<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'KeyPad_Values<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'KeyPad_Values<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'KeyPad_Values<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'N37' has no driver
+WARNING:NgdBuild:452 - logical net 'N38' has no driver
+WARNING:NgdBuild:452 - logical net 'N39' has no driver
+WARNING:NgdBuild:452 - logical net 'N40' has no driver
+WARNING:NgdBuild:452 - logical net 'N41' has no driver
+WARNING:NgdBuild:452 - logical net 'N42' has no driver
+WARNING:NgdBuild:452 - logical net 'N43' has no driver
+WARNING:NgdBuild:452 - logical net 'N44' has no driver
+WARNING:NgdBuild:452 - logical net 'N45' has no driver
+WARNING:NgdBuild:452 - logical net 'N46' has no driver
+WARNING:NgdBuild:452 - logical net 'N47' has no driver
+WARNING:NgdBuild:452 - logical net 'N48' has no driver
+WARNING:NgdBuild:452 - logical net 'N49' has no driver
+WARNING:NgdBuild:452 - logical net 'N50' has no driver
+WARNING:NgdBuild:452 - logical net 'N51' has no driver
+WARNING:NgdBuild:452 - logical net 'N52' has no driver
+WARNING:NgdBuild:452 - logical net 'N53' has no driver
+WARNING:NgdBuild:452 - logical net 'N54' has no driver
+WARNING:NgdBuild:452 - logical net 'N55' has no driver
+WARNING:NgdBuild:452 - logical net 'N56' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/DAC7821_DECOUT_Temp<10>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/DAC7821_DECOUT_Temp<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/DAC7821_DECOUT_Temp<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/DEC_DAC7821_DECOUT<10>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/DEC_DAC7821_DECOUT<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/DEC_DAC7821_DECOUT<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'DEC_DAC/OPCTRL_V2<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'DECOPCTRL_DPATH/Dout<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'DECOPCTRL_DPATH/OPC_PATHT00<31>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'DECOPCTRL_DPATH/OPC_PATHT01<31>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'Burst_INCRE_PATH/Burst_INCRE_VU00<14>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'Burst_INCRE_PATH/Burst_INCRE_VU00<15>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'Burst_INCRE_PATH/Burst_INCRE_VU01<14>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'Burst_INCRE_PATH/Burst_INCRE_VU01<15>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'Burst_INCRE_PATH/Burst_INCRE_VU02<14>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'Burst_INCRE_PATH/Burst_INCRE_VU02<15>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'Burst_INCRE_PATH/Dout<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'Burst_INCRE_PATH/Dout<15>' has no driver
+WARNING:NgdBuild:478 - clock net DCM_INTRST/CLK2XD180_O with clock driver
+   DCM_INTRST/DCM214MHz/CLK2X180_BUFG_INST drives no clock pins
+WARNING:NgdBuild:478 - clock net DCM_INTRST/CLKD180_O with clock driver
+   DCM_INTRST/DCM214MHz/CLK180_BUFG_INST drives no clock pins
+WARNING:NgdBuild:478 - clock net DCM_INTRST/CLKD270_O with clock driver
+   DCM_INTRST/DCM214MHz/CLK270_BUFG_INST drives no clock pins
+WARNING:NgdBuild:478 - clock net DCM_INTRST/CLKD90_O with clock driver
+   DCM_INTRST/DCM214MHz/CLK90_BUFG_INST drives no clock pins
+WARNING:NgdBuild:478 - clock net DCM_INTRST/CLKDV_O with clock driver
+   DCM_INTRST/DCM214MHz/CLKDV_BUFG_INST drives no clock pins
+WARNING:NgdBuild:478 - clock net DCM_INTRST/CLKFXD180_O with clock driver
+   DCM_INTRST/DCM214MHz/CLKFX180_BUFG_INST drives no clock pins
+WARNING:NgdBuild:478 - clock net DCM_INTRST/PSCLK270_OUT with clock driver
+   DCM_INTRST/DCM214MHz_SP/CLK270_BUFG_INST drives no clock pins
+WARNING:NgdBuild:478 - clock net DCM_INTRST/PSCLK90_OUT with clock driver
+   DCM_INTRST/DCM214MHz_SP/CLK90_BUFG_INST drives no clock pins
+WARNING:NgdBuild:452 - logical net 'FSK_Rate_Mode/FSK_ACC/Carry_out' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'FM_Mode/XLXI_43/CO' has no driver
+WARNING:NgdBuild:452 - logical net 'FM_Mode/XLXI_43/OFL' has no driver
+WARNING:NgdBuild:452 - logical net 'FM_Mode/XLXI_6/OFL' has no driver
+WARNING:NgdBuild:452 - logical net 'FM_Mode/XLXI_8/CO' has no driver
+WARNING:NgdBuild:452 - logical net 'FM_Mode/XLXI_8/OFL' has no driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/ARB_SELECTED' has no driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/TB_MIG_CMD<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/XLXN_299<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/XLXN_299<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/XLXN_333<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_34<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_34<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_49<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_49<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_49<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_49<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_49<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_49<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_49<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_49<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_49<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_49<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_49<30>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_49<31>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_66<20>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_66<21>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_66<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_66<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_66<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_66<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_66<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_66<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_66<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_66<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_66<30>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_66<31>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_67<20>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_67<21>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_67<22>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_67<23>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_67<24>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_67<25>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_67<26>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_67<27>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_67<28>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_67<29>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_67<30>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'ARB_MODE/DDR2_16_TO_64/XLXN_67<31>' has no
+   driver
+WARNING:NgdBuild:478 - clock net ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXN_13 with
+   clock driver ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXI_183/CLKFX_BUFG_INST drives
+   no clock pins
+WARNING:NgdBuild:478 - clock net ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXN_15 with
+   clock driver ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXI_184/CLKFX_BUFG_INST drives
+   no clock pins
+WARNING:NgdBuild:452 - logical net 'Burst_Ctrl_Mode/Reset_Ctrl' has no driver
+WARNING:NgdBuild:452 - logical net 'Burst_Ctrl_Mode/BC_Rear1/BP_INT/PCO' has no
+   driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 134
+
+Total memory usage is 107068 kilobytes
+
+Writing NGD file "AFG3000_FPGA.ngd" ...
+
+Writing NGDBUILD log file "AFG3000_FPGA.bld"...

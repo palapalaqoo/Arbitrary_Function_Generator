@@ -1,0 +1,14 @@
+sch2verilog -intstyle ise -family spartan3a   -w "F:/FPGA/AFG3000_FPGA_0504/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "F:/FPGA/AFG3000_FPGA_0504/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "F:/FPGA/AFG3000_FPGA_0504/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "F:/FPGA/AFG3000_FPGA_0504/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "F:/FPGA/AFG3000_FPGA_0504/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "F:/FPGA/AFG3000_FPGA_0504/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "F:/FPGA/AFG3000_FPGA_0504/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "C:/Data/E_DISK/test_project/spartan3a/case/799922/AFG3000_FPGA_0504_BACKUP/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "D:/Jinkun/AFG-3000/For China/AFG3000_FPGA_0504_BACKUP/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "D:/Jinkun/AFG-3000/For China/AFG3000_FPGA_0504_BACKUP/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "D:/AFG3000_FPGA_0504_BACKUP/AFG3000_FPGA_0504_BACKUP/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "D:/Jinkun/AFG-3000/For China/AFG3000_FPGA_0504_BACKUP_0926_OK/AFG3000_FPGA_0504_BACKUP/AFG3000_FPGA_0504_BACKUP/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf
+sch2verilog -intstyle ise -family spartan3a   -w "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/DDR2_16_TO_64_RW.sch" DDR2_16_TO_64_RW.vf

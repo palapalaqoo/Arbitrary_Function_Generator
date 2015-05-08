@@ -1,0 +1,55 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 10.1.03
+//  \   \         Application : sch2verilog
+//  /   /         Filename : ARB_CLK_GEN.vf
+// /___/   /\     Timestamp : 12/02/2009 17:28:43
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\Xilinx\10.1\ISE\bin\nt\unwrapped\sch2verilog.exe -intstyle ise -family spartan3a -w "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/ARB_CLK_GEN.sch" ARB_CLK_GEN.vf
+//Design Name: ARB_CLK_GEN
+//Device: spartan3a
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ARB_CLK_GEN(AD9834_CLK, 
+                   DCM_RESET, 
+                   S, 
+                   ARB_CLK_OUT);
+
+    input AD9834_CLK;
+    input DCM_RESET;
+    input [1:0] S;
+   output ARB_CLK_OUT;
+   
+   wire XLXN_11;
+   wire XLXN_13;
+   wire XLXN_15;
+   
+   MUXCY XLXI_179 (.CI(XLXN_13), 
+                   .DI(XLXN_15), 
+                   .S(S[1]), 
+                   .O(XLXN_11));
+   MUXCY XLXI_180 (.CI(XLXN_11), 
+                   .DI(AD9834_CLK), 
+                   .S(S[0]), 
+                   .O(ARB_CLK_OUT));
+   DCM_MUL_16 XLXI_183 (.CLKIN_IN(AD9834_CLK), 
+                        .RST_IN(DCM_RESET), 
+                        .CLKFX_OUT(XLXN_13), 
+                        .CLK_90(), 
+                        .CLK0_OUT());
+   DCM_MUL_4 XLXI_184 (.CLKIN_IN(AD9834_CLK), 
+                       .RST_IN(DCM_RESET), 
+                       .CLKFX_OUT(XLXN_15), 
+                       .CLK_90(), 
+                       .CLK0_OUT());
+endmodule

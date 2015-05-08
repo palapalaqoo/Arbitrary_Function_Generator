@@ -1,0 +1,1119 @@
+Release 10.1.03 - xst K.39 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter xsthdpdir set to F:/FPGA/AFG3000_FPGA_0504/xst\
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> 
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> WARNING:Xst:1363 - Option "-crit" is not available for command run.
+WARNING:Xst:1363 - Option "-opt_level_power" is not available for command run.
+WARNING:Xst:1363 - Option "-mapstyle" is not available for command run.
+WARNING:Xst:1363 - Option "-t" is not available for command run.
+WARNING:Xst:1363 - Option "-addsub_extract" is not available for command run.
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "AFG3000_FPGA.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "AFG3000_FPGA"
+Output Format                      : NGC
+Target Device                      : xc3s1400a-4-fg484
+
+---- Source Options
+Top Module Name                    : AFG3000_FPGA
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : NO
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+FSM Encoding Algorithm             : Auto
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+Mapping Style                      : lut
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : AFG3000_FPGA.lso
+Keep Hierarchy                     : SOFT
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+Optimization Goal                  : Speed
+
+---- Other Options
+opt_level_power                    : 1
+t                                  : XILINX
+addsub_extract                     : yes
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_parameters_0.vhd" in Library work.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_s3_dm_iob_0.vhd" in Library work.
+Architecture arc of Entity mig20_s3_dm_iob_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_s3_dqs_iob.vhd" in Library work.
+Architecture arc of Entity mig20_s3_dqs_iob is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_s3_dq_iob.vhd" in Library work.
+Architecture arc of Entity mig20_s3_dq_iob is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_dqs_delay_0.vhd" in Library work.
+Architecture arc_dqs_delay of Entity mig20_dqs_delay is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_fifo_0_wr_en_0.vhd" in Library work.
+Architecture arc of Entity mig20_fifo_0_wr_en_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_fifo_1_wr_en_0.vhd" in Library work.
+Architecture arc of Entity mig20_fifo_1_wr_en_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_wr_gray_cntr.vhd" in Library work.
+Architecture arc of Entity mig20_wr_gray_cntr is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_rd_gray_cntr.vhd" in Library work.
+Architecture arc of Entity mig20_rd_gray_cntr is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_ram8d_0.vhd" in Library work.
+Architecture arc of Entity mig20_ram8d_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_cal_ctl_0.vhd" in Library work.
+Architecture arc_cal_ctl of Entity mig20_cal_ctl is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_tap_dly.vhd" in Library work.
+Architecture arc_tap_dly of Entity mig20_tap_dly is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_infrastructure_iobs_0.vhd" in Library work.
+Architecture arc of Entity mig20_infrastructure_iobs_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_controller_iobs_0.vhd" in Library work.
+Architecture arc of Entity mig20_controller_iobs_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_data_path_iobs_0.vhd" in Library work.
+Architecture arc of Entity mig20_data_path_iobs_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_data_read_0.vhd" in Library work.
+Architecture arc of Entity mig20_data_read_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_data_read_controller_0.vhd" in Library work.
+Architecture arc of Entity mig20_data_read_controller_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_data_write_0.vhd" in Library work.
+Architecture arc of Entity mig20_data_write_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_cal_top.vhd" in Library work.
+Architecture arc of Entity mig20_cal_top is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_controller_0.vhd" in Library work.
+Architecture arc of Entity mig20_controller_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_data_path_0.vhd" in Library work.
+Architecture arc of Entity mig20_data_path_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_infrastructure.vhd" in Library work.
+Architecture arc of Entity mig20_infrastructure is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_iobs_0.vhd" in Library work.
+Architecture arc of Entity mig20_iobs_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_top_0.vhd" in Library work.
+Architecture arc of Entity mig20_top_0 is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20_infrastructure_top0_0.vhd" in Library work.
+Architecture arc of Entity mig20_infrastructure_top is up to date.
+Compiling vhdl file "F:/FPGA/AFG3000_FPGA_0504/mig20.vhd" in Library work.
+Architecture arc_mem_interface_top of Entity mig20 is up to date.
+Compiling verilog file "DFF.v" in library work
+Compiling verilog file "BufReg1B.v" in library work
+Module <DFF> compiled
+Compiling verilog file "Pulse_Rear.v" in library work
+Module <BufReg1B> compiled
+Compiling verilog file "Pulse_Front.v" in library work
+Module <Pulse_Rear> compiled
+Compiling verilog file "PSWR_Path.v" in library work
+Module <Pulse_Front> compiled
+Compiling verilog file "Maunal_Trigger.v" in library work
+Module <PSWR_Path> compiled
+Compiling verilog file "Manual_Trigger_Single_Rear.v" in library work
+Module <Maunal_Trigger> compiled
+Compiling verilog file "Manual_Trigger_Single_Front.v" in library work
+Module <Manual_Trigger_Single_Rear> compiled
+Compiling verilog file "Infinite_Trigout_Single_Rear.v" in library work
+Module <Manual_Trigger_Single_Front> compiled
+Compiling verilog file "Infinite_Trigout_Mux.v" in library work
+Module <Infinite_Trigout_Single_Rear> compiled
+Compiling verilog file "Infinite_Mode_Mux.v" in library work
+Module <Infinite_Trigout_Mux> compiled
+Compiling verilog file "Counter34B.v" in library work
+Module <Infinite_Mode_Mux> compiled
+Compiling verilog file "Pulse_Trig.v" in library work
+Module <Counter34B> compiled
+Compiling verilog file "Period_Reg2bits.v" in library work
+Module <Pulse_Trig> compiled
+Compiling verilog file "Period_ACC_2bits.v" in library work
+Module <Period_Reg2bits> compiled
+Compiling verilog file "Maunal_Trigger_Rear.v" in library work
+Module <Period_acc_2bits> compiled
+Compiling verilog file "Latency_Buf1B.v" in library work
+Module <Maunal_Trigger_Rear> compiled
+Compiling verilog file "Infinite_Trigout.v" in library work
+Module <Latency_Buf1B> compiled
+Compiling verilog file "Infinite_circuit.v" in library work
+Module <Infinite_Trigout> compiled
+Compiling verilog file "BPMC_Pulse.v" in library work
+Module <Infinite_circuit> compiled
+Compiling verilog file "Reg_12bits.v" in library work
+Module <BPMC_Pulse> compiled
+Compiling verilog file "Reg2bits.v" in library work
+Module <Reg_12bits> compiled
+Compiling verilog file "Pulse_Reg.v" in library work
+Module <Reg2bits> compiled
+Compiling verilog file "Peirod_ACC48bits.v" in library work
+Module <Pulse_Reg> compiled
+Compiling verilog file "Normal_Trigger.v" in library work
+Module <Period_ACC48bits> compiled
+Compiling verilog file "Normall_Trigger_Rear.v" in library work
+Module <Normal_Trigger> compiled
+Compiling verilog file "Manual_Trigger_Mode.v" in library work
+Module <Normal_Trigger_Rear> compiled
+Compiling verilog file "INFMNL_TrigOut_LPath.v" in library work
+Module <Manual_Trigger_Mode> compiled
+Compiling verilog file "Infinite_Integrate.v" in library work
+Module <INFMNL_TrigOut_LPath> compiled
+Compiling verilog file "IFandML_MUX.v" in library work
+Module <Infinite_Integrate> compiled
+Compiling verilog file "Gated_Reg1bit.v" in library work
+Module <IFandML_MUX> compiled
+Compiling verilog file "Gated_ENReg1bit.v" in library work
+Module <Gated_Reg1bit> compiled
+Compiling verilog file "Comp_Reg20bits.v" in library work
+Module <Gated_ENReg1bit> compiled
+Compiling verilog file "Comp_Reg1bits.v" in library work
+Module <Comp_Reg20bits> compiled
+Compiling verilog file "compare.v" in library work
+Module <Comp_Reg1bits> compiled
+Compiling verilog file "Burst_Period_ROM12bits.v" in library work
+Module <compare> compiled
+Compiling verilog file "Burst_Period_Reg1B.v" in library work
+Module <Burst_Period_ROMTable> compiled
+Compiling verilog file "BPMC_Reg1bits.v" in library work
+Module <Burst_Period_Reg1B> compiled
+Compiling verilog file "BPMC_Mux.v" in library work
+Module <BPMC_Reg1bits> compiled
+Compiling verilog file "BPMC_Ctrl.v" in library work
+Module <BPMC_Mux> compiled
+Compiling verilog file "Amount_Reg20B.v" in library work
+Module <BPMC_Ctrl> compiled
+Compiling verilog file "Amount_Reg1B.v" in library work
+Module <Amount_Reg20B> compiled
+Compiling verilog file "ACC_2bits.v" in library work
+Module <Amount_Reg1B> compiled
+Compiling verilog file "SYNC.v" in library work
+Module <acc_2bits> compiled
+Compiling verilog file "RW_SELECTER.v" in library work
+Module <SYNC> compiled
+Compiling verilog file "Read_Controler.v" in library work
+Module <RW_SELECTER> compiled
+Compiling verilog file "Pulse_wave.v" in library work
+Module <Read_Controler> compiled
+Compiling verilog file "OPN_Sel.v" in library work
+Module <Pulse_wave> compiled
+Compiling verilog file "Normal_TrigOut_LPath.v" in library work
+Module <OPN_Sel> compiled
+Compiling verilog file "Normal_Trigger_Mode.v" in library work
+Module <Normal_TrigOut_LPath> compiled
+Compiling verilog file "Infinite_merge_Manual.v" in library work
+Module <Normal_Trigger_Mode> compiled
+Compiling verilog file "INC_Amount.v" in library work
+Module <Infinite_merge_Manual> compiled
+Compiling verilog file "Gobal_DCM.v" in library work
+Module <INC_Amount> compiled
+Compiling verilog file "GobalCLK.v" in library work
+Module <Gobal_DCM> compiled
+Compiling verilog file "Gated_SIG.v" in library work
+Module <GobalCLK> compiled
+Compiling verilog file "GatedPN_Sel.v" in library work
+Module <Gated_SIG> compiled
+Compiling verilog file "FSK_Reg2bits.v" in library work
+Module <GatedPN_Sel> compiled
+Compiling verilog file "FSK_ACC_2bits.v" in library work
+Module <FSK_Reg2bits> compiled
+Compiling verilog file "EGPN_Sel.v" in library work
+Module <FSK_acc_2bits> compiled
+Compiling verilog file "DCM_MUL_4.v" in library work
+Module <EGPN_Sel> compiled
+Compiling verilog file "Controler.v" in library work
+Module <DCM_MUL_4> compiled
+Compiling verilog file "compmc12.v" in library work
+Module <Write_Controler> compiled
+Compiling verilog file "comparator.v" in library work
+Module <compmc12> compiled
+Compiling verilog file "Burst_Period_EXT.v" in library work
+Module <Comparator> compiled
+Compiling verilog file "Burst_Period_48bits.v" in library work
+Module <Burst_Period_EXT> compiled
+Compiling verilog file "Burst_IE_Sel.v" in library work
+Module <Burst_Period> compiled
+Compiling verilog file "Burst_Gated_Sel.v" in library work
+Module <Burst_IE_Sel> compiled
+Compiling verilog file "BufReg14B.v" in library work
+Module <Burst_Gated_Sel> compiled
+Compiling verilog file "BUFF.v" in library work
+Module <BufReg14B> compiled
+Compiling verilog file "BTrigout_Sel.v" in library work
+Module <BUFF> compiled
+Compiling verilog file "BPMC_Mux2to1.v" in library work
+Module <BTrigout_Sel> compiled
+Compiling verilog file "Amount_Reg20bits.v" in library work
+Module <BPMC_Mux2to1> compiled
+Compiling verilog file "Amount_Count20Bits.v" in library work
+Module <Amount_Reg20bits> compiled
+Compiling verilog file "ADDSUB48.v" in library work
+Module <Burst_Amount_Count20Bits> compiled
+Module <ADSU16_HXILINX_ADDSUB48> compiled
+Compiling verilog file "AddReg2bits.v" in library work
+Module <ADDSUB48> compiled
+Compiling verilog file "Addition_2bits.v" in library work
+Module <AddReg2bits> compiled
+Compiling verilog file "ACC48bits.v" in library work
+Module <Addition_2bits> compiled
+Compiling verilog file "V1.v" in library work
+Module <ACC48bits> compiled
+Compiling verilog file "triger.v" in library work
+Module <V1> compiled
+Compiling verilog file "Triangle_RAM_DEC.v" in library work
+Module <triger> compiled
+Compiling verilog file "Triangle_RAM1K.v" in library work
+Module <Triangle_RAM_DEC> compiled
+Compiling verilog file "TReg20Bits.v" in library work
+Module <Triangle_RAM1K> compiled
+Compiling verilog file "TReg16Bits.v" in library work
+Module <TReg20Bits> compiled
+Compiling verilog file "Sweep_Time_Value.v" in library work
+Module <TReg16Bits> compiled
+Compiling verilog file "Sweep_Start_Frequency.v" in library work
+Module <Sweep_Time_Value> compiled
+Compiling verilog file "Sweep_StartEnd_DiffV.v" in library work
+Module <Sweep_Start_Frequency> compiled
+Compiling verilog file "Sweep_Marker_ValueLD.v" in library work
+Module <Sweep_StartEnd_DiffV> compiled
+Compiling verilog file "SUB48.v" in library work
+Module <Sweep_Marker_ValueLD> compiled
+Compiling verilog file "ROM_Table.v" in library work
+Module <SUB48> compiled
+Compiling verilog file "REG_SQ_VT.v" in library work
+Module <ROM_Table> compiled
+Compiling verilog file "REG_SQ_VL.v" in library work
+Module <REG_SQ_VT> compiled
+Compiling verilog file "REG_SPARE.v" in library work
+Module <REG_SQ_VL> compiled
+Compiling verilog file "REG_GAIN_V.v" in library work
+Module <REG_SPARE> compiled
+Compiling verilog file "REG_DUTY_S.v" in library work
+Module <REG_GAIN_V> compiled
+Compiling verilog file "REG_DC_OFFSET.v" in library work
+Module <REG_DUTY_S> compiled
+Compiling verilog file "REG_DAC7821_MODWAVE.v" in library work
+Module <REG_DC_OFFSET> compiled
+Compiling verilog file "RAM4K_V2.v" in library work
+Module <REG_DAC7821_MODWAVE> compiled
+Compiling verilog file "Phase_Shift.v" in library work
+Module <RAM4K_V2> compiled
+Compiling verilog file "Phase_Reg48B.v" in library work
+Module <Phase_Shift> compiled
+Compiling verilog file "Phase_Mux14B.v" in library work
+Module <Phase_Reg48B> compiled
+Compiling verilog file "Phase_Mux.v" in library work
+Module <Phase_Mux14B> compiled
+Compiling verilog file "mux32.v" in library work
+Module <Phase_Mux> compiled
+Compiling verilog file "MUX16Bits.v" in library work
+Module <mux32> compiled
+Compiling verilog file "MUX12.v" in library work
+Module <MUX16Bits> compiled
+Compiling verilog file "Multiplier48Bits_V3.v" in library work
+Module <MUX12> compiled
+Compiling verilog file "LREG_D11B.v" in library work
+Module <Multiplier48Bits_V3> compiled
+Compiling verilog file "InitialDDR2.v" in library work
+Module <LREG_D11B> compiled
+Compiling verilog file "FSK_MUX_Sel.v" in library work
+Module <InitialDDR2> compiled
+Compiling verilog file "FSK_Mux_Reg48B.v" in library work
+Module <FSK_MUX_Sel> compiled
+Compiling verilog file "FSK_IPeriod_LD42B.v" in library work
+Module <FSK_Mux_Reg48B> compiled
+Compiling verilog file "FSK_EXTSIG_Reg1B.v" in library work
+Module <FSK_IPeriod_LD42B> compiled
+Compiling verilog file "FSK_Ctrl_ROMTable.v" in library work
+Module <FSK_EXTSIG_Reg1B> compiled
+Compiling verilog file "FSK_ACC42bits.v" in library work
+Module <FSK_Ctrl_ROMTable> compiled
+Compiling verilog file "FM_SW_RAM_DEC.v" in library work
+Module <FSK_ACC42bits> compiled
+Compiling verilog file "FM_Sweep_Reg48B.v" in library work
+Module <FM_SW_RAM_DEC> compiled
+Compiling verilog file "FM_Frequency_Value.v" in library work
+Module <FM_Sweep_Reg48B> compiled
+Compiling verilog file "FM_Deviation_Value.v" in library work
+Module <FM_Frequency_Value> compiled
+Compiling verilog file "FM_CFrequency_Value.v" in library work
+Module <FM_Deviation_Value> compiled
+Compiling verilog file "FDCE_latch_48bits.v" in library work
+Module <FM_CFrequency_Value> compiled
+Compiling verilog file "FDCE_latch_16bits.v" in library work
+Module <FDCE_latch_48bits> compiled
+Compiling verilog file "FD48CLR.v" in library work
+Module <FDCE_latch_16bits> compiled
+Module <FD16CE_HXILINX_FD48CLR> compiled
+Compiling verilog file "FD12.v" in library work
+Module <FD48CLR> compiled
+Module <FD8CE_HXILINX_FD12> compiled
+Module <FD4CE_HXILINX_FD12> compiled
+Compiling verilog file "EXT_Triger.v" in library work
+Module <FD12> compiled
+Compiling verilog file "EXTSIN_REG1B.v" in library work
+Module <EXT_Triger> compiled
+Compiling verilog file "DIV.v" in library work
+Module <EXTSIN_REG1B> compiled
+Module <CB4CE_HXILINX_DIV> compiled
+Module <FTC_HXILINX_DIV> compiled
+Compiling verilog file "DEC_OP_CTRL2.v" in library work
+Module <DIV> compiled
+Compiling verilog file "DEC_OP_CTRL.v" in library work
+Module <DEC_OP_CTRL2> compiled
+Compiling verilog file "DEC_FID16B.v" in library work
+Module <DEC_OP_CTRL> compiled
+Compiling verilog file "DEC_DReg17B.v" in library work
+Module <DEC_FID16B> compiled
+Compiling verilog file "DEC_DAC7821_REG.v" in library work
+Module <DEC_DReg17B> compiled
+Compiling verilog file "DECODE_DAC7821.v" in library work
+Module <DEC_DAC7821_REG> compiled
+Compiling verilog file "Decoder_Data.v" in library work
+Module <DECODE_DAC7821> compiled
+Compiling verilog file "DDR2_16_TO_64_RW.vf" in library work
+Module <Decoder_Data> compiled
+Compiling verilog file "DDFS48bits.v" in library work
+Module <DDR2_16_TO_64_RW> compiled
+Compiling verilog file "DCM_220MHz.v" in library work
+Module <DDFS48bits> compiled
+Compiling verilog file "DCM0.vf" in library work
+Module <DCM_214MHz> compiled
+Compiling verilog file "Data_Reg48B.v" in library work
+Module <DCM0> compiled
+Compiling verilog file "Data_Reg20B.v" in library work
+Module <Data_Reg48B> compiled
+Compiling verilog file "Data_Reg16B.v" in library work
+Module <Data_Reg20B> compiled
+Compiling verilog file "CPU_Data_Addr.v" in library work
+Module <Data_Reg16B> compiled
+WARNING:HDLCompilers:299 - "CPU_Data_Addr.v" line 46 Too many digits specified in binary constant
+WARNING:HDLCompilers:299 - "CPU_Data_Addr.v" line 52 Too many digits specified in binary constant
+Compiling verilog file "Counter8Bits.v" in library work
+Module <CPU_Data_Addr> compiled
+Compiling verilog file "Burst_IPeriod_LD48B.v" in library work
+Module <Counter8Bits> compiled
+Compiling verilog file "Burst_Increment_LD16B.v" in library work
+Module <Burst_IPeriod_LD48B> compiled
+Compiling verilog file "Burst_Delay_VU.v" in library work
+Module <Burst_Increment_LD16B> compiled
+Compiling verilog file "Burst_Ctrl_Rear2.v" in library work
+Module <Burst_Delay_VU> compiled
+Compiling verilog file "Burst_Ctrl_Rear1.v" in library work
+Module <Burst_Ctrl_Rear2> compiled
+Compiling verilog file "Burst_Count_LD20B.v" in library work
+Module <Burst_Ctrl_Rear1> compiled
+Compiling verilog file "BufReg48B.v" in library work
+Module <Burst_Count_LD20B> compiled
+Compiling verilog file "BufReg42B.v" in library work
+Module <BufReg48B> compiled
+Compiling verilog file "BufReg34B.v" in library work
+Module <BufReg42B> compiled
+Compiling verilog file "BufReg32B.v" in library work
+Module <BufReg34B> compiled
+Compiling verilog file "BufReg16B.v" in library work
+Module <BufReg32B> compiled
+Compiling verilog file "BufReg14RB.v" in library work
+Module <BufReg16B> compiled
+Compiling verilog file "BufReg12B.v" in library work
+Module <BufReg14RB> compiled
+Compiling verilog file "BufReg10B.v" in library work
+Module <BufReg12B> compiled
+Compiling verilog file "BufEReg14B.v" in library work
+Module <BufReg10B> compiled
+Compiling verilog file "Based_DDFS_LD48B_K2.v" in library work
+Module <BufEReg14B> compiled
+Compiling verilog file "Based_DDFS_LD48B_K1.v" in library work
+Module <Based_DDFS_LD48B_K2> compiled
+Compiling verilog file "Analog_Vol_Reg11B.v" in library work
+Module <Based_DDFS_LD48B_K1> compiled
+Compiling verilog file "AM_MUXCY16B.v" in library work
+Module <Analog_Vol_Reg11B> compiled
+Compiling verilog file "AM_CONSTANT_LD16B.v" in library work
+Module <AM_MUXCY16B> compiled
+Compiling verilog file "ADDR_Path.v" in library work
+Module <AM_CONSTANT_LD16B> compiled
+Compiling verilog file "AddrBufTempM.v" in library work
+Module <ADDR_Path> compiled
+Compiling verilog file "Addition_14bits.v" in library work
+Module <AddrBufTempM> compiled
+Compiling verilog file "ADD48.v" in library work
+Module <Addition_14bits> compiled
+Module <ADD16_HXILINX_ADD48> compiled
+Compiling verilog file "TRIARAM_DPATH.v" in library work
+Module <ADD48> compiled
+Compiling verilog file "SW_Marker_DPath.v" in library work
+Module <TRIARAM_DPATH> compiled
+Compiling verilog file "Sweep_SweepTime_Path.v" in library work
+Module <SW_Marker_DPath> compiled
+Compiling verilog file "Sweep_Start_Path.v" in library work
+Module <Sweep_SweepTime_Path> compiled
+Compiling verilog file "Sweep_StaEnd_Path.v" in library work
+Module <Sweep_Start_Path> compiled
+Compiling verilog file "Sweep_FM_Mux48.v" in library work
+Module <Sweep_StaEnd_Path> compiled
+Compiling verilog file "SQVT_VPath.v" in library work
+Module <Sweep_FM_Mux48> compiled
+Compiling verilog file "SQVL_VPath.v" in library work
+Module <SQVT_VPath> compiled
+Compiling verilog file "SPARE_VPath.v" in library work
+Module <SQVL_VPath> compiled
+Compiling verilog file "Reset_Mux.v" in library work
+Module <SPARE_VPath> compiled
+Compiling verilog file "OPCTRL_DPATH.v" in library work
+Module <Reset_Mux> compiled
+Compiling verilog file "Latch_Data_Region.v" in library work
+Module <OPCTRL_DPATH> compiled
+Compiling verilog file "Integrate_DDFS.v" in library work
+Module <Latch_Data_Region> compiled
+Compiling verilog file "GAINV_VPath.v" in library work
+Module <Integrate_DDFS> compiled
+Compiling verilog file "FSWMRAM_DPTH.v" in library work
+Module <GAINV_VPath> compiled
+Compiling verilog file "FSK_Rate_Sel.v" in library work
+Module <FSWMRAM_DPTH> compiled
+Compiling verilog file "FSK_Mode.v" in library work
+Module <FSK_Rate_Sel> compiled
+Compiling verilog file "FM_Frequency_Path.v" in library work
+Module <FSK_Mode> compiled
+Compiling verilog file "FM_Deviation_Path.v" in library work
+Module <FM_Frequency_Path> compiled
+Compiling verilog file "FM.v" in library work
+Module <FM_Deviation_Path> compiled
+Compiling verilog file "EXTSIN_DPATH.v" in library work
+Module <FM> compiled
+Compiling verilog file "DUTYS_VPath.v" in library work
+Module <EXTSIN_DPATH> compiled
+Compiling verilog file "Delay_Value_Path.v" in library work
+Module <DUTYS_VPath> compiled
+Compiling verilog file "Decoder_DataCtrl.v" in library work
+Module <Delay_Value_Path> compiled
+Compiling verilog file "DCOFFSET_VPath.v" in library work
+Module <Decoder_DataCtrl> compiled
+Compiling verilog file "DCM_IRest.v" in library work
+Module <DCOFFSET_VPath> compiled
+Compiling verilog file "Data_Stack_48bits.v" in library work
+Module <DCM_IRest> compiled
+Compiling verilog file "Data_Reg42B.v" in library work
+Module <Data_Stack_48bits> compiled
+Compiling verilog file "DAC7821_SCANNER.v" in library work
+Module <Data_Reg42B> compiled
+Compiling verilog file "CVG_DAC7821_RWbar_DPATH.v" in library work
+Module <DAC7821_SCANNER> compiled
+Compiling verilog file "CVG_DAC7821_Data_DPATH.v" in library work
+Module <CVG_DAC7821_RWbar_DPATH> compiled
+Compiling verilog file "CVG_DAC7821_CSbar_DPATH.v" in library work
+Module <CVG_DAC7821_Data_DPATH> compiled
+Compiling verilog file "Central_Freq_path.v" in library work
+Module <CVG_DAC7821_CSbar_DPATH> compiled
+Compiling verilog file "Burst_INTP_Path.v" in library work
+Module <Central_Freq_path> compiled
+Compiling verilog file "Burst_INCRE_VPath.v" in library work
+Module <Burst_INTP_Path> compiled
+Compiling verilog file "Burst_Ctrl_Integrate.v" in library work
+Module <Burst_INCRE_VPath> compiled
+Compiling verilog file "Burst_Amount_Path.v" in library work
+Module <Burst_Ctrl_Integrate> compiled
+Compiling verilog file "BFS_Trigout_SEL.v" in library work
+Module <Burst_Amount_Path> compiled
+Compiling verilog file "ARB_MODULE.vf" in library work
+Module <BFS_Trigout_SEL> compiled
+Compiling verilog file "ARB_DDS_SNC_SEL.v" in library work
+Module <ARB_MODULE> compiled
+Compiling verilog file "ARB_DDS_OSEL.v" in library work
+Module <ARB_DDS_SNC_SEL> compiled
+Compiling verilog file "AM_Constants_VPath.v" in library work
+Module <ARB_DDS_OSEL> compiled
+Compiling verilog file "AD9224_DPath.v" in library work
+Module <AM_Constants_VPath> compiled
+Compiling verilog file "AFG3000_FPGA.v" in library work
+Module <AD9224_DataPath> compiled
+Module <AFG3000_FPGA> compiled
+No errors in compilation
+Analysis of file <"AFG3000_FPGA.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <AFG3000_FPGA> in library <work>.
+
+Analyzing hierarchy for module <DCM_IRest> in library <work>.
+
+Analyzing hierarchy for module <Decoder_DataCtrl> in library <work>.
+
+Analyzing hierarchy for module <Data_Stack_48bits> in library <work>.
+
+Analyzing hierarchy for module <Latch_Data_Region> in library <work>.
+
+Analyzing hierarchy for module <Data_Reg48B> in library <work>.
+
+Analyzing hierarchy for module <Data_Reg42B> in library <work>.
+
+Analyzing hierarchy for module <OPCTRL_DPATH> in library <work>.
+
+Analyzing hierarchy for module <Burst_INTP_Path> in library <work>.
+
+Analyzing hierarchy for module <Burst_Amount_Path> in library <work>.
+
+Analyzing hierarchy for module <Burst_INCRE_VPath> in library <work>.
+
+Analyzing hierarchy for module <Central_Freq_path> in library <work>.
+
+Analyzing hierarchy for module <FM_Deviation_Path> in library <work>.
+
+Analyzing hierarchy for module <FM_Frequency_Path> in library <work>.
+
+Analyzing hierarchy for module <Sweep_StaEnd_Path> in library <work>.
+
+Analyzing hierarchy for module <Sweep_Start_Path> in library <work>.
+
+Analyzing hierarchy for module <Sweep_SweepTime_Path> in library <work>.
+
+Analyzing hierarchy for module <AD9224_DataPath> in library <work>.
+
+Analyzing hierarchy for module <EXTSIN_DPATH> in library <work>.
+
+Analyzing hierarchy for module <SW_Marker_DPath> in library <work>.
+
+Analyzing hierarchy for module <Delay_Value_Path> in library <work>.
+
+Analyzing hierarchy for module <TRIARAM_DPATH> in library <work>.
+
+Analyzing hierarchy for module <FSWMRAM_DPTH> in library <work>.
+
+Analyzing hierarchy for module <DCOFFSET_VPath> in library <work>.
+
+Analyzing hierarchy for module <DUTYS_VPath> in library <work>.
+
+Analyzing hierarchy for module <GAINV_VPath> in library <work>.
+
+Analyzing hierarchy for module <SPARE_VPath> in library <work>.
+
+Analyzing hierarchy for module <SQVL_VPath> in library <work>.
+
+Analyzing hierarchy for module <SQVT_VPath> in library <work>.
+
+Analyzing hierarchy for module <AM_Constants_VPath> in library <work>.
+
+Analyzing hierarchy for module <Sweep_FM_Mux48> in library <work>.
+
+Analyzing hierarchy for module <FSK_Rate_Sel> in library <work>.
+
+Analyzing hierarchy for module <FSK_Mode> in library <work>.
+
+Analyzing hierarchy for module <Integrate_DDFS> in library <work>.
+
+Analyzing hierarchy for module <Burst_Ctrl_Integrate> in library <work>.
+
+Analyzing hierarchy for module <Reset_Mux> in library <work>.
+
+Analyzing hierarchy for module <BufReg16B> in library <work>.
+
+Analyzing hierarchy for module <FM> in library <work>.
+
+Analyzing hierarchy for module <BFS_Trigout_SEL> in library <work>.
+
+Analyzing hierarchy for module <ARB_MODULE> in library <work>.
+
+Analyzing hierarchy for module <ARB_DDS_SNC_SEL> in library <work>.
+
+Analyzing hierarchy for module <ARB_DDS_OSEL> in library <work>.
+
+Analyzing hierarchy for module <DAC7821_SCANNER> in library <work>.
+
+Analyzing hierarchy for module <CVG_DAC7821_Data_DPATH> in library <work>.
+
+Analyzing hierarchy for module <CVG_DAC7821_CSbar_DPATH> in library <work>.
+
+Analyzing hierarchy for module <CVG_DAC7821_RWbar_DPATH> in library <work>.
+
+Analyzing hierarchy for module <DCM_214MHz> in library <work>.
+
+Analyzing hierarchy for module <Phase_Shift> in library <work>.
+
+Analyzing hierarchy for module <CPU_Data_Addr> in library <work>.
+
+Analyzing hierarchy for module <Decoder_Data> in library <work>.
+
+Analyzing hierarchy for module <DEC_DReg17B> in library <work>.
+
+Analyzing hierarchy for module <DEC_FID16B> in library <work>.
+
+Analyzing hierarchy for module <BufReg12B> in library <work>.
+
+Analyzing hierarchy for module <FM_SW_RAM_DEC> in library <work>.
+
+Analyzing hierarchy for module <DEC_OP_CTRL> in library <work>.
+
+Analyzing hierarchy for module <DEC_OP_CTRL2> in library <work>.
+
+Analyzing hierarchy for module <Triangle_RAM_DEC> in library <work>.
+
+Analyzing hierarchy for module <DECODE_DAC7821> in library <work>.
+
+Analyzing hierarchy for module <DEC_DAC7821_REG> in library <work>.
+
+Analyzing hierarchy for module <FDCE_latch_16bits> in library <work>.
+
+Analyzing hierarchy for module <FDCE_latch_48bits> in library <work>.
+
+Analyzing hierarchy for module <TReg16Bits> in library <work>.
+
+Analyzing hierarchy for module <TReg20Bits> in library <work>.
+
+Analyzing hierarchy for module <Based_DDFS_LD48B_K1> in library <work>.
+
+Analyzing hierarchy for module <Based_DDFS_LD48B_K2> in library <work>.
+
+Analyzing hierarchy for module <FSK_IPeriod_LD42B> in library <work>.
+
+Analyzing hierarchy for module <Burst_IPeriod_LD48B> in library <work>.
+
+Analyzing hierarchy for module <Burst_Count_LD20B> in library <work>.
+
+Analyzing hierarchy for module <Burst_Increment_LD16B> in library <work>.
+
+Analyzing hierarchy for module <FM_CFrequency_Value> in library <work>.
+
+Analyzing hierarchy for module <FM_Deviation_Value> in library <work>.
+
+Analyzing hierarchy for module <FM_Frequency_Value> in library <work>.
+
+Analyzing hierarchy for module <Sweep_StartEnd_DiffV> in library <work>.
+
+Analyzing hierarchy for module <Sweep_Start_Frequency> in library <work>.
+
+Analyzing hierarchy for module <Sweep_Time_Value> in library <work>.
+
+Analyzing hierarchy for module <Sweep_Marker_ValueLD> in library <work>.
+
+Analyzing hierarchy for module <Burst_Delay_VU> in library <work>.
+
+Analyzing hierarchy for module <REG_DAC7821_MODWAVE> in library <work>.
+
+Analyzing hierarchy for module <REG_DC_OFFSET> in library <work>.
+
+Analyzing hierarchy for module <REG_DUTY_S> in library <work>.
+
+Analyzing hierarchy for module <REG_GAIN_V> in library <work>.
+
+Analyzing hierarchy for module <REG_SPARE> in library <work>.
+
+Analyzing hierarchy for module <REG_SQ_VL> in library <work>.
+
+Analyzing hierarchy for module <REG_SQ_VT> in library <work>.
+
+Analyzing hierarchy for module <AM_CONSTANT_LD16B> in library <work>.
+
+Analyzing hierarchy for module <BufReg32B> in library <work>.
+
+Analyzing hierarchy for module <Data_Reg48B> in library <work>.
+
+Analyzing hierarchy for module <Data_Reg20B> in library <work>.
+
+Analyzing hierarchy for module <Data_Reg16B> in library <work>.
+
+Analyzing hierarchy for module <BufReg48B> in library <work>.
+
+Analyzing hierarchy for module <EXTSIN_REG1B> in library <work>.
+
+Analyzing hierarchy for module <BufReg34B> in library <work>.
+
+Analyzing hierarchy for module <BufReg1B> in library <work>.
+
+Analyzing hierarchy for module <BufReg10B> in library <work>.
+
+Analyzing hierarchy for module <Analog_Vol_Reg11B> in library <work>.
+
+Analyzing hierarchy for module <LREG_D11B> in library <work>.
+
+Analyzing hierarchy for module <FM_Sweep_Reg48B> in library <work>.
+
+Analyzing hierarchy for module <FSK_MUX_Sel> in library <work>.
+
+Analyzing hierarchy for module <FSK_Mux_Reg48B> in library <work>.
+
+Analyzing hierarchy for module <BufReg42B> in library <work>.
+
+Analyzing hierarchy for module <FSK_ACC42bits> in library <work>.
+
+Analyzing hierarchy for module <FSK_Ctrl_ROMTable> in library <work>.
+
+Analyzing hierarchy for module <FSK_EXTSIG_Reg1B> in library <work>.
+
+Analyzing hierarchy for module <Phase_Reg48B> in library <work>.
+
+Analyzing hierarchy for module <DDFS48bits> in library <work>.
+
+Analyzing hierarchy for module <BufReg14RB> in library <work>.
+
+Analyzing hierarchy for module <Addition_14bits> in library <work>.
+
+Analyzing hierarchy for module <ADDR_Path> in library <work>.
+
+Analyzing hierarchy for module <Phase_Mux14B> in library <work>.
+
+Analyzing hierarchy for module <BufEReg14B> in library <work>.
+
+Analyzing hierarchy for module <Phase_Mux> in library <work>.
+
+Analyzing hierarchy for module <AddrBufTempM> in library <work>.
+
+Analyzing hierarchy for module <ROM_Table> in library <work>.
+
+Analyzing hierarchy for module <MUX16Bits> in library <work>.
+
+Analyzing hierarchy for module <Burst_Ctrl_Rear1> in library <work>.
+
+Analyzing hierarchy for module <Burst_Ctrl_Rear2> in library <work>.
+
+Analyzing hierarchy for module <MUX12> in library <work>.
+
+Analyzing hierarchy for module <mux32> in library <work>.
+
+Analyzing hierarchy for module <ADD48> in library <work>.
+
+Analyzing hierarchy for module <FD48CLR> in library <work>.
+
+Analyzing hierarchy for module <SUB48> in library <work>.
+
+Analyzing hierarchy for module <FD12> in library <work>.
+
+Analyzing hierarchy for module <DIV> in library <work>.
+
+Analyzing hierarchy for module <triger> in library <work>.
+
+Analyzing hierarchy for module <EXT_Triger> in library <work>.
+
+Analyzing hierarchy for module <AM_MUXCY16B> in library <work>.
+
+Analyzing hierarchy for module <DCM0> in library <work>.
+
+Analyzing hierarchy for module <DDR2_16_TO_64_RW> in library <work>.
+
+Analyzing hierarchy for module <InitialDDR2> in library <work>.
+
+Analyzing hierarchy for entity <mig20> in library <work> (architecture <arc_mem_interface_top>).
+
+Analyzing hierarchy for module <V1> in library <work>.
+
+Analyzing hierarchy for module <Counter8Bits> in library <work>.
+
+Analyzing hierarchy for module <FSK_acc_2bits> in library <work>.
+
+Analyzing hierarchy for module <FSK_Reg2bits> in library <work>.
+
+Analyzing hierarchy for module <ACC48bits> in library <work>.
+
+Analyzing hierarchy for module <Addition_2bits> in library <work>.
+
+Analyzing hierarchy for module <AddReg2bits> in library <work>.
+
+Analyzing hierarchy for module <BufReg14B> in library <work>.
+
+Analyzing hierarchy for module <INC_Amount> in library <work>.
+
+Analyzing hierarchy for module <Burst_Amount_Count20Bits> in library <work>.
+
+Analyzing hierarchy for module <Amount_Reg20bits> in library <work>.
+
+Analyzing hierarchy for module <Comparator> in library <work>.
+
+Analyzing hierarchy for module <Burst_Period_EXT> in library <work>.
+
+Analyzing hierarchy for module <Burst_Period> in library <work>.
+
+Analyzing hierarchy for module <Normal_Trigger_Mode> in library <work>.
+
+Analyzing hierarchy for module <Normal_TrigOut_LPath> in library <work>.
+
+Analyzing hierarchy for module <BTrigout_Sel> in library <work>.
+
+Analyzing hierarchy for module <OPN_Sel> in library <work>.
+
+Analyzing hierarchy for module <BPMC_Mux2to1> in library <work>.
+
+Analyzing hierarchy for module <Burst_Gated_Sel> in library <work>.
+
+Analyzing hierarchy for module <EGPN_Sel> in library <work>.
+
+Analyzing hierarchy for module <Burst_IE_Sel> in library <work>.
+
+Analyzing hierarchy for module <GatedPN_Sel> in library <work>.
+
+Analyzing hierarchy for module <Gated_SIG> in library <work>.
+
+Analyzing hierarchy for module <Infinite_merge_Manual> in library <work>.
+
+Analyzing hierarchy for module <Pulse_wave> in library <work>.
+
+Analyzing hierarchy for module <ADD16_HXILINX_ADD48> in library <work>.
+
+Analyzing hierarchy for module <ADD16_HXILINX_ADD48> in library <work>.
+
+Analyzing hierarchy for module <ADD16_HXILINX_ADD48> in library <work>.
+
+Analyzing hierarchy for module <FD16CE_HXILINX_FD48CLR> in library <work>.
+
+Analyzing hierarchy for module <FD16CE_HXILINX_FD48CLR> in library <work>.
+
+Analyzing hierarchy for module <FD16CE_HXILINX_FD48CLR> in library <work>.
+
+Analyzing hierarchy for module <ADDSUB48> in library <work>.
+
+Analyzing hierarchy for module <FD4CE_HXILINX_FD12> in library <work>.
+
+Analyzing hierarchy for module <FD8CE_HXILINX_FD12> in library <work>.
+
+Analyzing hierarchy for module <FTC_HXILINX_DIV> in library <work>.
+
+Analyzing hierarchy for module <CB4CE_HXILINX_DIV> in library <work> with parameters.
+	TERMINAL_COUNT = "1111"
+
+Analyzing hierarchy for module <compmc12> in library <work>.
+
+Analyzing hierarchy for module <Gobal_DCM> in library <work>.
+
+Analyzing hierarchy for module <GobalCLK> in library <work>.
+
+Analyzing hierarchy for module <BUFF> in library <work>.
+
+Analyzing hierarchy for module <Write_Controler> in library <work>.
+
+Analyzing hierarchy for module <Read_Controler> in library <work> with parameters.
+	OFF = "000"
+	ON = "001"
+	SUSPEND_BURST0 = "010"
+	SUSPEND_BURST1 = "011"
+	SUSPEND_WAIT = "100"
+
+Analyzing hierarchy for module <RW_SELECTER> in library <work>.
+
+Analyzing hierarchy for module <SYNC> in library <work>.
+
+Analyzing hierarchy for module <DCM_MUL_4> in library <work>.
+
+Analyzing hierarchy for entity <mig20_top_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_infrastructure_top> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for module <acc_2bits> in library <work>.
+
+Analyzing hierarchy for module <Reg2bits> in library <work>.
+
+Analyzing hierarchy for module <Amount_Reg1B> in library <work>.
+
+Analyzing hierarchy for module <Amount_Reg20B> in library <work>.
+
+Analyzing hierarchy for module <Comp_Reg20bits> in library <work>.
+
+Analyzing hierarchy for module <compare> in library <work>.
+
+Analyzing hierarchy for module <Comp_Reg1bits> in library <work>.
+
+Analyzing hierarchy for module <Period_ACC48bits> in library <work>.
+
+Analyzing hierarchy for module <Reg_12bits> in library <work>.
+
+Analyzing hierarchy for module <Burst_Period_ROMTable> in library <work>.
+
+Analyzing hierarchy for module <Burst_Period_Reg1B> in library <work>.
+
+Analyzing hierarchy for module <Normal_Trigger> in library <work>.
+
+Analyzing hierarchy for module <Counter34B> in library <work>.
+
+Analyzing hierarchy for module <Normal_Trigger_Rear> in library <work>.
+
+Analyzing hierarchy for module <Latency_Buf1B> in library <work>.
+
+Analyzing hierarchy for module <BPMC_Mux> in library <work>.
+
+Analyzing hierarchy for module <BPMC_Reg1bits> in library <work>.
+
+Analyzing hierarchy for module <BPMC_Ctrl> in library <work>.
+
+Analyzing hierarchy for module <Gated_Reg1bit> in library <work>.
+
+Analyzing hierarchy for module <Gated_ENReg1bit> in library <work>.
+
+Analyzing hierarchy for module <Manual_Trigger_Mode> in library <work>.
+
+Analyzing hierarchy for module <Infinite_Integrate> in library <work>.
+
+Analyzing hierarchy for module <IFandML_MUX> in library <work>.
+
+Analyzing hierarchy for module <INFMNL_TrigOut_LPath> in library <work>.
+
+Analyzing hierarchy for module <Pulse_Reg> in library <work>.
+
+Analyzing hierarchy for module <ADSU16_HXILINX_ADDSUB48> in library <work>.
+
+Analyzing hierarchy for module <ADSU16_HXILINX_ADDSUB48> in library <work>.
+
+Analyzing hierarchy for module <ADSU16_HXILINX_ADDSUB48> in library <work>.
+
+Analyzing hierarchy for entity <mig20_controller_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_data_path_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_infrastructure> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_iobs_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_cal_top> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for module <Period_acc_2bits> in library <work>.
+
+Analyzing hierarchy for module <Period_Reg2bits> in library <work>.
+
+Analyzing hierarchy for module <BPMC_Pulse> in library <work>.
+
+Analyzing hierarchy for module <Pulse_Trig> in library <work>.
+
+Analyzing hierarchy for module <Maunal_Trigger> in library <work>.
+
+Analyzing hierarchy for module <Counter34B> in library <work>.
+
+Analyzing hierarchy for module <Maunal_Trigger_Rear> in library <work>.
+
+Analyzing hierarchy for module <Infinite_Trigout> in library <work>.
+
+Analyzing hierarchy for module <Infinite_circuit> in library <work>.
+
+Analyzing hierarchy for module <Latency_Buf1B> in library <work>.
+
+Analyzing hierarchy for entity <mig20_data_read_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_data_read_controller_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_data_write_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_infrastructure_iobs_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_controller_iobs_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_data_path_iobs_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_cal_ctl> in library <work> (architecture <arc_cal_ctl>).
+
+Analyzing hierarchy for entity <mig20_tap_dly> in library <work> (architecture <arc_tap_dly>).
+
+Analyzing hierarchy for module <Pulse_Front> in library <work>.
+
+Analyzing hierarchy for module <Pulse_Rear> in library <work>.
+
+Analyzing hierarchy for module <DFF> in library <work>.
+
+Analyzing hierarchy for module <Infinite_Trigout_Mux> in library <work>.
+
+Analyzing hierarchy for module <Infinite_Trigout_Single_Rear> in library <work>.
+
+Analyzing hierarchy for module <PSWR_Path> in library <work>.
+
+Analyzing hierarchy for module <Infinite_Mode_Mux> in library <work>.
+
+Analyzing hierarchy for module <Maunal_Trigger> in library <work>.
+
+Analyzing hierarchy for module <Manual_Trigger_Single_Front> in library <work>.
+
+Analyzing hierarchy for module <Counter34B> in library <work>.
+
+Analyzing hierarchy for module <Manual_Trigger_Single_Rear> in library <work>.
+
+Analyzing hierarchy for entity <mig20_rd_gray_cntr> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_ram8d_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_dqs_delay> in library <work> (architecture <arc_dqs_delay>).
+
+Analyzing hierarchy for entity <mig20_dqs_delay> in library <work> (architecture <arc_dqs_delay>).
+
+Analyzing hierarchy for entity <mig20_fifo_0_wr_en_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_fifo_1_wr_en_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_wr_gray_cntr> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_s3_dm_iob_0> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_s3_dqs_iob> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for entity <mig20_s3_dq_iob> in library <work> (architecture <arc>).
+
+Analyzing hierarchy for module <BufReg1B> in library <work>.
+
+--> 
+
+Total memory usage is 194236 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    7 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

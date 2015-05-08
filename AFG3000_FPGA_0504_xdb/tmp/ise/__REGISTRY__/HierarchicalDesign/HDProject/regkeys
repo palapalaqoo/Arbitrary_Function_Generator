@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+D:\Xilinx\10.1\ISE\bin\nt\unwrapped\ngdbuild.exe -ise D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/AFG3000_FPGA_0504.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1400a-fg484-4 AFG3000_FPGA.ngc AFG3000_FPGA.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+AFG3000_FPGA_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

@@ -1,0 +1,200 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 10.1.03
+//  \   \         Application : sch2verilog
+//  /   /         Filename : ARB_MODULE.vf
+// /___/   /\     Timestamp : 12/02/2009 17:28:40
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: D:\Xilinx\10.1\ISE\bin\nt\unwrapped\sch2verilog.exe -intstyle ise -family spartan3a -w "D:/AFG3000 project/FPGA/AFG3000_FPGA_20091031_BACKUP_CANBEUSE/AFG3000_FPGA_20091031_BACKUP/AFG3000_FPGA_0504_BACKUP/ARB_MODULE.sch" ARB_MODULE.vf
+//Design Name: ARB_MODULE
+//Device: spartan3a
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module ARB_MODULE(Addr_in, 
+                  CLK_in, 
+                  cntrl0_rst_dqs_div_in, 
+                  CS, 
+                  DataBus, 
+                  EXT_CLK_IN, 
+                  write, 
+                  ARB_CLK, 
+                  ARB_SELECTED, 
+                  CLK_TB, 
+                  CLK90_TB, 
+                  cntrl0_auto_ref_req, 
+                  cntrl0_ddr2_a, 
+                  cntrl0_ddr2_ba, 
+                  cntrl0_ddr2_cas_n, 
+                  cntrl0_ddr2_ck, 
+                  cntrl0_ddr2_cke, 
+                  cntrl0_ddr2_ck_n, 
+                  cntrl0_ddr2_cs_n, 
+                  cntrl0_ddr2_dm, 
+                  cntrl0_ddr2_odt, 
+                  cntrl0_ddr2_ras_n, 
+                  cntrl0_ddr2_we_n, 
+                  cntrl0_rst_dqs_div_out, 
+                  DAC_DATA, 
+                  INIT_DONE_TB, 
+                  sync, 
+                  cntrl0_ddr2_dq, 
+                  cntrl0_ddr2_dqs, 
+                  cntrl0_ddr2_dqs_n);
+
+    input [25:0] Addr_in;
+    input CLK_in;
+    input cntrl0_rst_dqs_div_in;
+    input CS;
+    input [15:0] DataBus;
+    input EXT_CLK_IN;
+    input write;
+   output ARB_CLK;
+   output ARB_SELECTED;
+   output CLK_TB;
+   output CLK90_TB;
+   output cntrl0_auto_ref_req;
+   output [12:0] cntrl0_ddr2_a;
+   output [1:0] cntrl0_ddr2_ba;
+   output cntrl0_ddr2_cas_n;
+   output cntrl0_ddr2_ck;
+   output cntrl0_ddr2_cke;
+   output cntrl0_ddr2_ck_n;
+   output cntrl0_ddr2_cs_n;
+   output [1:0] cntrl0_ddr2_dm;
+   output cntrl0_ddr2_odt;
+   output cntrl0_ddr2_ras_n;
+   output cntrl0_ddr2_we_n;
+   output cntrl0_rst_dqs_div_out;
+   output [15:0] DAC_DATA;
+   output INIT_DONE_TB;
+   output sync;
+    inout [15:0] cntrl0_ddr2_dq;
+    inout [1:0] cntrl0_ddr2_dqs;
+    inout [1:0] cntrl0_ddr2_dqs_n;
+   
+   wire cntrl0_ar_done;
+   wire cntrl0_burst_done;
+   wire DCM_LOCK;
+   wire [2:0] TB_MIG_CMD;
+   wire [31:0] TB_USER_OUTPUT_DATA;
+   wire vvv;
+   wire [25:0] XLXN_299;
+   wire [31:0] XLXN_301;
+   wire XLXN_308;
+   wire XLXN_309;
+   wire [2:0] XLXN_333;
+   wire XLXN_339;
+   wire [3:0] XLXN_342;
+   wire XLXN_350;
+   wire XLXN_351;
+   wire XLXN_352;
+   wire XLXN_354;
+   wire XLXN_355;
+   wire [25:0] XLXN_385;
+   wire [15:0] XLXN_386;
+   wire XLXN_387;
+   wire cntrl0_auto_ref_req_DUMMY;
+   wire INIT_DONE_TB_DUMMY;
+   wire CLK_TB_DUMMY;
+   wire CLK90_TB_DUMMY;
+   
+   assign CLK_TB = CLK_TB_DUMMY;
+   assign CLK90_TB = CLK90_TB_DUMMY;
+   assign cntrl0_auto_ref_req = cntrl0_auto_ref_req_DUMMY;
+   assign INIT_DONE_TB = INIT_DONE_TB_DUMMY;
+   DCM0 DCM_133 (.CLK_IN(CLK_in), 
+                 .CLK0(CLK_TB_DUMMY), 
+                 .CLK90(XLXN_339), 
+                 .LOCK_OUT(DCM_LOCK));
+   DDR2_16_TO_64_RW DDR2_16_TO_64 (.ADDR_IN(XLXN_385[25:0]), 
+                                   .ar_done(cntrl0_ar_done), 
+                                   .ar_req(cntrl0_auto_ref_req_DUMMY), 
+                                   .CLK_IN(CLK_TB_DUMMY), 
+                                   .CLK_IN_90(CLK90_TB_DUMMY), 
+                                   .CMD_ACK(XLXN_308), 
+                                   .DATA_VALID_IN(XLXN_309), 
+                                   .EXT_CLK(EXT_CLK_IN), 
+                                   .INIT_DONE(INIT_DONE_TB_DUMMY), 
+                                   .READED_DATA_IN(TB_USER_OUTPUT_DATA[31:0]), 
+                                   .WRITE_DATA_IN(XLXN_386[15:0]), 
+                                   .WRITE_IN(XLXN_387), 
+                                   .ADDR_OUT(XLXN_299[25:0]), 
+                                   .ARB_CLK(ARB_CLK), 
+                                   .ARB_SEL(ARB_SELECTED), 
+                                   .BURST_DONE_OUT(cntrl0_burst_done), 
+                                   .CMD_OUT(XLXN_333[2:0]), 
+                                   .READ_DATA_OUT(DAC_DATA[15:0]), 
+                                   .SYNC_OUT(sync), 
+                                   .WRITE_DATA_OUT(XLXN_301[31:0]));
+   InitialDDR2 INITIAL_DDR2 (.CLK_in(CLK_TB_DUMMY), 
+                             .CMD_IN(XLXN_333[2:0]), 
+                             .INIT_DONE_IN(INIT_DONE_TB_DUMMY), 
+                             .Wait200_done_in(XLXN_355), 
+                             .CMD_out(TB_MIG_CMD[2:0]));
+   OR3 INIT_OR3 (.I0(XLXN_352), 
+                 .I1(XLXN_351), 
+                 .I2(XLXN_350), 
+                 .O(XLXN_354));
+   mig20 MIG_20 (.clk_int(CLK_TB_DUMMY), 
+                 .clk90_int(CLK90_TB_DUMMY), 
+                 .cntrl0_burst_done(cntrl0_burst_done), 
+                 .cntrl0_rst_dqs_div_in(cntrl0_rst_dqs_div_in), 
+                 .cntrl0_user_command_register(TB_MIG_CMD[2:0]), 
+                 .cntrl0_user_data_mask(XLXN_342[3:0]), 
+                 .cntrl0_user_input_address(XLXN_299[25:0]), 
+                 .cntrl0_user_input_data(XLXN_301[31:0]), 
+                 .dcm_lock(DCM_LOCK), 
+                 .reset_in_n(vvv), 
+                 .cntrl0_ar_done(cntrl0_ar_done), 
+                 .cntrl0_auto_ref_req(cntrl0_auto_ref_req_DUMMY), 
+                 .cntrl0_clk_tb(), 
+                 .cntrl0_clk90_tb(), 
+                 .cntrl0_ddr2_a(cntrl0_ddr2_a[12:0]), 
+                 .cntrl0_ddr2_ba(cntrl0_ddr2_ba[1:0]), 
+                 .cntrl0_ddr2_cas_n(cntrl0_ddr2_cas_n), 
+                 .cntrl0_ddr2_ck(cntrl0_ddr2_ck), 
+                 .cntrl0_ddr2_cke(cntrl0_ddr2_cke), 
+                 .cntrl0_ddr2_ck_n(cntrl0_ddr2_ck_n), 
+                 .cntrl0_ddr2_cs_n(cntrl0_ddr2_cs_n), 
+                 .cntrl0_ddr2_dm(cntrl0_ddr2_dm[1:0]), 
+                 .cntrl0_ddr2_odt(cntrl0_ddr2_odt), 
+                 .cntrl0_ddr2_ras_n(cntrl0_ddr2_ras_n), 
+                 .cntrl0_ddr2_we_n(cntrl0_ddr2_we_n), 
+                 .cntrl0_init_done(INIT_DONE_TB_DUMMY), 
+                 .cntrl0_rst_dqs_div_out(cntrl0_rst_dqs_div_out), 
+                 .cntrl0_sys_rst_tb(XLXN_350), 
+                 .cntrl0_sys_rst90_tb(XLXN_351), 
+                 .cntrl0_sys_rst180_tb(XLXN_352), 
+                 .cntrl0_user_cmd_ack(XLXN_308), 
+                 .cntrl0_user_data_valid(XLXN_309), 
+                 .cntrl0_user_output_data(TB_USER_OUTPUT_DATA[31:0]), 
+                 .cntrl0_ddr2_dq(cntrl0_ddr2_dq[15:0]), 
+                 .cntrl0_ddr2_dqs(cntrl0_ddr2_dqs[1:0]), 
+                 .cntrl0_ddr2_dqs_n(cntrl0_ddr2_dqs_n[1:0]));
+   BUFG XLXI_75 (.I(XLXN_339), 
+                 .O(CLK90_TB_DUMMY));
+   INV XLXI_96 (.I(XLXN_354), 
+                .O(XLXN_355));
+   GND XLXI_101 (.G(XLXN_342[0]));
+   GND XLXI_102 (.G(XLXN_342[1]));
+   GND XLXI_103 (.G(XLXN_342[2]));
+   GND XLXI_104 (.G(XLXN_342[3]));
+   VCC XLXI_105 (.P(vvv));
+   V1 XLXI_109 (.Addr_in(Addr_in[25:0]), 
+                .CS(CS), 
+                .DataBus(DataBus[15:0]), 
+                .Write(write), 
+                .Addr_out(XLXN_385[25:0]), 
+                .Dout(XLXN_386[15:0]), 
+                .Write_out(XLXN_387));
+endmodule

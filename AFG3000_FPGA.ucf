@@ -1,0 +1,1085 @@
+NET "Clock" TNM_NET = Clock;
+TIMESPEC TS_Clock = PERIOD "Clock" 54 MHz HIGH 50%;
+NET "Clock" LOC = E12;
+NET "CPU_Addr<0>" LOC = R19;
+NET "CPU_Addr<1>" LOC = P22;
+NET "CPU_Addr<2>" LOC = N21;
+NET "CPU_Addr<3>" LOC = N22;
+NET "CPU_Addr<4>" LOC = M22;
+NET "CPU_Addr<5>" LOC = L20;
+NET "CPU_Addr<6>" LOC = L22;
+NET "CPU_Addr<7>" LOC = L21;
+NET "CPU_Addr<8>" LOC = K22;
+NET "CPU_Addr<9>" LOC = J22;
+NET "CPU_Addr<10>" LOC = J21;
+NET "CPU_Addr<11>" LOC = P18;
+NET "CPU_Addr<12>" LOC = P20;
+NET "CPU_Addr<13>" LOC = N20;
+NET "CPU_Addr<14>" LOC = N19;
+NET "CPU_Addr<15>" LOC = N18;
+NET "CPU_Addr<16>" LOC = R21;
+NET "CPU_Addr<17>" LOC = R22;
+NET "CPU_Addr<18>" LOC = M20;
+NET "CPU_Addr<19>" LOC = M18;
+NET "CPU_Addr<20>" LOC = N17;
+NET "CPU_Addr<21>" LOC = L19;
+NET "CPU_Addr<22>" LOC = L18;
+NET "CPU_Addr<23>" LOC = K20;
+NET "CPU_Addr<24>" LOC = K19;
+NET "CPU_Addr<25>" LOC = J20;
+NET "CPU_Addr<25>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<24>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<23>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<22>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<21>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<20>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<19>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<18>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<17>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<16>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<15>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<14>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<13>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<12>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<11>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<10>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<9>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<8>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<7>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<6>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<5>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<4>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<3>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<1>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<2>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Addr<0>" IOSTANDARD = "LVCMOS33";
+NET "Clock" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<0>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<1>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<2>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<3>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<4>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<5>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<6>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<7>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<8>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<9>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<10>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<11>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<12>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<13>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<14>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<15>" IOSTANDARD = "LVCMOS33";
+NET "CPU_Data<0>" LOC = T18;
+NET "CPU_Data<1>" LOC = T17;
+NET "CPU_Data<2>" LOC = Y22;
+NET "CPU_Data<3>" LOC = W21;
+NET "CPU_Data<4>" LOC = W22;
+NET "CPU_Data<5>" LOC = V22;
+NET "CPU_Data<6>" LOC = U21;
+NET "CPU_Data<7>" LOC = U22;
+NET "CPU_Data<8>" LOC = T22;
+NET "CPU_Data<9>" LOC = V20;
+NET "CPU_Data<10>" LOC = V19;
+NET "CPU_Data<11>" LOC = U20;
+NET "CPU_Data<12>" LOC = U19;
+NET "CPU_Data<13>" LOC = T20;
+NET "CPU_Data<14>" LOC = T19;
+NET "CPU_Data<15>" LOC = R20;
+NET "DA9747_CLKP" LOC = AA12;
+NET "DA9747_CLKN" IOSTANDARD = "LVDS_33";
+NET "DA9747_CLKP" IOSTANDARD = "LVDS_33";
+NET "DA9747_CLKN" LOC = AB12;
+NET "DA9747_Data<0>" LOC = B20;
+NET "DA9747_Data<1>" LOC = A20;
+NET "DA9747_Data<2>" LOC = B19;
+NET "DA9747_Data<3>" LOC = A19;
+NET "DA9747_Data<4>" LOC = C19;
+NET "DA9747_Data<5>" LOC = D19;
+NET "DA9747_Data<6>" LOC = A18;
+NET "DA9747_Data<7>" LOC = C18;
+NET "DA9747_Data<8>" LOC = D18;
+NET "DA9747_Data<9>" LOC = B17;
+NET "DA9747_Data<10>" LOC = A17;
+NET "DA9747_Data<11>" LOC = C17;
+NET "DA9747_Data<12>" LOC = D17;
+NET "DA9747_Data<13>" LOC = E17;
+NET "DA9747_Data<14>" LOC = C16;
+NET "DA9747_Data<15>" LOC = D16;
+NET "DA9747_Data<0>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<1>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<2>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<3>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<4>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<5>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<6>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<7>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<8>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<9>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<10>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<11>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<12>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<13>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<14>" IOSTANDARD = "LVCMOS33";
+NET "DA9747_Data<15>" IOSTANDARD = "LVCMOS33";
+NET "NWE" LOC = AA22;
+NET "Reset" LOC = C12;
+NET "NCS" LOC = W19;
+NET "NCS" IOSTANDARD = "LVCMOS33";
+NET "NWE" IOSTANDARD = "LVCMOS33";
+NET "Reset" IOSTANDARD = "LVCMOS33";
+NET "EXT_MODU_SIN" LOC = B22;
+NET "EXT_MODU_SIN" IOSTANDARD = "LVCMOS33";
+NET "AD9224_IN<0>" LOC = B6;
+NET "AD9224_IN<1>" LOC = A6;
+NET "AD9224_IN<2>" LOC = A7;
+NET "AD9224_IN<3>" LOC = B8;
+NET "AD9224_IN<4>" LOC = B9;
+NET "AD9224_IN<5>" LOC = D6;
+NET "AD9224_IN<6>" LOC = C6;
+NET "AD9224_IN<7>" LOC = D7;
+NET "AD9224_IN<8>" LOC = C7;
+NET "AD9224_IN<9>" LOC = D8;
+NET "AD9224_IN<10>" LOC = C8;
+NET "AD9224_IN<11>" LOC = E9;
+NET "AD9224_IN<11>" IOSTANDARD = "LVCMOS33";
+NET "AD9224_IN<10>" IOSTANDARD = "LVCMOS33";
+NET "AD9224_IN<9>" IOSTANDARD = "LVCMOS33";
+NET "AD9224_IN<8>" IOSTANDARD = "LVCMOS33";
+NET "AD9224_IN<7>" IOSTANDARD = "LVCMOS33";
+NET "AD9224_IN<6>" IOSTANDARD = "LVCMOS33";
+NET "AD9224_IN<5>" IOSTANDARD = "LVCMOS33";
+NET "AD9224_IN<4>" IOSTANDARD = "LVCMOS33";
+NET "AD9224_IN<3>" IOSTANDARD = "LVCMOS33";
+NET "AD9224_IN<2>" IOSTANDARD = "LVCMOS33";
+NET "AD9224_IN<1>" IOSTANDARD = "LVCMOS33";
+NET "AD9224_IN<0>" IOSTANDARD = "LVCMOS33";
+NET "AD9224_CLK" IOSTANDARD = "LVCMOS33";
+NET "AD9224_CLK" LOC = A5;
+NET "SYNC_OUT" IOSTANDARD = "LVCMOS33";
+NET "Trigout_Pin" IOSTANDARD = "LVCMOS33";
+NET "Trigout_Pin" LOC = J18;
+NET "SYNC_OUT" LOC = H21;
+NET "FM_Mode/XLXI_13/Q1" TNM_NET = FM_Mode/XLXI_13/Q1;
+TIMESPEC TS_FM_Mode_XLXI_13_Q1 = PERIOD "FM_Mode/XLXI_13/Q1" 20 ns HIGH 50%;
+NET "FM_Mode/XLXI_13/XLXN_6" TNM_NET = FM_Mode/XLXI_13/XLXN_6;
+TIMESPEC TS_FM_Mode_XLXI_13_XLXN_6 = PERIOD "FM_Mode/XLXI_13/XLXN_6" 5 ns HIGH 50%;
+INST "FM_Mode/XLXI_58/BU2/U0/i_synth.i_synth_model/gEMBEDDED_MULT.gEMB_MULTS_only.gMULT18.iMULT18/use_mult18x18sio.appMULTSIO[0].bppMULTSIO[0].m18x18sio" LOC = MULT18X18_X1Y0;
+INST "FM_Mode/XLXI_58/BU2/U0/i_synth.i_synth_model/gEMBEDDED_MULT.gEMB_MULTS_only.gMULT18.iMULT18/use_mult18x18sio.appMULTSIO[2].bppMULTSIO[0].m18x18sio" LOC = MULT18X18_X1Y1;
+INST "FM_Mode/XLXI_58/BU2/U0/i_synth.i_synth_model/gEMBEDDED_MULT.gEMB_MULTS_only.gMULT18.iMULT18/use_mult18x18sio.appMULTSIO[1].bppMULTSIO[0].m18x18sio" LOC = MULT18X18_X1Y2;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux00001" LOC = RAMB16_X1Y7;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux00002" LOC = RAMB16_X1Y8;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux000015" LOC = RAMB16_X1Y9;
+INST "INTDDFS/Triangle_LUT/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3a_init.ram/dpram.ram" LOC = RAMB16_X1Y10;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux000016" LOC = RAMB16_X1Y11;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux00009" LOC = RAMB16_X1Y12;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux000010" LOC = RAMB16_X1Y13;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux000011" LOC = RAMB16_X1Y14;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux000012" LOC = RAMB16_X1Y15;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux000013" LOC = RAMB16_X0Y15;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux000014" LOC = RAMB16_X0Y14;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux00008" LOC = RAMB16_X0Y13;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux00007" LOC = RAMB16_X0Y12;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux00005" LOC = RAMB16_X0Y11;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux00006" LOC = RAMB16_X0Y10;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux00004" LOC = RAMB16_X0Y9;
+INST "INTDDFS/DDFS_LUT/Mrom_Data_out_mux00003" LOC = RAMB16_X0Y8;
+#######################################################################################
+##############################################################################################################
+##
+##  Xilinx, Inc. 2008            www.xilinx.com  
+##  Fri May 2 16:35: 2008
+##
+##  
+##############################################################################################################
+##  File name :       mig20.ucf
+## 
+##  Description :     Constraints file
+##                    targetted to FPGA: xc3s1400afg484
+##                    Speed Grade:       -4
+##                    FPGA family:       spartan3a
+##                    Design Entry:      vhdl
+##                    Frequency:         133 MHz
+##                    Data width:        16
+##                    Memory:            DDR2_SDRAM/Components/MT47H32M16XX-3
+##                    Design:            without Test bench
+##                    DCM Used:          Disabled
+##
+##############################################################################################################
+##############################################################################################################
+## This paths are constrained to get rid of unconstrained paths.
+##############################################################################################################
+NET "ARB_MODE/MIG_20/clk_int" TNM_NET = "clk0";
+NET "ARB_MODE/MIG_20/top_00/data_path0/dqs_delayed_col*" TNM_NET = "dqs_clk";
+TIMESPEC "TS_CLK" = FROM "clk0" TO "dqs_clk"  18 ns DATAPATHONLY;
+
+NET "ARB_MODE/MIG_20/clk90_int" TNM_NET = "clk90";
+TIMESPEC "TS_CLK90" = FROM "dqs_clk" TO "clk90" 18 ns DATAPATHONLY;
+
+NET "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe*strobe/wclk*" TNM_NET = "fifo_clk";
+TIMESPEC "TS_DQS_CLK" = FROM "dqs_clk" TO "fifo_clk"  5 ns DATAPATHONLY;
+
+NET "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_en*fifo*_wr_en_inst/clk" TNM_NET = "fifo_we_clk";
+TIMESPEC "TS_WE_CLK" = FROM "dqs_clk" TO "fifo_we_clk"  5 ns DATAPATHONLY;
+
+NET "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr*fifo*_wr_addr_inst/clk" TNM_NET = "fifo_waddr_clk";
+TIMESPEC "TS_WADDR_CLK" = FROM "dqs_clk" TO "fifo_waddr_clk"  5 ns DATAPATHONLY;
+
+#############################################################################################################
+## Calibration Circuit Constraints
+#############################################################################################################
+## Placement constraints for LUTS in tap delay ckt
+#############################################################################################################
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l0" RLOC=X0Y6;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l0" U_SET = delay_calibration_chain;
+ 
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l1" RLOC=X0Y6;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l1" U_SET = delay_calibration_chain;
+ 
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l2" RLOC=X0Y7;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l2" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l3" RLOC=X0Y7;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l3" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l4" RLOC=X1Y6;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l4" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l5" RLOC=X1Y6;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l5" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l6" RLOC=X1Y7;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l6" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l7" RLOC=X1Y7;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l7" U_SET = delay_calibration_chain;
+  
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l8" RLOC=X0Y4;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l8" U_SET = delay_calibration_chain;
+ 
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l9" RLOC=X0Y4;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l9" U_SET = delay_calibration_chain;
+ 
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l10" RLOC=X0Y5;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l10" U_SET = delay_calibration_chain;
+ 
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l11" RLOC=X0Y5;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l11" U_SET = delay_calibration_chain;
+ 
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l12" RLOC=X1Y4;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l12" U_SET = delay_calibration_chain;
+ 
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l13" RLOC=X1Y4;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l13" U_SET = delay_calibration_chain;
+ 
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l14" RLOC=X1Y5;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l14" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l15" RLOC=X1Y5;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l15" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l16" RLOC=X0Y2;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l16" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l17" RLOC=X0Y2;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l17" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l18" RLOC=X0Y3;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l18" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l19" RLOC=X0Y3;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l19" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l20" RLOC=X1Y2;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l20" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l21" RLOC=X1Y2;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l21" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l22" RLOC=X1Y3;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l22" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l23" RLOC=X1Y3;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l23" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l24" RLOC=X0Y0;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l24" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l25" RLOC=X0Y0;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l25" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l26" RLOC=X0Y1;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l26" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l27" RLOC=X0Y1;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l27" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l28" RLOC=X1Y0;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l28" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l29" RLOC=X1Y0;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l29" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l30" RLOC=X1Y1;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l30" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l31" RLOC=X1Y1;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l31" U_SET = delay_calibration_chain;
+
+#################################################################################################################
+# Placement constraints for first stage flops in tap delay ckt
+#################################################################################################################
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[0].r" RLOC=X0Y6;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[0].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[1].r" RLOC=X0Y6;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[1].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[2].r" RLOC=X0Y7;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[2].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[3].r" RLOC=X0Y7;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[3].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[4].r" RLOC=X1Y6;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[4].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[5].r" RLOC=X1Y6;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[5].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[6].r" RLOC=X1Y7;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[6].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[7].r" RLOC=X1Y7;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[7].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[8].r" RLOC=X0Y4;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[8].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[9].r" RLOC=X0Y4;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[9].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[10].r" RLOC=X0Y5;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[10].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[11].r" RLOC=X0Y5;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[11].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[12].r" RLOC=X1Y4;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[12].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[13].r" RLOC=X1Y4;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[13].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[14].r" RLOC=X1Y5;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[14].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[15].r" RLOC=X1Y5;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[15].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[16].r" RLOC=X0Y2;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[16].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[17].r" RLOC=X0Y2;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[17].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[18].r" RLOC=X0Y3;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[18].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[19].r" RLOC=X0Y3;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[19].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[20].r" RLOC=X1Y2;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[20].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[21].r" RLOC=X1Y2;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[21].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[22].r" RLOC=X1Y3;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[22].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[23].r" RLOC=X1Y3;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[23].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[24].r" RLOC=X0Y0;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[24].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[25].r" RLOC=X0Y0;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[25].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[26].r" RLOC=X0Y1;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[26].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[27].r" RLOC=X0Y1;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[27].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[28].r" RLOC=X1Y0;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[28].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[29].r" RLOC=X1Y0;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[29].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[30].r" RLOC=X1Y1;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[30].r" U_SET = delay_calibration_chain;
+
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[31].r" RLOC=X1Y1;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/gen_tap1[31].r" U_SET = delay_calibration_chain;
+
+#####################################################################################################################
+## BEL constraints for LUTS in tap delay ckt
+#####################################################################################################################
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l0"  BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l1"  BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l2"  BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l3"  BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l4"  BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l5"  BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l6"  BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l7"  BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l8"  BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l9"  BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l10" BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l11" BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l12" BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l13" BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l14" BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l15" BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l16" BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l17" BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l18" BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l19" BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l20" BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l21" BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l22" BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l23" BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l24" BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l25" BEL= F;  
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l26" BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l27" BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l28" BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l29" BEL= F;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l30" BEL= G;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l31" BEL= F;
+
+##############################################################################################################
+## MAXDELAY constraints
+##############################################################################################################
+##############################################################################################################
+## Constraint to have the tap delay inverter connection wire length to be the same and minimum to get
+## accurate calibration of tap delays. The following constraints are independent of frequency. This delay 
+## varies from device to device. The reported delay will be in the range of 300 to 600 ps
+##############################################################################################################
+NET "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/tap[7]"  MAXDELAY = 600ps;
+NET "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/tap[15]" MAXDELAY = 600ps;
+NET "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/tap[23]" MAXDELAY = 600ps;
+
+##############################################################################################################
+## Constraint from the dqs PAD to input of LUT delay element. The reported delay will be in the range of 
+## 400 to 860 ps.
+##############################################################################################################
+NET "ARB_MODE/MIG_20/top_00/dqs_int_delay_in*" MAXDELAY = 860ps;
+
+##############################################################################################################
+## Constraint from rst_dqs_div_in PAD to input of LUT delay element. The reported delay will be in the range 
+## of 400 to 860ps.
+##############################################################################################################
+NET "ARB_MODE/MIG_20/top_00/dqs_div_rst" MAXDELAY = 860ps;
+
+
+
+##############################################################################################################
+## RLOC Origin constraint for LUT delay calibration chain.
+##############################################################################################################
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0/l0" RLOC_ORIGIN = X34Y122;
+
+##############################################################################################################
+## Area Group Constraint For tap_dly and cal_ctl module.
+##############################################################################################################
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/cal_ctl0" AREA_GROUP = cal_ctl;
+INST "ARB_MODE/MIG_20/infrastructure_top0/cal_top0/tap_dly0" AREA_GROUP = cal_ctl;
+AREA_GROUP "cal_ctl" RANGE = SLICE_X34Y122:SLICE_X45Y135;
+AREA_GROUP "cal_ctl" GROUP = CLOSED;
+
+##############################################################################################################
+#***********************************************************************************************************#
+#                        CONTROLLER 0 
+#***********************************************************************************************************#
+NET "ARB_MODE/MIG_20/clk_int" TNM_NET = "SYS_clk_int";
+TIMESPEC "TS_SYS_clk_int" = PERIOD "SYS_clk_int" 7.52 ns HIGH 50 %;
+
+NET "ARB_MODE/MIG_20/clk90_int" TNM_NET = "SYS_clk90_int";
+TIMESPEC "TS_SYS_clk90_int" = PERIOD "SYS_clk90_int" 7.52 ns HIGH 50 %;
+
+
+##############################################################################################################
+## There is an issue with ISE 9.1 tool, default drive strength of LVCMOS18 for Spartan-3A 
+## should set to 8MA, the tool is setting it to 12MA.
+## We are setting the drive strength to 8MA in  UCF file for following signal/signals
+## as work aroud until the ISE bug is fixed
+##############################################################################################################
+##############################################################################################################
+## MAXDELAY constraints
+##############################################################################################################
+##############################################################################################################
+## MAXDELAY constraint on inter LUT delay elements. This constraint is required to minimize the 
+## wire delays between the LUTs.
+##############################################################################################################
+NET "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay*dqs_delay_col*/delay*"  MAXDELAY = 200ps;
+
+##############################################################################################################
+## Following are the MAXDELAY constraints on delayed rst_dqs_div net and fifo write enable signals.
+## These constraints are required since these paths are not covered by timing analysis. The requirement is total
+## delay on delayed rst_dqs_div and fifo_wr_en nets should not exceed the clock period.
+##############################################################################################################
+NET "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div"  MAXDELAY = 3007 ps;
+NET "ARB_MODE/MIG_20/top_00/data_path0/data_read0/fifo*_wr_en*"                    MAXDELAY = 3007 ps;
+
+##############################################################################################################
+## The MAXDELAY value on fifo write address should be less than clock period. This constraint is 
+## required since this path is not covered by timing analysis.
+##############################################################################################################
+NET "ARB_MODE/MIG_20/top_00/data_path0/data_read0/fifo*_wr_addr[*]"           MAXDELAY = 4511 ps;
+
+##############################################################################################################
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 1, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[1]" LOC = "W2";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe/fifo_bit1" LOC = SLICE_X2Y34;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe_n/fifo_bit1" LOC = SLICE_X2Y35;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 0, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[0]" LOC = "W1";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe/fifo_bit0" LOC = SLICE_X0Y34;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe_n/fifo_bit0" LOC = SLICE_X0Y35;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 3, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[3]" LOC = "U4";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe/fifo_bit3" LOC = SLICE_X2Y36;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe_n/fifo_bit3" LOC = SLICE_X2Y37;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 2, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[2]" LOC = "U3";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe/fifo_bit2" LOC = SLICE_X0Y36;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe_n/fifo_bit2" LOC = SLICE_X0Y37;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dqs_n, 0, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dqs_n[0]" LOC = "U5";
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dqs, 0, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dqs[0]" LOC = "T5";
+##############################################################################################################
+## LUT location constraints for dqs_delayed_col0
+##############################################################################################################
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col0/one" LOC = SLICE_X0Y79;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col0/one" BEL = F;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col0/two" LOC = SLICE_X0Y79;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col0/two" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col0/three" LOC = SLICE_X0Y78;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col0/three" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col0/four" LOC = SLICE_X0Y78;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col0/four" BEL = F;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col0/five" LOC = SLICE_X1Y79;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col0/five" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col0/six" LOC = SLICE_X1Y78;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col0/six" BEL = G;
+
+##############################################################################################################
+## LUT location constraints for dqs_delayed_col1
+##############################################################################################################
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col1/one" LOC = SLICE_X0Y77;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col1/one" BEL = F;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col1/two" LOC = SLICE_X0Y77;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col1/two" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col1/three" LOC = SLICE_X0Y76;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col1/three" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col1/four" LOC = SLICE_X0Y76;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col1/four" BEL = F;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col1/five" LOC = SLICE_X1Y77;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col1/five" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col1/six" LOC = SLICE_X1Y76;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[0].dqs_delay_col1/six" BEL = G;
+
+##############################################################################################################
+## Slice location constraints for Fifo write address and write enable
+##############################################################################################################
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[0].fifo_0_wr_addr_inst/bit0" LOC = SLICE_X1Y34;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[0].fifo_0_wr_addr_inst/bit1" LOC = SLICE_X1Y34;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[0].fifo_0_wr_addr_inst/bit2" LOC = SLICE_X1Y35;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[0].fifo_0_wr_addr_inst/bit3" LOC = SLICE_X1Y35;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[0].fifo_1_wr_addr_inst/bit0" LOC = SLICE_X3Y34;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[0].fifo_1_wr_addr_inst/bit1" LOC = SLICE_X3Y34;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[0].fifo_1_wr_addr_inst/bit2" LOC = SLICE_X3Y35;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[0].fifo_1_wr_addr_inst/bit3" LOC = SLICE_X3Y35;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_en[0].fifo_0_wr_en_inst" LOC = SLICE_X1Y37;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_en[0].fifo_1_wr_en_inst" LOC = SLICE_X3Y37;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 5, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[5]" LOC = "V3";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe/fifo_bit5" LOC = SLICE_X2Y42;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe_n/fifo_bit5" LOC = SLICE_X2Y43;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 4, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[4]" LOC = "V1";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe/fifo_bit4" LOC = SLICE_X0Y42;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe_n/fifo_bit4" LOC = SLICE_X0Y43;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 7, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[7]" LOC = "U2";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe/fifo_bit7" LOC = SLICE_X2Y44;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe_n/fifo_bit7" LOC = SLICE_X2Y45;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 6, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[6]" LOC = "U1";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe/fifo_bit6" LOC = SLICE_X0Y44;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[0].strobe_n/fifo_bit6" LOC = SLICE_X0Y45;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 8, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[8]" LOC = "R5";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe/fifo_bit0" LOC = SLICE_X0Y50;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe_n/fifo_bit0" LOC = SLICE_X0Y51;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 9, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[9]" LOC = "R4";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe/fifo_bit1" LOC = SLICE_X2Y52;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe_n/fifo_bit1" LOC = SLICE_X2Y53;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 10, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[10]" LOC = "R3";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe/fifo_bit2" LOC = SLICE_X0Y52;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe_n/fifo_bit2" LOC = SLICE_X0Y53;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 11, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[11]" LOC = "R2";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe/fifo_bit3" LOC = SLICE_X2Y54;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe_n/fifo_bit3" LOC = SLICE_X2Y55;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dqs_n, 1, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dqs_n[1]" LOC = "N4";
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dqs, 1, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dqs[1]" LOC = "M5";
+##############################################################################################################
+## LUT location constraints for dqs_delayed_col0
+##############################################################################################################
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col0/one" LOC = SLICE_X0Y99;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col0/one" BEL = F;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col0/two" LOC = SLICE_X0Y99;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col0/two" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col0/three" LOC = SLICE_X0Y98;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col0/three" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col0/four" LOC = SLICE_X0Y98;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col0/four" BEL = F;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col0/five" LOC = SLICE_X1Y99;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col0/five" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col0/six" LOC = SLICE_X1Y98;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col0/six" BEL = G;
+
+##############################################################################################################
+## LUT location constraints for dqs_delayed_col1
+##############################################################################################################
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col1/one" LOC = SLICE_X0Y97;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col1/one" BEL = F;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col1/two" LOC = SLICE_X0Y97;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col1/two" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col1/three" LOC = SLICE_X0Y96;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col1/three" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col1/four" LOC = SLICE_X0Y96;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col1/four" BEL = F;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col1/five" LOC = SLICE_X1Y97;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col1/five" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col1/six" LOC = SLICE_X1Y96;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_delay[1].dqs_delay_col1/six" BEL = G;
+
+##############################################################################################################
+## Slice location constraints for Fifo write address and write enable
+##############################################################################################################
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[1].fifo_0_wr_addr_inst/bit0" LOC = SLICE_X1Y54;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[1].fifo_0_wr_addr_inst/bit1" LOC = SLICE_X1Y54;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[1].fifo_0_wr_addr_inst/bit2" LOC = SLICE_X1Y55;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[1].fifo_0_wr_addr_inst/bit3" LOC = SLICE_X1Y55;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[1].fifo_1_wr_addr_inst/bit0" LOC = SLICE_X3Y54;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[1].fifo_1_wr_addr_inst/bit1" LOC = SLICE_X3Y54;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[1].fifo_1_wr_addr_inst/bit2" LOC = SLICE_X3Y55;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_addr[1].fifo_1_wr_addr_inst/bit3" LOC = SLICE_X3Y55;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_en[1].fifo_0_wr_en_inst" LOC = SLICE_X1Y57;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/gen_wr_en[1].fifo_1_wr_en_inst" LOC = SLICE_X3Y57;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 13, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[13]" LOC = "P5";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe/fifo_bit5" LOC = SLICE_X2Y60;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe_n/fifo_bit5" LOC = SLICE_X2Y61;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 12, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[12]" LOC = "P3";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe/fifo_bit4" LOC = SLICE_X0Y60;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe_n/fifo_bit4" LOC = SLICE_X0Y61;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 15, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[15]" LOC = "P2";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe/fifo_bit7" LOC = SLICE_X2Y62;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe_n/fifo_bit7" LOC = SLICE_X2Y63;
+
+##############################################################################################################
+##  constraints for bit cntrl0_ddr2_dq, 14, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_ddr2_dq[14]" LOC = "P1";
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe/fifo_bit6" LOC = SLICE_X0Y62;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read0/gen_strobe[1].strobe_n/fifo_bit6" LOC = SLICE_X0Y63;
+
+##############################################################################################################
+##  constraints for bit cntrl0_rst_dqs_div_in, 1, location in tile: 1
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_rst_dqs_div_in" LOC = "M4";
+##############################################################################################################
+## Slice location constraints for delayed rst_dqs_div signal
+##############################################################################################################
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div_delayed1/one" LOC = SLICE_X0Y91;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div_delayed1/one" BEL = F;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div_delayed1/two" LOC = SLICE_X0Y90;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div_delayed1/two" BEL = F;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div_delayed1/three" LOC = SLICE_X0Y91;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div_delayed1/three" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div_delayed1/four" LOC = SLICE_X1Y90;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div_delayed1/four" BEL = F;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div_delayed1/five" LOC = SLICE_X1Y90;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div_delayed1/five" BEL = G;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div_delayed1/six" LOC = SLICE_X1Y89;
+INST "ARB_MODE/MIG_20/top_00/data_path0/data_read_controller0/rst_dqs_div_delayed1/six" BEL = G;
+
+##############################################################################################################
+##  constraints for bit cntrl0_rst_dqs_div_out, 1, location in tile: 0
+##############################################################################################################
+#NET "ARB_MODE/MIG_20/cntrl0_rst_dqs_div_out" LOC = "M3";
+##############################################################################################################
+## Location constraint for rst_dqs_div_r flop in the controller. This is to be placed close the PAD
+## that drives the rst_dqs_div _out signal to meet the timing.
+##############################################################################################################
+INST "ARB_MODE/MIG_20/top_00/controller0/rst_dqs_div_r" LOC = SLICE_X4Y68;
+##############################################################################################################
+##############################################################################################################
+NET "DDR2_A<0>" LOC = R2;
+NET "DDR2_A<1>" LOC = T4;
+NET "DDR2_A<2>" LOC = R1;
+NET "DDR2_A<3>" LOC = U3;
+NET "DDR2_A<4>" LOC = U2;
+NET "DDR2_A<5>" LOC = U4;
+NET "DDR2_A<6>" LOC = U1;
+NET "DDR2_A<7>" LOC = Y1;
+NET "DDR2_A<8>" LOC = W1;
+NET "DDR2_A<9>" LOC = W2;
+NET "DDR2_A<10>" LOC = T3;
+NET "DDR2_A<11>" LOC = V1;
+NET "DDR2_A<12>" LOC = Y2;
+NET "DDR2_BA<0>" LOC = P3;
+NET "DDR2_BA<1>" LOC = R3;
+NET "DDR2_CAS_N" LOC = M4;
+NET "DDR2_CK" LOC = M1;
+NET "DDR2_A<0>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_A<1>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_A<2>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_A<3>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_A<4>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_A<5>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_A<6>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_A<7>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_A<8>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_A<9>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_A<10>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_A<11>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_A<12>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_BA<0>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_BA<1>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_CAS_N" IOSTANDARD = "SSTL18_II";
+NET "DDR2_CK" IOSTANDARD = "DIFF_SSTL18_II";
+NET "DDR2_CKE" LOC = N3;
+NET "DDR2_CK_N" LOC = M2;
+NET "DDR2_CS_N" LOC = M5;
+NET "DDR2_CKE" IOSTANDARD = "SSTL18_II";
+NET "DDR2_CK_N" IOSTANDARD = "DIFF_SSTL18_II";
+NET "DDR2_CS_N" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DM<0>" LOC = J3;
+NET "DDR2_DM<1>" LOC = E3;
+NET "DDR2_DM<0>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DM<1>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<0>" LOC = H1;
+NET "DDR2_DQ<1>" LOC = K5;
+NET "DDR2_DQ<2>" LOC = K1;
+NET "DDR2_DQ<3>" LOC = L3;
+NET "DDR2_DQ<4>" LOC = L5;
+NET "DDR2_DQ<5>" LOC = L1;
+NET "DDR2_DQ<6>" LOC = K4;
+NET "DDR2_DQ<7>" LOC = H2;
+NET "DDR2_DQ<8>" LOC = F2;
+NET "DDR2_DQ<9>" LOC = G4;
+NET "DDR2_DQ<10>" LOC = G1;
+NET "DDR2_DQ<11>" LOC = H6;
+NET "DDR2_DQ<12>" LOC = H5;
+NET "DDR2_DQ<13>" LOC = F1;
+NET "DDR2_DQ<14>" LOC = G3;
+NET "DDR2_DQ<15>" LOC = F3;
+NET "DDR2_DQS<0>" LOC = K3;
+NET "DDR2_DQS<1>" LOC = K6;
+NET "DDR2_DQS_N<0>" LOC = K2;
+NET "DDR2_DQS_N<1>" LOC = J5;
+NET "DDR2_ODT" LOC = P1;
+NET "DDR2_RAS_N" LOC = M3;
+NET "DDR2_WE_N" LOC = N4;
+NET "DDR2_DQ<0>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<1>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<2>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<3>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<4>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<5>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<6>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<7>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<8>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<9>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<10>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<11>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<12>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<13>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<14>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQ<15>" IOSTANDARD = "SSTL18_II";
+NET "DDR2_DQS<0>" IOSTANDARD = "DIFF_SSTL18_II";
+NET "DDR2_DQS<1>" IOSTANDARD = "DIFF_SSTL18_II";
+NET "DDR2_DQS_N<0>" IOSTANDARD = "DIFF_SSTL18_II";
+NET "DDR2_DQS_N<1>" IOSTANDARD = "DIFF_SSTL18_II";
+NET "DDR2_ODT" IOSTANDARD = "SSTL18_II";
+NET "DDR2_RAS_N" IOSTANDARD = "SSTL18_II";
+NET "DDR2_WE_N" IOSTANDARD = "SSTL18_II";
+NET "RST_DQS_DIV_IN" LOC = H4;
+NET "RST_DQS_DIV_IN" IOSTANDARD = "SSTL18_II";
+NET "RST_DQS_DIV_OUT" LOC = H3;
+NET "RST_DQS_DIV_OUT" IOSTANDARD = "SSTL18_II";
+NET "NRD" LOC = Y21;
+NET "NRD" IOSTANDARD = "LVCMOS33";
+NET "ARB_EDDS_SIN" LOC = B21;
+NET "ARB_EDDS_SIN" IOSTANDARD = "LVCMOS33";
+INST "DCM_INTRST/DCM214MHz/CLKFX_BUFG_INST" LOC = BUFGMUX_X1Y11;
+INST "FM_Mode/XLXI_57/BU2/U0/blk_mem_generator/valid.cstr/ramloop[1].ram.r/s3a_init.ram/dpram.ram" LOC = RAMB16_X1Y2;
+INST "FM_Mode/XLXI_57/BU2/U0/blk_mem_generator/valid.cstr/ramloop[2].ram.r/s3a_init.ram/dpram.ram" LOC = RAMB16_X1Y1;
+INST "FM_Mode/XLXI_57/BU2/U0/blk_mem_generator/valid.cstr/ramloop[0].ram.r/s3a_init.ram/dpram.ram" LOC = RAMB16_X1Y0;
+NET "AM_DA9747_Data<0>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<1>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<2>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<3>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<4>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<5>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<6>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<7>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<8>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<9>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<10>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<11>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<12>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<13>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<14>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<15>" IOSTANDARD = "LVCMOS33";
+NET "AM_DA9747_Data<0>" LOC = A16;
+NET "AM_DA9747_Data<1>" LOC = B15;
+NET "AM_DA9747_Data<2>" LOC = A15;
+NET "AM_DA9747_Data<3>" LOC = C15;
+NET "AM_DA9747_Data<4>" LOC = D15;
+NET "AM_DA9747_Data<5>" LOC = E15;
+NET "AM_DA9747_Data<6>" LOC = F15;
+NET "AM_DA9747_Data<7>" LOC = A14;
+NET "AM_DA9747_Data<8>" LOC = C14;
+NET "AM_DA9747_Data<9>" LOC = E14;
+NET "AM_DA9747_Data<10>" LOC = B13;
+NET "AM_DA9747_Data<11>" LOC = A13;
+NET "AM_DA9747_Data<12>" LOC = C13;
+NET "AM_DA9747_Data<13>" LOC = D13;
+NET "AM_DA9747_Data<15>" LOC = F13;
+NET "AM_DA9747_Data<14>" LOC = E13;
+NET "DA9747_Data<0>" DRIVE = 6;
+NET "DA9747_Data<1>" DRIVE = 6;
+NET "DA9747_Data<2>" DRIVE = 6;
+NET "DA9747_Data<3>" DRIVE = 6;
+NET "DA9747_Data<4>" DRIVE = 6;
+NET "DA9747_Data<5>" DRIVE = 6;
+NET "DA9747_Data<6>" DRIVE = 6;
+NET "DA9747_Data<7>" DRIVE = 6;
+NET "DA9747_Data<8>" DRIVE = 6;
+NET "DA9747_Data<9>" DRIVE = 6;
+NET "DA9747_Data<10>" DRIVE = 6;
+NET "DA9747_Data<11>" DRIVE = 6;
+NET "DA9747_Data<12>" DRIVE = 6;
+NET "DA9747_Data<13>" DRIVE = 6;
+NET "DA9747_Data<14>" DRIVE = 6;
+NET "DA9747_Data<15>" DRIVE = 6;
+NET "DA9747_Data<0>" SLEW = FAST;
+NET "DA9747_Data<1>" SLEW = FAST;
+NET "DA9747_Data<2>" SLEW = FAST;
+NET "DA9747_Data<3>" SLEW = FAST;
+NET "DA9747_Data<4>" SLEW = FAST;
+NET "DA9747_Data<5>" SLEW = FAST;
+NET "DA9747_Data<6>" SLEW = FAST;
+NET "DA9747_Data<7>" SLEW = FAST;
+NET "DA9747_Data<8>" SLEW = FAST;
+NET "DA9747_Data<15>" SLEW = FAST;
+NET "DA9747_Data<14>" SLEW = FAST;
+NET "DA9747_Data<13>" SLEW = FAST;
+NET "DA9747_Data<12>" SLEW = FAST;
+NET "DA9747_Data<11>" SLEW = FAST;
+NET "DA9747_Data<10>" SLEW = FAST;
+NET "DA9747_Data<9>" SLEW = FAST;
+NET "Relay_Ctrl_Words<0>" IOSTANDARD = "LVCMOS33";
+NET "Relay_Ctrl_Words<1>" IOSTANDARD = "LVCMOS33";
+NET "Relay_Ctrl_Words<2>" IOSTANDARD = "LVCMOS33";
+NET "Relay_Ctrl_Words<3>" IOSTANDARD = "LVCMOS33";
+NET "Relay_Ctrl_Words<4>" IOSTANDARD = "LVCMOS33";
+NET "Relay_Ctrl_Words<5>" IOSTANDARD = "LVCMOS33";
+NET "Relay_Ctrl_Words<6>" IOSTANDARD = "LVCMOS33";
+NET "Relay_Ctrl_Words<0>" LOC = W17;
+NET "Relay_Ctrl_Words<1>" LOC = Y18;
+NET "Relay_Ctrl_Words<2>" LOC = V17;
+NET "Relay_Ctrl_Words<3>" LOC = W18;
+NET "Relay_Ctrl_Words<4>" LOC = AA19;
+NET "Relay_Ctrl_Words<5>" LOC = AB19;
+NET "Relay_Ctrl_Words<6>" LOC = V16;
+NET "DAC7821_Data<0>" IOSTANDARD = "LVCMOS33";
+NET "DAC7821_Data<1>" IOSTANDARD = "LVCMOS33";
+NET "DAC7821_Data<2>" IOSTANDARD = "LVCMOS33";
+NET "DAC7821_Data<3>" IOSTANDARD = "LVCMOS33";
+NET "DAC7821_Data<4>" IOSTANDARD = "LVCMOS33";
+NET "DAC7821_Data<5>" IOSTANDARD = "LVCMOS33";
+NET "DAC7821_Data<6>" IOSTANDARD = "LVCMOS33";
+NET "DAC7821_Data<7>" IOSTANDARD = "LVCMOS33";
+NET "DAC7821_Data<8>" IOSTANDARD = "LVCMOS33";
+NET "DAC7821_Data<9>" IOSTANDARD = "LVCMOS33";
+NET "DAC7821_Data<10>" IOSTANDARD = "LVCMOS33";
+NET "DAC7821_Data<11>" IOSTANDARD = "LVCMOS33";
+NET "DAC7821_Data<0>" LOC = W13;
+NET "DAC7821_Data<1>" LOC = Y14;
+NET "DAC7821_Data<2>" LOC = AB17;
+NET "DAC7821_Data<3>" LOC = AB18;
+NET "DAC7821_Data<4>" LOC = W15;
+NET "DAC7821_Data<5>" LOC = Y15;
+NET "DAC7821_Data<6>" LOC = V14;
+NET "DAC7821_Data<7>" LOC = V15;
+NET "DAC7821_Data<8>" LOC = AB16;
+NET "DAC7821_Data<9>" LOC = Y16;
+NET "DAC7821_Data<10>" LOC = AA17;
+NET "DAC7821_Data<11>" LOC = Y17;
+NET "OUT_PROTECT" IOSTANDARD = "LVCMOS33";
+NET "OUT_PROTECT" LOC = U13;
+NET "CVG_DAC7821_CSbar" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_Data<0>" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_Data<1>" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_Data<2>" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_Data<3>" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_Data<4>" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_Data<5>" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_Data<6>" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_Data<7>" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_Data<8>" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_Data<9>" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_Data<10>" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_Data<11>" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_RWbar" IOSTANDARD = "LVCMOS33";
+NET "CVG_DAC7821_CSbar" LOC = H20;
+NET "CVG_DAC7821_RWbar" LOC = H19;
+NET "CVG_DAC7821_Data<0>" LOC = G20;
+NET "CVG_DAC7821_Data<1>" LOC = G19;
+NET "CVG_DAC7821_Data<2>" LOC = F22;
+NET "CVG_DAC7821_Data<3>" LOC = F21;
+NET "CVG_DAC7821_Data<4>" LOC = F20;
+NET "CVG_DAC7821_Data<5>" LOC = E20;
+NET "CVG_DAC7821_Data<6>" LOC = E22;
+NET "CVG_DAC7821_Data<7>" LOC = D22;
+NET "CVG_DAC7821_Data<8>" LOC = F19;
+NET "CVG_DAC7821_Data<9>" LOC = F18;
+NET "CVG_DAC7821_Data<10>" LOC = D20;
+NET "CVG_DAC7821_Data<11>" LOC = D21;
+NET "HC4051_SELs<0>" IOSTANDARD = "LVCMOS33";
+NET "HC4051_SELs<1>" IOSTANDARD = "LVCMOS33";
+NET "HC4051_SELs<2>" IOSTANDARD = "LVCMOS33";
+NET "HC4051_SELs<3>" IOSTANDARD = "LVCMOS33";
+NET "MODWAVE_CSbar" IOSTANDARD = "LVCMOS33";
+NET "MODWAVE_RWbar" IOSTANDARD = "LVCMOS33";
+#NET "HC4051_SELs<0>" LOC = G17;
+#NET "HC4051_SELs<1>" LOC = G18;
+#NET "HC4051_SELs<2>" LOC = C21;
+#NET "HC4051_SELs<3>" LOC = C22;
+#NET "MODWAVE_CSbar" LOC = E10;
+#NET "MODWAVE_RWbar" LOC = D10;
+NET "HC4051_SELs<0>" LOC = G22;
+NET "HC4051_SELs<1>" LOC = H22;
+NET "HC4051_SELs<2>" LOC = K18;
+NET "HC4051_SELs<3>" LOC = K17;
+NET "MODWAVE_CSbar" LOC = AB21;
+NET "MODWAVE_RWbar" LOC = AA21;
+NET "MOD_SOUT_SEL<0>" IOSTANDARD = "LVCMOS33";
+NET "MOD_SOUT_SEL<1>" IOSTANDARD = "LVCMOS33";
+NET "MOD_SOUT_SEL<2>" IOSTANDARD = "LVCMOS33";
+NET "MOD_SOUT_SEL<0>" LOC = AA8;
+NET "MOD_SOUT_SEL<1>" LOC = Y10;
+NET "MOD_SOUT_SEL<2>" LOC = V10;
+NET "Do_Ctrl" IOSTANDARD = "LVCMOS33";
+NET "KB_Bus<0>" IOSTANDARD = "LVCMOS33";
+NET "KB_Bus<1>" IOSTANDARD = "LVCMOS33";
+NET "KB_Bus<2>" IOSTANDARD = "LVCMOS33";
+NET "KB_Bus<3>" IOSTANDARD = "LVCMOS33";
+NET "KB_Bus<4>" IOSTANDARD = "LVCMOS33";
+NET "KD_Bus<0>" IOSTANDARD = "LVCMOS33";
+NET "KD_Bus<1>" IOSTANDARD = "LVCMOS33";
+NET "KD_Bus<2>" IOSTANDARD = "LVCMOS33";
+NET "Key_INT" IOSTANDARD = "LVCMOS33";
+NET "Do_Ctrl" LOC = E7;
+NET "KB_Bus<0>" LOC = G8;
+NET "KB_Bus<1>" LOC = G9;
+NET "KB_Bus<2>" LOC = E8;
+NET "KB_Bus<3>" LOC = H9;
+NET "KB_Bus<4>" LOC = F10;
+NET "KD_Bus<0>" LOC = B3;
+NET "KD_Bus<1>" LOC = A3;
+NET "KD_Bus<2>" LOC = F8;
+NET "Key_INT" LOC = A4;
+INST "KEYPAD_MODULE" AREA_GROUP = "AG_KEYPAD_MODULE";
+AREA_GROUP "AG_KEYPAD_MODULE" RANGE = SLICE_X21Y141:SLICE_X14Y128;
+AREA_GROUP "AG_KEYPAD_MODULE" RANGE = SLICE_X19Y128:SLICE_X12Y141;
+INST "ARB_MODE/DDR2_16_TO_64/XLXI_3/Mram_MEMORY2" LOC = RAMB16_X1Y4;
+INST "ARB_MODE/DDR2_16_TO_64/XLXI_3/Mram_MEMORY1" LOC = RAMB16_X1Y6;
+INST "Burst_Ctrl_Mode/BC_Rear1/BP_INT/BPRT/Mrom_Ctrl_Value_mux0000" LOC = RAMB16_X1Y5;
+
+
+	NET "ARB_CLK_TB" LOC = A11 |IOSTANDARD = "LVCMOS33";
+   NET "ARB_EDDS_SIN" CLOCK_DEDICATED_ROUTE = FALSE; 
+   PIN "ARB_MODE/DDR2_16_TO_64/XLXI_182/XLXI_183/DCM_SP_INST.CLKIN" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "ARB_EDDS_SIN" TNM_NET = ARB_EDDS_SIN;
+TIMESPEC TS_ARB_EDDS_SIN = PERIOD "ARB_EDDS_SIN" 12.5 MHz HIGH 50%;
